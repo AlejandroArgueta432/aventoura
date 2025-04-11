@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@theme{
+    --color-primary:#fffbeb;
+    --color-secondary:#973c00;
+
+    --text-titlelg:42px;
+    --text-titlemd:32px;
+    --text-titlesm:22px;
+
+    --text-subtitlelg:36px;
+    --text-subtitlemd:26px;
+    --text-subtitlesm:16px;
+
+    --text-textlg:18px;
+    --text-textmd:16px;
+    --text-textsm:14px;
+
+    --text-smtextlg:16px;
+    --text-smtextmd:14px;
+    --text-smtextsm:12px;
+
+  
+
+
+    
+
+
+}
+
+.transition-opacity {
+    transition: opacity 0.3s ease-in-out;
+  }

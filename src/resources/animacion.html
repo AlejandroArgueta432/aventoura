@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animaciones Scroll Ultra Reutilizables</title>
+  <style>
+    /* RESET para evitar problemas de estilos por defecto */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+
+    /* Secciones para probar */
+    section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 2rem;
+      padding: 40px;
+    }
+
+    /* Colores de fondo para cada sección */
+    .one   { background: #f1f1f1; }
+    .two   { background: #e4f9e3; }
+    .three { background: #dde9ff; }
+
+    /* Estilo base para las animaciones */
+    .anim-scroll {
+      opacity: 0;
+      transform: translateY(20px); /* Desplazamiento inicial */
+      transition: 
+        opacity 0.7s ease-out,
+        transform 0.7s ease-out;
+    }
+
+    /* Estado visible (cuando entra en la vista) */
+    .anim-scroll.show {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* Variaciones de animación: Desde arriba, abajo, izquierda, derecha, zoom */
+    .anim-fade-up { transform: translateY(30px); }
+    .anim-fade-down { transform: translateY(-30px); }
+    .anim-fade-left { transform: translateX(-30px); }
+    .anim-fade-right { transform: translateX(30px); }
+    .anim-zoom-in { transform: scale(0.9); }
+    .anim-zoom-out { transform: scale(1.1); }
+    .anim-flip-x { transform: rotateX(-90deg); transform-origin: top; }
+
+    /* Cascada de animaciones con delays (cada clase es independiente) */
+    .anim-delay-1 { transition-delay: 0.2s; }
+    .anim-delay-2 { transition-delay: 0.4s; }
+    .anim-delay-3 { transition-delay: 0.6s; }
+  </style>
+</head>
+<body>
+
+  <section class="one">
+    <div class="anim-scroll anim-fade-up anim-delay-1" data-scroll>🎉 Bienvenido</div>
+  </section>
+
+  <section class="two">
+    <div class="anim-scroll anim-fade-left anim-delay-2" data-scroll>🌱 Sobre Nosotros</div>
+  </section>
+
+  <section class="three">
+    <div class="anim-scroll anim-zoom-in anim-delay-3" data-scroll>📬 Contáctanos</div>
+  </section>
+
+  <script>
+    // Observador para detectar cuando los elementos están en la vista
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    });
+
+    // Aplicamos el observador a todos los elementos con 'data-scroll'
+    document.querySelectorAll('[data-scroll]').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
+
+@keyframes modalFadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Animación de salida (fade + zoom) */
+  @keyframes modalFadeOut {
+    from {
+      opacity: 1;
+      transform: scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+  }
+  
+  /* Modal base */
+  .modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  /* Contenido del modal */
+  .modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 500px;
+    animation: modalFadeIn 0.4s ease forwards;
+    transform-origin: center;
+  }
+  
+  /* Animación al cerrar */
+  .modal.hide .modal-content {
+    animation: modalFadeOut 0.3s ease forwards;
+  }
+
+  
+  🔧 JavaScript:
+  js
+  Copiar
+  Editar
+  const modal = document.querySelector('.modal');
+  const btnOpen = document.querySelector('#openModal');
+  const btnClose = document.querySelector('#closeModal');
+  
+  btnOpen.onclick = () => {
+    modal.classList.remove('hide');
+    modal.style.display = 'flex';
+  };
+  
+  btnClose.onclick = () => {
+    modal.classList.add('hide');
+    setTimeout(() => {
+      modal.style.display = 'none';
+      modal.classList.remove('hide');
+    }, 300); // coincide con duración de modalFadeOut
+  };

@@ -1,0 +1,190 @@
+{
+    "tours": [
+      {
+        "id": 1,
+        "title": "Aventura en la Selva Amazónica",
+        "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1170&q=80",
+        "location": "Amazonas, Perú",
+        "duration": "5 días",
+        "rating": 4.8,
+       "groupSize" :"2-12",
+        "price": "1299",
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Llegada a la Selva",
+            "description": "Llegada a la selva amazónica y asentamiento en el lodge. Paseo nocturno por la selva."
+             
+
+          },
+          {
+            "day": 2,
+            "title": "Exploración de la Selva",
+            "description": "Exploración de la flora y fauna local. Visita a una comunidad indígena."
+          },
+          {
+            "day": 3,
+            "title": "Navegación por el Amazonas",
+            "description": "Navegación por el río Amazonas y avistamiento de delfines rosados."
+          },
+          {
+            "day": 4,
+            "title": "Caminata y Cascada",
+            "description": "Caminata por la selva y visita a una cascada escondida."
+          },
+          {
+            "day": 5,
+            "title": "Regreso a la Ciudad",
+            "description": "Regreso al lodge y salida hacia la ciudad."
+          }
+        ],
+        "description": "Descubre la biodiversidad de la selva amazónica en una emocionante aventura de 5 días. Explora la flora y fauna únicas, navega por ríos y disfruta de la cultura local.",
+        "photos": [
+          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Safari en el Serengeti",
+        "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1170&q=80",
+        "location": "Tanzania",
+        "duration": "7 días",
+        "rating": 4.7,
+        "groupSize" :"2-12",
+        "price": "3499",
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Llegada a Arusha",
+            "description": "Llegada a Arusha y asentamiento en el hotel. Briefing sobre el safari."
+          },
+          {
+            "day": 2,
+            "title": "Parque Nacional Tarangire",
+            "description": "Exploración del Parque Nacional Tarangire y avistamiento de elefantes."
+          },
+          {
+            "day": 3,
+            "title": "Parque Nacional Serengeti",
+            "description": "Viaje al Parque Nacional Serengeti y primer safari al atardecer."
+          },
+          {
+            "day": 4,
+            "title": "Safari en Serengeti",
+            "description": "Safari completo por el Serengeti, avistamiento de leones y otros animales salvajes."
+          },
+          {
+            "day": 5,
+            "title": "Migración de Ñus",
+            "description": "Observación de la migración de ñus y otros animales en su hábitat natural."
+          },
+          {
+            "day": 6,
+            "title": "Visita a un Pueblo Maasai",
+            "description": "Visita a una aldea Maasai y experiencia cultural."
+          },
+          {
+            "day": 7,
+            "title": "Regreso a Arusha",
+            "description": "Regreso a Arusha y salida hacia el aeropuerto."
+          }
+        ],
+        "description": "Embárcate en un safari inolvidable por el Serengeti, donde podrás observar la migración de los ñus y una gran variedad de vida salvaje en su hábitat natural.",
+        "photos": [
+          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Caminata por el Camino Inca",
+        "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&w=1170&q=80",
+        "location": "Cusco, Perú",
+        "duration": "4 días",
+        "rating": 4.9,
+        "groupSize" :"2-12",
+        "price": "899",
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Inicio del Camino Inca",
+            "description": "Comienza la caminata desde el km 82. Acampada en Wayllabamba."
+          },
+          {
+            "day": 2,
+            "title": "Paso de Warmiwañusca",
+            "description": "Caminata hacia el paso de Warmiwañusca, el punto más alto del recorrido."
+          },
+          {
+            "day": 3,
+            "title": "Ruinas de Wiñay Wayna",
+            "description": "Visita a las ruinas de Wiñay Wayna y llegada a Machu Picchu."
+          },
+          {
+            "day": 4,
+            "title": "Exploración de Machu Picchu",
+            "description": "Exploración completa de Machu Picchu y regreso a Cusco."
+          }
+        ],
+        "description": "Realiza una caminata épica por el famoso Camino Inca hacia Machu Picchu. Disfruta de impresionantes vistas, ruinas antiguas y la cultura inca.",
+        "photos": [
+          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Exploración de la Gran Muralla",
+        "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1168&q=80",
+        "location": "China",
+        "duration": "6 días",
+        "rating": 4.6,
+        "groupSize" :"2-12",
+        "price": "1199",
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Llegada a Beijing",
+            "description": "Llegada a Beijing y asentamiento en el hotel. Paseo nocturno por la ciudad."
+          },
+          {
+            "day": 2,
+            "title": "Visita a la Ciudad Prohibida",
+            "description": "Exploración de la Ciudad Prohibida y la Plaza de Tiananmen."
+          },
+          {
+            "day": 3,
+            "title": "Gran Muralla - Sección Badaling",
+            "description": "Visita a la sección Badaling de la Gran Muralla y caminata por sus impresionantes paisajes."
+          },
+          {
+            "day": 4,
+            "title": "Gran Muralla - Sección Mutianyu",
+            "description": "Exploración de la sección Mutianyu de la Gran Muralla y actividades al aire libre."
+          },
+          {
+            "day": 5,
+            "title": "Cultura China",
+            "description": "Visita a un pueblo tradicional chino y experiencia cultural."
+          },
+          {
+            "day": 6,
+            "title": "Regreso a casa",
+            "description": "Regreso a Beijing y salida hacia el aeropuerto."
+          }
+        ],
+
+        "description": "Descubre la historia y la majestuosidad de la Gran Muralla China en un recorrido de 6 días. Explora diferentes secciones de la muralla y aprende sobre su construcción.",
+        "photos": [
+          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+        ]
+      }
+    ]
+  }
+  
