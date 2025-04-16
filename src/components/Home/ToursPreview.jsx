@@ -64,10 +64,10 @@ const ToursPreview = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-[#413d3e] mb-4">
-            {showAll ? 'Todos Nuestros Tours' : 'Tours Destacados'}
+            {showAll ? 'Todos Nuestros Tours' : 'Tours'}
           </h2>
           <p className="text-[#413d3e]/80 max-w-2xl mx-auto">
-            {showAll ? 'Explora nuestra completa selección de experiencias' : 'Descubre nuestras experiencias más populares'}
+            {showAll ? 'Explora nuestra completa selección de experiencias' : 'Descubre nuestras experiencias '}
           </p>
         </motion.div>
 

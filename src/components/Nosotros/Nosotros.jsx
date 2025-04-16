@@ -91,13 +91,13 @@ const Nosotros = () => {
               <Globe className="text-[#f39703] h-6 w-6 mr-2" />
               <h2 className="text-2xl font-bold text-[#413d3e]">Sobre Nosotros</h2>
             </div>
-            <p className="text-gray-600 mb-4">
+            <p className="text-gray-600 mb-4 text-justify">
               Fundada en 2015, Aventoura nació de un viaje de mochileros que querían compartir su pasión por descubrir rincones auténticos del mundo.
             </p>
-            <p className="text-gray-600 mb-4">
+            <p className="text-gray-600 mb-4 text-justify">
               Lo que comenzó como un pequeño grupo de entusiastas se ha convertido en una familia global de viajeros que valoran experiencias genuinas sobre turismo masivo.
             </p>
-            <p className="text-gray-600">
+            <p className="text-gray-600 text-justify">
               Hoy, con más de 50 destinos en 30 países, mantenemos nuestro espíritu original: viajes con alma, para viajeros con corazón.
             </p>
           </div>
@@ -119,7 +119,7 @@ const Nosotros = () => {
               <Target className="text-[#f39703] h-8 w-8 mr-3" />
               <h2 className="text-2xl font-bold">Nuestra Misión</h2>
             </div>
-            <p className="text-gray-300">
+            <p className="text-gray-300 text-justify">
               Transformar la manera en que el mundo viaja, creando conexiones significativas entre culturas a través de experiencias auténticas y sostenibles que enriquecen tanto a los viajeros como a las comunidades locales.
             </p>
           </motion.div>
@@ -136,7 +136,7 @@ const Nosotros = () => {
               <Eye className="text-[#f39703] h-8 w-8 mr-3" />
               <h2 className="text-2xl font-bold">Nuestra Visión</h2>
             </div>
-            <p className="text-gray-300">
+            <p className="text-gray-300 text-justify">
               Ser reconocidos como la plataforma que redefine el turismo global, donde cada viaje es una oportunidad para el crecimiento personal, el entendimiento intercultural y la preservación de los destinos que amamos.
             </p>
           </motion.div>

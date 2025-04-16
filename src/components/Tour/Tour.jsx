@@ -403,7 +403,7 @@ const Tour = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.3 }}
             >
-              <h3 className="text-xl font-bold mb-4 text-gray-800">Detalles</h3>
+              <h3 className="text-xl font-bold mb-4 mt-6 text-gray-800">Detalles</h3>
               
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
