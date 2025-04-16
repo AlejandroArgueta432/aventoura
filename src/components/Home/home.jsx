@@ -1,173 +1,246 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ChevronDown, Phone, Mail, MessageSquare } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import ToursPreview from './ToursPreview';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isScrolling, setIsScrolling] = useState(false);
+  const toursRef = useRef(null);
+  const intervalRef = useRef(null);
+
   const slides = [
     {
-      image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
       alt: 'Montañas majestuosas con lago',
+      title: 'Aventuras en la Naturaleza',
+      subtitle: 'Descubre los paisajes más impresionantes del planeta'
     },
     {
-      image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
       alt: 'Playa tropical con palmeras',
+      title: 'Paraísos Tropicales',
+      subtitle: 'Relájate en las playas más exóticas del mundo'
     },
     {
-      image: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
       alt: 'Ciudad histórica con arquitectura impresionante',
-    },
+      title: 'Culturas Fascinantes',
+      subtitle: 'Sumérgete en la historia y tradiciones locales'
+    }
   ];
 
-  const intervalRef = useRef(null); // Referencia para el intervalo
-  const toursRef = useRef(null); // Referencia para la sección de tours
+  // Contactos
+  const contacts = [
+    {
+      icon: <Phone className="h-5 w-5" />,
+      text: '+34 123 456 789',
+      link: 'tel:+34123456789',
+      bgColor: 'bg-green-500 hover:bg-green-600'
+    },
+    {
+      icon: <Mail className="h-5 w-5" />,
+      text: 'info@aventoura.com',
+      link: 'mailto:info@aventoura.com',
+      bgColor: 'bg-red-500 hover:bg-red-600'
+    },
+    {
+      icon: <MessageSquare className="h-5 w-5" />,
+      text: 'WhatsApp',
+      link: 'https://wa.me/34123456789',
+      bgColor: 'bg-green-400 hover:bg-green-500'
+    }
+  ];
 
-  // Función para avanzar al siguiente slide
+  // Funciones del slider
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+    setCurrentSlide(prev => (prev === slides.length - 1 ? 0 : prev + 1));
   };
 
-  // Función para retroceder al slide anterior
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+    setCurrentSlide(prev => (prev === 0 ? slides.length - 1 : prev - 1));
   };
 
-  // Función para detener el intervalo
+  const startInterval = () => {
+    intervalRef.current = setInterval(nextSlide, 5000);
+  };
+
   const stopInterval = () => {
     if (intervalRef.current) {
       clearInterval(intervalRef.current);
     }
   };
 
-  // Función para reiniciar el intervalo
-  const resetInterval = () => {
-    stopInterval(); // Detenemos el intervalo actual
-    intervalRef.current = setInterval(() => {
-      nextSlide(); // Cambia al siguiente slide automáticamente
-    }, 5000); // Cambia cada 5 segundos
-  };
-
-  // Configura el intervalo al montar el componente
-  useEffect(() => {
-    resetInterval(); // Inicia el intervalo
-    return () => stopInterval(); // Limpia el intervalo al desmontar
-  }, []);
-
-  // Reinicia el intervalo cada vez que cambia el slide
-  useEffect(() => {
-    resetInterval();
-  }, [currentSlide]);
-
-
-   // Función para desplazarse a la sección de tours
-  /* const scrollToTours = () => {
-    if (toursRef.current) {
-      toursRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  };*/
-
+  // Scroll suave mejorado
   const scrollToTours = () => {
-    if (toursRef.current) {
-      const targetPosition = toursRef.current.offsetTop; // Posición de la sección de tours
-      const startPosition = window.scrollY; // Posición actual del scroll
-      const distance = targetPosition - startPosition; // Distancia a recorrer
-      const duration = 1000; // Duración de la animación en milisegundos
+    if (toursRef.current && !isScrolling) {
+      setIsScrolling(true);
+      const start = window.pageYOffset;
+      const target = toursRef.current.offsetTop;
+      const distance = target - start;
+      const duration = 1000;
       let startTime = null;
-  
-      const easeInOutQuad = (t, b, c, d) => {
+
+      const ease = (t, b, c, d) => {
         t /= d / 2;
-        if (t < 1) return (c / 2) * t * t + b;
+        if (t < 1) return c / 2 * t * t + b;
         t--;
-        return (-c / 2) * (t * (t - 2) - 1) + b;
+        return -c / 2 * (t * (t - 2) - 1) + b;
       };
-  
+
       const animation = (currentTime) => {
-        if (startTime === null) startTime = currentTime;
+        if (!startTime) startTime = currentTime;
         const timeElapsed = currentTime - startTime;
-        const run = easeInOutQuad(timeElapsed, startPosition, distance, duration);
+        const run = ease(timeElapsed, start, distance, duration);
         window.scrollTo(0, run);
-        if (timeElapsed < duration) requestAnimationFrame(animation);
+        if (timeElapsed < duration) {
+          requestAnimationFrame(animation);
+        } else {
+          setIsScrolling(false);
+        }
       };
-  
+
       requestAnimationFrame(animation);
     }
   };
 
+  useEffect(() => {
+    startInterval();
+    return () => stopInterval();
+  }, []);
+
+  useEffect(() => {
+    if (currentSlide !== 0) {
+      stopInterval();
+      startInterval();
+    }
+  }, [currentSlide]);
+
   return (
-    <div>
-      <section className="relative h-[70vh] w-full overflow-hidden">
-        <div className="h-full w-full relative">
-          {/* Renderizar los slides */}
+    <div className="relative">
+      {/* Hero Slider */}
+      <section className="relative h-screen max-h-[800px] w-full overflow-hidden">
+        <AnimatePresence mode="wait">
           {slides.map((slide, index) => (
-            <div
-              key={index}
-              className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-                index === currentSlide ? 'opacity-100' : 'opacity-0'
-              }`}
-            >
-              <img
-                src={slide.image}
-                alt={slide.alt}
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-black opacity-40"></div>
-            </div>
-          ))}
-
-          {/* Botón para retroceder */}
-          <button
-            onClick={() => {
-              prevSlide();
-            }}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 rounded-full p-2 text-white"
-          >
-            <ArrowLeftIcon className="h-6 w-6" />
-          </button>
-
-          {/* Botón para avanzar */}
-          <button
-            onClick={() => {
-              nextSlide();
-            }}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 rounded-full p-2 text-white"
-          >
-            <ArrowRightIcon className="h-6 w-6" />
-          </button>
-
-          {/* Indicadores de los slides */}
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-            {slides.map((_, index) => (
-              <button
+            currentSlide === index && (
+              <motion.div
                 key={index}
-                onClick={() => {
-                  setCurrentSlide(index);
-                }}
-                className={`w-3 h-3 rounded-full ${
-                  index === currentSlide ? 'bg-white' : 'bg-white/50'
-                }`}
-              ></button>
-            ))}
-          </div>
-        </div>
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 1.5 }}
+                className="absolute inset-0"
+              >
+                <div className="absolute inset-0 bg-black/40 z-10" />
+                <img
+                  src={slide.image}
+                  alt={slide.alt}
+                  className="w-full h-full object-cover object-center"
+                />
+                
+                <motion.div 
+                  className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-20 px-4"
+                  initial={{ y: 50, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ delay: 0.3 }}
+                >
+                  <motion.h1 
+                    className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 max-w-4xl"
+                    whileHover={{ scale: 1.02 }}
+                  >
+                    {slide.title}
+                  </motion.h1>
+                  <motion.p 
+                    className="text-xl md:text-2xl mb-8 max-w-2xl"
+                    whileHover={{ scale: 1.01 }}
+                  >
+                    {slide.subtitle}
+                  </motion.p>
+                  <motion.button
+                    onClick={scrollToTours}
+                    className="bg-[#f39703] hover:bg-[#413d3e] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 flex items-center gap-2 group"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    Explorar Tours
+                    <motion.span
+                      animate={{ y: [0, 3, 0] }}
+                      transition={{ duration: 1.5, repeat: Infinity }}
+                    >
+                      <ChevronDown className="group-hover:translate-y-1 transition-transform" />
+                    </motion.span>
+                  </motion.button>
+                </motion.div>
+              </motion.div>
+            )
+          ))}
+        </AnimatePresence>
 
-        {/* Texto superpuesto */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Descubre el Mundo con Nosotros
-          </h1>
-          <p className="text-xl md:text-2xl max-w-2xl mb-8">
-            Experiencias inolvidables en los destinos más impresionantes del
-            planeta
-          </p>
-          <button       onClick={scrollToTours} className="bg-[#f39703] hover:bg-[#413d3e] text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
-            Explorar Tours
-          </button>
+        {/* Controles del slider */}
+        <button
+          onClick={prevSlide}
+          className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 rounded-full p-3 text-white z-30 transition-all duration-300"
+          aria-label="Slide anterior"
+        >
+          <ArrowLeft className="h-6 w-6" />
+        </button>
+
+        <button
+          onClick={nextSlide}
+          className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50 rounded-full p-3 text-white z-30 transition-all duration-300"
+          aria-label="Siguiente slide"
+        >
+          <ArrowRight className="h-6 w-6" />
+        </button>
+
+        {/* Indicadores */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-30">
+          {slides.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentSlide(index)}
+              className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                index === currentSlide ? 'bg-white w-6' : 'bg-white/50'
+              }`}
+              aria-label={`Ir al slide ${index + 1}`}
+            />
+          ))}
         </div>
       </section>
 
-      <div ref={toursRef} className="mt-16">
+      {/* Barra de Contactos Integrada */}
+      <motion.div 
+        className="w-full py-8 bg-white shadow-md"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+      >
+        <div className="max-w-7xl mx-auto px-4">
+          <h3 className="text-center text-xl font-bold text-[#413d3e] mb-6">
+            ¿Listo para tu próxima aventura? Contáctanos
+          </h3>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8">
+            {contacts.map((contact, index) => (
+              <motion.a
+                key={index}
+                href={contact.link}
+                className={`flex items-center ${contact.bgColor} text-white px-6 py-3 rounded-full shadow-lg transition-all duration-300 w-full sm:w-auto justify-center`}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <span className="mr-2">{contact.icon}</span>
+                <span className="font-medium">{contact.text}</span>
+              </motion.a>
+            ))}
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Sección de Tours Destacados */}
+      <div ref={toursRef} className="mt-4">
         <ToursPreview />
       </div>
+      
     </div>
   );
 };

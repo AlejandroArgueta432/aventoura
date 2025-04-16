@@ -1,5 +1,8 @@
 {
-    "tours": [
+    "tours":
+    
+     [
+      
       {
         "id": 1,
         "title": "Aventura en la Selva Amazónica",
@@ -13,29 +16,56 @@
           {
             "day": 1,
             "title": "Llegada a la Selva",
-            "description": "Llegada a la selva amazónica y asentamiento en el lodge. Paseo nocturno por la selva."
-             
+            "description": "Llegada a la selva amazónica y asentamiento en el lodge. Paseo nocturno por la selva.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
+            
+
 
           },
           {
             "day": 2,
             "title": "Exploración de la Selva",
-            "description": "Exploración de la flora y fauna local. Visita a una comunidad indígena."
+            "description": "Exploración de la flora y fauna local. Visita a una comunidad indígena.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
+            
           },
           {
             "day": 3,
             "title": "Navegación por el Amazonas",
-            "description": "Navegación por el río Amazonas y avistamiento de delfines rosados."
+            "description": "Navegación por el río Amazonas y avistamiento de delfines rosados.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 4,
             "title": "Caminata y Cascada",
-            "description": "Caminata por la selva y visita a una cascada escondida."
+            "description": "Caminata por la selva y visita a una cascada escondida.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 5,
             "title": "Regreso a la Ciudad",
-            "description": "Regreso al lodge y salida hacia la ciudad."
+            "description": "Regreso al lodge y salida hacia la ciudad.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           }
         ],
         "description": "Descubre la biodiversidad de la selva amazónica en una emocionante aventura de 5 días. Explora la flora y fauna únicas, navega por ríos y disfruta de la cultura local.",
@@ -43,7 +73,29 @@
           "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
           "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
           "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-        ]
+        ],
+        
+            "includes": [
+        "Alojamiento en lodge ecológico",
+        "Todas las comidas",
+        "Guía naturalista bilingüe",
+        "Transporte fluvial",
+        "Equipo de seguridad"
+      ],
+      "excludes": [
+        "Vuelos a Iquitos",
+        "Seguro de viaje",
+        "Bebidas alcohólicas",
+        "Propinas"
+      ],
+      "toBring": [
+        "Repelente de insectos",
+        "Ropa ligera y rápida seca",
+        "Impermeable",
+        "Botas de jungle",
+        "Binoculares",
+        "Cámara subacuática"
+      ]
       },
       {
         "id": 2,
@@ -58,37 +110,72 @@
           {
             "day": 1,
             "title": "Llegada a Arusha",
-            "description": "Llegada a Arusha y asentamiento en el hotel. Briefing sobre el safari."
+            "description": "Llegada a Arusha y asentamiento en el hotel. Briefing sobre el safari.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 2,
             "title": "Parque Nacional Tarangire",
-            "description": "Exploración del Parque Nacional Tarangire y avistamiento de elefantes."
+            "description": "Exploración del Parque Nacional Tarangire y avistamiento de elefantes.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 3,
             "title": "Parque Nacional Serengeti",
-            "description": "Viaje al Parque Nacional Serengeti y primer safari al atardecer."
+            "description": "Viaje al Parque Nacional Serengeti y primer safari al atardecer.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 4,
             "title": "Safari en Serengeti",
-            "description": "Safari completo por el Serengeti, avistamiento de leones y otros animales salvajes."
+            "description": "Safari completo por el Serengeti, avistamiento de leones y otros animales salvajes.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 5,
             "title": "Migración de Ñus",
-            "description": "Observación de la migración de ñus y otros animales en su hábitat natural."
+            "description": "Observación de la migración de ñus y otros animales en su hábitat natural.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 6,
             "title": "Visita a un Pueblo Maasai",
-            "description": "Visita a una aldea Maasai y experiencia cultural."
+            "description": "Visita a una aldea Maasai y experiencia cultural.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 7,
             "title": "Regreso a Arusha",
-            "description": "Regreso a Arusha y salida hacia el aeropuerto."
+            "description": "Regreso a Arusha y salida hacia el aeropuerto.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           }
         ],
         "description": "Embárcate en un safari inolvidable por el Serengeti, donde podrás observar la migración de los ñus y una gran variedad de vida salvaje en su hábitat natural.",
@@ -96,7 +183,28 @@
           "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
           "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
           "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-        ]
+        ],
+        "includes": [
+    "Alojamiento en lodge ecológico",
+    "Todas las comidas",
+    "Guía naturalista bilingüe",
+    "Transporte fluvial",
+    "Equipo de seguridad"
+  ],
+  "excludes": [
+    "Vuelos a Iquitos",
+    "Seguro de viaje",
+    "Bebidas alcohólicas",
+    "Propinas"
+  ],
+  "toBring": [
+    "Repelente de insectos",
+    "Ropa ligera y rápida seca",
+    "Impermeable",
+    "Botas de jungle",
+    "Binoculares",
+    "Cámara subacuática"
+  ]
       },
       {
         "id": 3,
@@ -111,22 +219,42 @@
           {
             "day": 1,
             "title": "Inicio del Camino Inca",
-            "description": "Comienza la caminata desde el km 82. Acampada en Wayllabamba."
+            "description": "Comienza la caminata desde el km 82. Acampada en Wayllabamba.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 2,
             "title": "Paso de Warmiwañusca",
-            "description": "Caminata hacia el paso de Warmiwañusca, el punto más alto del recorrido."
+            "description": "Caminata hacia el paso de Warmiwañusca, el punto más alto del recorrido.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 3,
             "title": "Ruinas de Wiñay Wayna",
-            "description": "Visita a las ruinas de Wiñay Wayna y llegada a Machu Picchu."
+            "description": "Visita a las ruinas de Wiñay Wayna y llegada a Machu Picchu.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 4,
             "title": "Exploración de Machu Picchu",
-            "description": "Exploración completa de Machu Picchu y regreso a Cusco."
+            "description": "Exploración completa de Machu Picchu y regreso a Cusco.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           }
         ],
         "description": "Realiza una caminata épica por el famoso Camino Inca hacia Machu Picchu. Disfruta de impresionantes vistas, ruinas antiguas y la cultura inca.",
@@ -135,6 +263,28 @@
           "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
           "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
         ]
+        ,
+            "includes": [
+        "Alojamiento en lodge ecológico",
+        "Todas las comidas",
+        "Guía naturalista bilingüe",
+        "Transporte fluvial",
+        "Equipo de seguridad"
+      ],
+      "excludes": [
+        "Vuelos a Iquitos",
+        "Seguro de viaje",
+        "Bebidas alcohólicas",
+        "Propinas"
+      ],
+      "toBring": [
+        "Repelente de insectos",
+        "Ropa ligera y rápida seca",
+        "Impermeable",
+        "Botas de jungle",
+        "Binoculares",
+        "Cámara subacuática"
+      ]
       },
       {
         "id": 4,
@@ -149,32 +299,84 @@
           {
             "day": 1,
             "title": "Llegada a Beijing",
-            "description": "Llegada a Beijing y asentamiento en el hotel. Paseo nocturno por la ciudad."
+            "description": "Llegada a Beijing y asentamiento en el hotel. Paseo nocturno por la ciudad.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 2,
             "title": "Visita a la Ciudad Prohibida",
-            "description": "Exploración de la Ciudad Prohibida y la Plaza de Tiananmen."
+            "description": "Exploración de la Ciudad Prohibida y la Plaza de Tiananmen.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 3,
             "title": "Gran Muralla - Sección Badaling",
-            "description": "Visita a la sección Badaling de la Gran Muralla y caminata por sus impresionantes paisajes."
+            "description": "Visita a la sección Badaling de la Gran Muralla y caminata por sus impresionantes paisajes.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 4,
             "title": "Gran Muralla - Sección Mutianyu",
-            "description": "Exploración de la sección Mutianyu de la Gran Muralla y actividades al aire libre."
+            "description": "Exploración de la sección Mutianyu de la Gran Muralla y actividades al aire libre.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
+            ,
+            "includes": [
+        "Alojamiento en lodge ecológico",
+        "Todas las comidas",
+        "Guía naturalista bilingüe",
+        "Transporte fluvial",
+        "Equipo de seguridad"
+      ],
+      "excludes": [
+        "Vuelos a Iquitos",
+        "Seguro de viaje",
+        "Bebidas alcohólicas",
+        "Propinas"
+      ],
+      "toBring": [
+        "Repelente de insectos",
+        "Ropa ligera y rápida seca",
+        "Impermeable",
+        "Botas de jungle",
+        "Binoculares",
+        "Cámara subacuática"
+      ]
           },
           {
             "day": 5,
             "title": "Cultura China",
-            "description": "Visita a un pueblo tradicional chino y experiencia cultural."
+            "description": "Visita a un pueblo tradicional chino y experiencia cultural.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           },
           {
             "day": 6,
             "title": "Regreso a casa",
-            "description": "Regreso a Beijing y salida hacia el aeropuerto."
+            "description": "Regreso a Beijing y salida hacia el aeropuerto.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
           }
         ],
 
@@ -184,6 +386,151 @@
           "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
           "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
         ]
+        ,
+            "includes": [
+        "Alojamiento en lodge ecológico",
+        "Todas las comidas",
+        "Guía naturalista bilingüe",
+        "Transporte fluvial",
+        "Equipo de seguridad"
+      ],
+      "excludes": [
+        "Vuelos a Iquitos",
+        "Seguro de viaje",
+        "Bebidas alcohólicas",
+        "Propinas"
+      ],
+      "toBring": [
+        "Repelente de insectos",
+        "Ropa ligera y rápida seca",
+        "Impermeable",
+        "Botas de jungle",
+        "Binoculares",
+        "Cámara subacuática"
+      ]
+      },
+      {
+        "id": 5,
+        "title": "Exploración de la Gran Muralla",
+        "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1168&q=80",
+        "location": "China",
+        "duration": "6 días",
+        "rating": 4.6,
+        "groupSize" :"2-12",
+        "price": "1199",
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Llegada a Beijing",
+            "description": "Llegada a Beijing y asentamiento en el hotel. Paseo nocturno por la ciudad.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Visita a la Ciudad Prohibida",
+            "description": "Exploración de la Ciudad Prohibida y la Plaza de Tiananmen.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Gran Muralla - Sección Badaling",
+            "description": "Visita a la sección Badaling de la Gran Muralla y caminata por sus impresionantes paisajes.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Gran Muralla - Sección Mutianyu",
+            "description": "Exploración de la sección Mutianyu de la Gran Muralla y actividades al aire libre.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
+            ,
+            "includes": [
+        "Alojamiento en lodge ecológico",
+        "Todas las comidas",
+        "Guía naturalista bilingüe",
+        "Transporte fluvial",
+        "Equipo de seguridad"
+      ],
+      "excludes": [
+        "Vuelos a Iquitos",
+        "Seguro de viaje",
+        "Bebidas alcohólicas",
+        "Propinas"
+      ],
+      "toBring": [
+        "Repelente de insectos",
+        "Ropa ligera y rápida seca",
+        "Impermeable",
+        "Botas de jungle",
+        "Binoculares",
+        "Cámara subacuática"
+      ]
+          },
+          {
+            "day": 5,
+            "title": "Cultura China",
+            "description": "Visita a un pueblo tradicional chino y experiencia cultural.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
+          },
+          {
+            "day": 6,
+            "title": "Regreso a casa",
+            "description": "Regreso a Beijing y salida hacia el aeropuerto.",
+            "imagesItinerario": [
+              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+            ]
+          }
+        ],
+
+        "description": "Descubre la historia y la majestuosidad de la Gran Muralla China en un recorrido de 6 días. Explora diferentes secciones de la muralla y aprende sobre su construcción.",
+        "photos": [
+          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
+          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
+        ]
+        ,
+            "includes": [
+        "Alojamiento en lodge ecológico",
+        "Todas las comidas",
+        "Guía naturalista bilingüe",
+        "Transporte fluvial",
+        "Equipo de seguridad"
+      ],
+      "excludes": [
+        "Vuelos a Iquitos",
+        "Seguro de viaje",
+        "Bebidas alcohólicas",
+        "Propinas"
+      ],
+      "toBring": [
+        "Repelente de insectos",
+        "Ropa ligera y rápida seca",
+        "Impermeable",
+        "Botas de jungle",
+        "Binoculares",
+        "Cámara subacuática"
+      ]
       }
     ]
   }
