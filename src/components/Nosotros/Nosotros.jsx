@@ -1,11 +1,11 @@
 import React from 'react';
-import { Globe, Target, Eye, Heart, Users, Star, ChevronDown } from 'lucide-react';
+import { Globe, Target, Eye, Heart, Users, Star, ChevronDown, Handshake, Leaf } from 'lucide-react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
 
 const Nosotros = () => {
-  // Animaciones para cada sección
+  // Animations for each section
   const controls = useAnimation();
   const [ref1, inView1] = useInView({ threshold: 0.2, triggerOnce: false });
   const [ref2, inView2] = useInView({ threshold: 0.2, triggerOnce: false });
@@ -29,10 +29,11 @@ const Nosotros = () => {
   };
 
   const values = [
-    { icon: <Heart className="w-8 h-8 text-[#f39703]" />, title: "Pasión", description: "Amor por los viajes y la aventura" },
-    { icon: <Users className="w-8 h-8 text-[#f39703]" />, title: "Comunidad", description: "Conexiones auténticas con locales" },
-    { icon: <Globe className="w-8 h-8 text-[#f39703]" />, title: "Sostenibilidad", description: "Turismo responsable con el medio ambiente" },
-    { icon: <Star className="w-8 h-8 text-[#f39703]" />, title: "Excelencia", description: "Servicio de calidad superior" }
+    { icon: <Leaf className="w-8 h-8 text-[#f39703]" />, title: "Sostenibilidad", description: "Minimizamos nuestro impacto ambiental y promovemos el desarrollo local" },
+    { icon: <Globe className="w-8 h-8 text-[#f39703]" />, title: "Autenticidad", description: "Experiencias únicas que reflejan la esencia de los destinos" },
+    { icon: <Star className="w-8 h-8 text-[#f39703]" />, title: "Calidad", description: "Servicios de alto nivel que superan expectativas" },
+    { icon: <Users className="w-8 h-8 text-[#f39703]" />, title: "Respeto", description: "Hacia culturas, comunidades y entorno natural" },
+    { icon: <Handshake className="w-8 h-8 text-[#f39703]" />, title: "Compromiso", description: "Relaciones transparentes y responsables con todos" }
   ];
 
   return (
@@ -51,9 +52,9 @@ const Nosotros = () => {
           transition={{ duration: 0.8 }}
           className="text-center z-10 px-4"
         >
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Nuestra Historia</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Quiénes Somos</h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Más que una agencia de viajes, somos creadores de experiencias inolvidables
+            Conectamos a los viajeros con la riqueza cultural, natural y humana de nuestros destinos
           </p>
           <motion.div
             animate={{ y: [0, 10, 0] }}
@@ -65,7 +66,7 @@ const Nosotros = () => {
         </motion.div>
       </div>
 
-      {/* Sobre Nosotros */}
+      {/* About Us */}
       <motion.section
         ref={ref1}
         initial="hidden"
@@ -89,25 +90,25 @@ const Nosotros = () => {
           <div className="md:w-1/2">
             <div className="flex items-center mb-4">
               <Globe className="text-[#f39703] h-6 w-6 mr-2" />
-              <h2 className="text-2xl font-bold text-[#413d3e]">Sobre Nosotros</h2>
+              <h2 className="text-2xl font-bold text-[#413d3e]">Nuestra Esencia</h2>
             </div>
             <p className="text-gray-600 mb-4 text-justify">
-              Fundada en 2015, Aventoura nació de un viaje de mochileros que querían compartir su pasión por descubrir rincones auténticos del mundo.
+              Aventoura es una empresa dedicada a ofrecer experiencias turísticas memorables, combinando sostenibilidad, calidad y autenticidad. Nuestro objetivo es conectar a los viajeros con la riqueza cultural, natural y humana de la región.
             </p>
             <p className="text-gray-600 mb-4 text-justify">
-              Lo que comenzó como un pequeño grupo de entusiastas se ha convertido en una familia global de viajeros que valoran experiencias genuinas sobre turismo masivo.
+              Promovemos el desarrollo económico, la sostenibilidad y la identidad cultural de las comunidades locales a través de un turismo responsable y significativo.
             </p>
             <p className="text-gray-600 text-justify">
-              Hoy, con más de 50 destinos en 30 países, mantenemos nuestro espíritu original: viajes con alma, para viajeros con corazón.
+              Cada experiencia que creamos está diseñada para dejar una huella positiva tanto en nuestros viajeros como en los destinos que visitamos.
             </p>
           </div>
         </div>
       </motion.section>
 
-      {/* Misión y Visión */}
+      {/* Mission and Vision */}
       <div className="bg-[#413d3e] text-white py-16">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12">
-          {/* Misión */}
+          {/* Mission */}
           <motion.div
             ref={ref2}
             initial="hidden"
@@ -120,11 +121,11 @@ const Nosotros = () => {
               <h2 className="text-2xl font-bold">Nuestra Misión</h2>
             </div>
             <p className="text-gray-300 text-justify">
-              Transformar la manera en que el mundo viaja, creando conexiones significativas entre culturas a través de experiencias auténticas y sostenibles que enriquecen tanto a los viajeros como a las comunidades locales.
+              Ofrecer servicios turísticos integrales y personalizados, diseñados para crear experiencias excepcionales que conecten a los turistas con la riqueza cultural, histórica y natural de nuestros destinos. Nos esforzamos por fomentar el turismo sostenible, promover la preservación del medio ambiente y contribuir al desarrollo económico de las comunidades locales.
             </p>
           </motion.div>
 
-          {/* Visión */}
+          {/* Vision */}
           <motion.div
             ref={ref3}
             initial="hidden"
@@ -137,13 +138,13 @@ const Nosotros = () => {
               <h2 className="text-2xl font-bold">Nuestra Visión</h2>
             </div>
             <p className="text-gray-300 text-justify">
-              Ser reconocidos como la plataforma que redefine el turismo global, donde cada viaje es una oportunidad para el crecimiento personal, el entendimiento intercultural y la preservación de los destinos que amamos.
+              Ser líderes en el sector turístico, reconocidos a nivel nacional e internacional por ofrecer experiencias únicas, destacándonos por nuestro compromiso con la sostenibilidad, la innovación y la excelencia en el servicio. Aspiramos a ser referentes en la promoción de destinos auténticos.
             </p>
           </motion.div>
         </div>
       </div>
 
-      {/* Valores */}
+      {/* Values */}
       <motion.section
         ref={ref4}
         initial="hidden"
@@ -152,7 +153,7 @@ const Nosotros = () => {
         className="py-16 px-4 max-w-6xl mx-auto"
       >
         <h2 className="text-3xl font-bold text-center mb-12 text-[#413d3e]">Nuestros Valores</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {values.map((value, index) => (
             <motion.div
               key={index}
@@ -169,19 +170,16 @@ const Nosotros = () => {
         </div>
       </motion.section>
 
-      {/* CTA */}
+      {/* CTA  */}
       <div className="bg-gradient-to-r from-[#f39703] to-[#f8b133] py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">¿Listo para vivir una aventura auténtica?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">¿Listo para vivir una experiencia auténtica?</h2>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-white text-[#f39703] font-bold py-3 px-8 rounded-full text-lg shadow-lg"
           >
-            <Link 
-                  to="/tours" 
-                
-                > Descubre nuestros tours</Link>
+            <Link to="/tours">Descubre nuestros tours</Link>
           </motion.button>
         </div>
       </div>
