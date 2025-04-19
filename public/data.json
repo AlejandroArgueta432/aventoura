@@ -85,10 +85,16 @@
     {
       "id": 2,
       "title": "Vamos a El Salvador",
-      "image": "/images/tour2-principal.jpg",
+      "image":     "/images/tour2/extra6.png",
       "extraPhotos": [
-        "/images/tour2-extra1.jpg",
-        "/images/tour2-extra2.jpg"
+      
+        "/images/tour2/extra1.jpg",
+        "/images/tour2/extra2.png",
+        "/images/tour2/extra3.png",
+        "/images/tour2/extra4.jpg",
+        "/images/tour2/extra5.png",
+        "/images/tour2/1.1Dia.jpg"
+      
       ],
       "location": "El Salvador (Suchitoto, Ilobasco, Alegría, Puerto Barillas, San Salvador, Panchimalco)",
       "duration": "7 días / 6 noches",
@@ -103,7 +109,7 @@
           "location": "Aeropuerto → Suchitoto ('Pájaro Flor')",
           "accommodation": "Suchitoto",
           "images": [
-            "/images/tour2-dia1-1.jpg"
+        
           ]
         },
         {
@@ -112,8 +118,7 @@
           "description": "Recorrido en lancha por el lago (aves migratorias). Visita al Museo Alejandro Cotto y taller de añil.",
           "accommodation": "Suchitoto",
           "images": [
-            "/images/tour2-dia2-1.jpg",
-            "/images/tour2-dia2-2.jpg"
+         
           ]
         },
         {
@@ -123,7 +128,7 @@
           "location": "Ilobasco → Alegría",
           "accommodation": "Alegría",
           "images": [
-            "/images/tour2-dia3-1.jpg"
+      
           ]
         },
         {
@@ -132,7 +137,7 @@
           "description": "Tour en finca cafetalera. Visita a la Laguna de Alegría (cráter del volcán Tecapa).",
           "accommodation": "Puerto Barillas",
           "images": [
-            "/images/tour2-dia4-1.jpg"
+          
           ]
         },
         {
@@ -141,7 +146,7 @@
           "description": "Santuario del Mono Araña, kayak en manglares o playa.",
           "accommodation": "Puerto Barillas",
           "images": [
-            "/images/tour2-dia5-1.jpg"
+         
           ]
         },
         {
@@ -150,7 +155,7 @@
           "description": "Taller de pintura Fernando Llort. Tour por el centro histórico.",
           "accommodation": "San Salvador",
           "images": [
-            "/images/tour2-dia6-1.jpg"
+         
           ]
         },
         {
@@ -159,7 +164,7 @@
           "description": "Visita a la iglesia colonial y taller escultórico.",
           "location": "Panchimalco ('Lugar de Escudos')",
           "images": [
-            "/images/tour2-dia7-1.jpg"
+          
           ]
         }
       ],
@@ -200,10 +205,15 @@
     {
       "id": 3,
       "title": "De Todo un Poco - El Salvador",
-      "image": "/images/tour3-principal.jpg",
+      "image":    "/images/tour3/extra1.jpg",
       "extraPhotos": [
-        "/images/tour3-extra1.jpg",
-        "/images/tour3-extra2.jpg"
+     
+        "/images/tour3/extra2.jpg",
+        "/images/tour3/extra3.jpg",
+        "/images/tour3/extra4.png",
+        "/images/tour3/extra5.png",
+        "/images/tour3/extra6.jpg"
+     
       ],
       "location": "El Salvador (Suchitoto, Cihuatán, San Salvador, Panchimalco, Ruta de las Flores, Cerro Verde)",
       "duration": "7 días / 6 noches",
@@ -218,7 +228,7 @@
           "location": "Aeropuerto → Suchitoto ('Pájaro Flor')",
           "accommodation": "La Posada de Suchitlán",
           "images": [
-            "/images/tour3-dia1-1.jpg"
+        
           ]
         },
         {
@@ -227,8 +237,7 @@
           "description": "City tour: Iglesia, galerías de arte y museos. Recorrido en lancha por el Lago Suchitlán (aves migratorias).",
           "accommodation": "Suchitoto",
           "images": [
-            "/images/tour3-dia2-1.jpg",
-            "/images/tour3-dia2-2.jpg"
+         
           ]
         },
         {
@@ -238,7 +247,7 @@
           "location": "Sitio arqueológico Cihuatán → Licorera Cihuatán",
           "accommodation": "San Salvador",
           "images": [
-            "/images/tour3-dia3-1.jpg"
+          
           ]
         },
         {
@@ -247,7 +256,7 @@
           "description": "Visita a la iglesia colonial de Panchimalco. Taller con el artista Miguel Ángel Ramírez. City tour por el centro histórico de San Salvador.",
           "accommodation": "San Salvador",
           "images": [
-            "/images/tour3-dia4-1.jpg"
+        
           ]
         },
         {
@@ -257,7 +266,7 @@
           "location": "Parque Cerro Verde",
           "accommodation": "Ruta de las Flores",
           "images": [
-            "/images/tour3-dia5-1.jpg"
+      
           ]
         },
         {
@@ -266,8 +275,7 @@
           "description": "Tour en beneficio cafetalero (proceso del café). Visita a Ataco (artesanías) y Nahuizalco (mimbre).",
           "accommodation": "Ruta de las Flores",
           "images": [
-            "/images/tour3-dia6-1.jpg",
-            "/images/tour3-dia6-2.jpg"
+        
           ]
         },
         {
@@ -456,7 +464,8 @@
         "Prismáticos y cámara fotográfica",
         "Medicamentos personales"
       ]
-    },{
+    },
+    {
       "id": 5,
       "title": "La Rosa, Las Estrellas y Los Volcanes",
       "image": "/images/tour5-principal.jpg",
@@ -567,7 +576,8 @@
         "Certificado de vacunación contra fiebre amarilla (si aplica)",
         "Cámara fotográfica (para paisajes volcánicos)"
       ]
-    },{
+    },
+    {
       "id": 6,
       "title": "Ruta Maya: De Chiapas a la Riviera Maya",
       "image": "/images/tour6-principal.jpg",
@@ -725,7 +735,8 @@
       ],
       "startPoint": "Aeropuerto de Tuxtla Gutiérrez (Chiapas)",
       "endPoint": "Aeropuerto de Cancún (Quintana Roo)"
-    },{
+    },
+    {
       "id": 7,
       "title": "Arte, Cultura y Naturaleza",
       "image": "/images/tour7-principal.jpg",

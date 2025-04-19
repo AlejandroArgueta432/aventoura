@@ -301,7 +301,7 @@ const Tour = () => {
                               )}
                             </div>
 
-                            {day.images && day.images.length > 0 && (
+                   {/**          {day.images && day.images.length > 0 && (
                               <div className="md:w-1/3">
                                 <img
                                   src={day.images[0]}
@@ -318,7 +318,7 @@ const Tour = () => {
                                   </button>
                                 )}
                               </div>
-                            )}
+                            )}*/}
                           </div>
                         </motion.div>
                       )}
