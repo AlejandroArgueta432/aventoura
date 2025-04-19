@@ -1,537 +1,1065 @@
 {
-    "tours":
-    
-     [
+  "tours": [
+    {
+      "id": 1,
+      "title": "Paraísos Rurales - El Salvador",
+      "image":   "/images/extra1.jpg",
+      "extraPhotos": [
       
-      {
-        "id": 1,
-        "title": "Aventura en la Selva Amazónica",
-        "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1170&q=80",
-        "location": "Amazonas, Perú",
-        "duration": "5 días",
-        "rating": 4.8,
-       "groupSize" :"2-12",
-        "price": "1299",
-        "itinerary": [
-          {
-            "day": 1,
-            "title": "Llegada a la Selva",
-            "description": "Llegada a la selva amazónica y asentamiento en el lodge. Paseo nocturno por la selva.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-            
-
-
-          },
-          {
-            "day": 2,
-            "title": "Exploración de la Selva",
-            "description": "Exploración de la flora y fauna local. Visita a una comunidad indígena.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-            
-          },
-          {
-            "day": 3,
-            "title": "Navegación por el Amazonas",
-            "description": "Navegación por el río Amazonas y avistamiento de delfines rosados.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 4,
-            "title": "Caminata y Cascada",
-            "description": "Caminata por la selva y visita a una cascada escondida.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 5,
-            "title": "Regreso a la Ciudad",
-            "description": "Regreso al lodge y salida hacia la ciudad.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          }
-        ],
-        "description": "Descubre la biodiversidad de la selva amazónica en una emocionante aventura de 5 días. Explora la flora y fauna únicas, navega por ríos y disfruta de la cultura local.",
-        "photos": [
-          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-        ],
-        
-            "includes": [
-        "Alojamiento en lodge ecológico",
-        "Todas las comidas",
-        "Guía naturalista bilingüe",
-        "Transporte fluvial",
-        "Equipo de seguridad"
+        "/images/extra2.jpg"
+      ],
+      "location": "El Salvador (Ruta de las Flores, Apaneca, Salto de Malacatiupan, Parque Cerro Verde, San Salvador)",
+      "duration": "5 días / 4 noches",
+      "groupSize": "6 a 15 personas",
+      "availability": "Consultar según temporada",
+      "description": "Un recorrido auténtico por la cultura, naturaleza y gastronomía de El Salvador, explorando la encantadora Ruta de las Flores, fincas de café, cascadas termales y el imponente Parque Nacional Cerro Verde. Incluye experiencias rurales, historia colonial y aventura en paisajes volcánicos.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a la Ruta de las Flores",
+          "description": "Traslado al hotel en la Ruta de las Flores, un recorrido por pueblos pintorescos como Ataco.",
+          "location": "Aeropuerto de El Salvador → Sierra Apaneca-Lamatepec",
+          "accommodation": "Hotel Fleur de Lis",
+          "images": [
+            "/images/1.1Dia.jpg"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Todo sobre el Café",
+          "description": "Visita a una finca cafetalera familiar, aprendizaje del proceso de cultivo y preparación. Almuerzo casero. Tarde libre en Ataco (artesanías, cafés locales).",
+          "images": [
+            "/images/2.1Dia.jpg",
+            "/images/2.2Dia.jpg"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Cascadas y Laguna Verde",
+          "description": "Relajación en pozas naturales y paseo en cayuco en la laguna. Cena con vista al agua.",
+          "images": [
+            "/images/3.1Dia.png"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Volcanes y San Salvador",
+          "description": "Senderismo con vistas al 'Faro del Pacífico' y tour cultural en la capital.",
+          "images": [
+            "/images/4.1Dia.jpg"
+          ]
+        }
+      ],
+      "includes": [
+        "Alojamiento: 3 noches en Hotel Fleur de Lis, 1 noche en Hotel Villa Terra",
+        "Tour en finca de café 'Noruega' (Programa Renacer)",
+        "Entrada al Salto de Malacatiupan",
+        "Entrada al Parque Natural Cerro Verde",
+        "Entrada al Palacio Nacional",
+        "Traslados aeropuerto-hotel-aeropuerto",
+        "Transporte con aire acondicionado",
+        "Desayunos diarios",
+        "Guía turístico durante 4 días",
+        "Seguro: Assist Card",
+        "Agua mineral abordo"
       ],
       "excludes": [
-        "Vuelos a Iquitos",
-        "Seguro de viaje",
-        "Bebidas alcohólicas",
-        "Propinas"
+        "Vuelos internacionales",
+        "Almuerzos y cenas no especificados",
+        "Propinas (guías, conductores)",
+        "Gastos personales (souvenirs, bebidas alcohólicas)",
+        "Tarjeta de turismo ($12 USD aprox.) e impuestos aeroportuarios",
+        "Actividades no mencionadas"
       ],
       "toBring": [
-        "Repelente de insectos",
-        "Ropa ligera y rápida seca",
-        "Impermeable",
-        "Botas de jungle",
-        "Binoculares",
-        "Cámara subacuática"
+        "Pasaporte con vigencia mínima de 6 meses",
+        "Certificado de vacunación contra fiebre amarilla (si aplica)",
+        "Calzado cómodo para caminar + sandalias",
+        "Ropa fresca (colores claros) y mangas largas",
+        "Chaqueta o sweater (noches frías en zonas altas)",
+        "Traje de baño y capa para lluvia",
+        "Sombrero/gorra, protector solar, repelente de insectos"
       ]
+    }
+    ,
+    {
+      "id": 2,
+      "title": "Vamos a El Salvador",
+      "image": "/images/tour2-principal.jpg",
+      "extraPhotos": [
+        "/images/tour2-extra1.jpg",
+        "/images/tour2-extra2.jpg"
+      ],
+      "location": "El Salvador (Suchitoto, Ilobasco, Alegría, Puerto Barillas, San Salvador, Panchimalco)",
+      "duration": "7 días / 6 noches",
+      "groupSize": "10 a 15 personas",
+      "availability": "Todo el año",
+      "description": "Un viaje cultural y natural por el corazón de El Salvador, explorando pueblos coloniales, arte tradicional, cafetales, lagunas volcánicas y la Reserva de Biósfera de Jiquilisco. Incluye talleres de añil, cerámica, pintura y experiencias con comunidades locales.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a Suchitoto",
+          "description": "Traslado al pueblo colonial y tiempo libre para explorar sus calles empedradas.",
+          "location": "Aeropuerto → Suchitoto ('Pájaro Flor')",
+          "accommodation": "Suchitoto",
+          "images": [
+            "/images/tour2-dia1-1.jpg"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Suchitoto y Lago Suchitlán",
+          "description": "Recorrido en lancha por el lago (aves migratorias). Visita al Museo Alejandro Cotto y taller de añil.",
+          "accommodation": "Suchitoto",
+          "images": [
+            "/images/tour2-dia2-1.jpg",
+            "/images/tour2-dia2-2.jpg"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Ilobasco y Alegría",
+          "description": "Las famosas 'sorpresas' de barro y paisajes cafetaleros.",
+          "location": "Ilobasco → Alegría",
+          "accommodation": "Alegría",
+          "images": [
+            "/images/tour2-dia3-1.jpg"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Café y Laguna Volcánica",
+          "description": "Tour en finca cafetalera. Visita a la Laguna de Alegría (cráter del volcán Tecapa).",
+          "accommodation": "Puerto Barillas",
+          "images": [
+            "/images/tour2-dia4-1.jpg"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Reserva de Jiquilisco",
+          "description": "Santuario del Mono Araña, kayak en manglares o playa.",
+          "accommodation": "Puerto Barillas",
+          "images": [
+            "/images/tour2-dia5-1.jpg"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "San Salvador y Arte",
+          "description": "Taller de pintura Fernando Llort. Tour por el centro histórico.",
+          "accommodation": "San Salvador",
+          "images": [
+            "/images/tour2-dia6-1.jpg"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Panchimalco y Salida",
+          "description": "Visita a la iglesia colonial y taller escultórico.",
+          "location": "Panchimalco ('Lugar de Escudos')",
+          "images": [
+            "/images/tour2-dia7-1.jpg"
+          ]
+        }
+      ],
+      "includes": [
+        "Traslados aeropuerto-hotel-aeropuerto",
+        "Vehículo con aire acondicionado durante el tour",
+        "Alojamiento: 2 noches en Suchitoto, 1 noche en Alegría, 2 noches en Puerto Barillas, 2 noches en San Salvador",
+        "Desayunos diarios",
+        "Recorrido en lancha por Lago Suchitlán",
+        "Visita a finca de café en Alegría",
+        "Entrada a Laguna de Alegría, Puerto San Juan y Parque El Boquerón",
+        "Taller de pintura estilo Fernando Llort",
+        "Experiencia con el artista Miguel Ángel (Panchimalco)",
+        "Seguro: Assist Card",
+        "Agua mineral en el transporte"
+      ],
+      "excludes": [
+        "Vuelos internacionales",
+        "Almuerzos y cenas (excepto desayunos)",
+        "Actividades opcionales en Puerto Barillas: renta de kayaks/bicicletas, tour a plantaciones de cacao o playas, teñido de añil (opcional en Suchitoto)",
+        "Propinas (guías, conductores)",
+        "Tarjeta de turismo ($12 USD) e impuestos aeroportuarios",
+        "Gastos personales (souvenirs, bebidas)"
+      ],
+      "toBring": [
+        "Pasaporte con vigencia +6 meses",
+        "Certificado de vacunación contra fiebre amarilla (si aplica)",
+        "Calzado cómodo + sandalias",
+        "Ropa fresca (mangas largas para sol/insectos)",
+        "Chaqueta (noches frías en zonas altas)",
+        "Traje de baño y capa para lluvia",
+        "Sombrero, protector solar, repelente de insectos",
+        "Prismáticos y cámara fotográfica",
+        "Medicamentos personales"
+      ]
+    }
+    ,
+    {
+      "id": 3,
+      "title": "De Todo un Poco - El Salvador",
+      "image": "/images/tour3-principal.jpg",
+      "extraPhotos": [
+        "/images/tour3-extra1.jpg",
+        "/images/tour3-extra2.jpg"
+      ],
+      "location": "El Salvador (Suchitoto, Cihuatán, San Salvador, Panchimalco, Ruta de las Flores, Cerro Verde)",
+      "duration": "7 días / 6 noches",
+      "groupSize": "10 a 15 personas",
+      "availability": "Todo el año",
+      "description": "Un viaje diverso que combina historia colonial, arqueología, arte, naturaleza y gastronomía. Desde el bohemio Suchitoto hasta los volcanes de Cerro Verde, pasando por experiencias únicas como la fabricación de ron y talleres con artistas locales.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a Suchitoto",
+          "description": "Traslado al pueblo colonial, conocido por su arte y calles empedradas.",
+          "location": "Aeropuerto → Suchitoto ('Pájaro Flor')",
+          "accommodation": "La Posada de Suchitlán",
+          "images": [
+            "/images/tour3-dia1-1.jpg"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Explorando Suchitoto",
+          "description": "City tour: Iglesia, galerías de arte y museos. Recorrido en lancha por el Lago Suchitlán (aves migratorias).",
+          "accommodation": "Suchitoto",
+          "images": [
+            "/images/tour3-dia2-1.jpg",
+            "/images/tour3-dia2-2.jpg"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Arqueología y Ron",
+          "description": "Visita a las ruinas precolombinas de Cihuatán. Experiencia de ron: Cata, mixología y ½ botella de regalo.",
+          "location": "Sitio arqueológico Cihuatán → Licorera Cihuatán",
+          "accommodation": "San Salvador",
+          "images": [
+            "/images/tour3-dia3-1.jpg"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Panchimalco y San Salvador",
+          "description": "Visita a la iglesia colonial de Panchimalco. Taller con el artista Miguel Ángel Ramírez. City tour por el centro histórico de San Salvador.",
+          "accommodation": "San Salvador",
+          "images": [
+            "/images/tour3-dia4-1.jpg"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Naturaleza en Cerro Verde",
+          "description": "Senderismo con vistas panorámicas al Volcán de Izalco y almuerzo local.",
+          "location": "Parque Cerro Verde",
+          "accommodation": "Ruta de las Flores",
+          "images": [
+            "/images/tour3-dia5-1.jpg"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Café y Pueblos Coloridos",
+          "description": "Tour en beneficio cafetalero (proceso del café). Visita a Ataco (artesanías) y Nahuizalco (mimbre).",
+          "accommodation": "Ruta de las Flores",
+          "images": [
+            "/images/tour3-dia6-1.jpg",
+            "/images/tour3-dia6-2.jpg"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Salida",
+          "description": "Traslado al aeropuerto.",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Traslados aeropuerto-hotel-aeropuerto",
+        "Vehículo con aire acondicionado durante el tour",
+        "Alojamiento: 2 noches en La Posada de Suchitlán (Suchitoto), 2 noches en Hotel Villa Terra (San Salvador), 2 noches en Hotel Fleur de Lis (Ruta de las Flores)",
+        "Desayunos diarios",
+        "Recorrido en lancha por Lago Suchitlán",
+        "Visita al sitio arqueológico Cihuatán",
+        "Experiencia Ron Cihuatán: Tour en licorera + ½ botella de ron por persona",
+        "Taller con el artista Miguel Ángel Ramírez (Panchimalco)",
+        "Entradas a Cerro Verde y Puerto San Juan",
+        "Tour en beneficio cafetalero (Ruta de las Flores)",
+        "Seguro: Assist Card",
+        "Agua mineral en el transporte"
+      ],
+      "excludes": [
+        "Vuelos internacionales",
+        "Almuerzos y cenas (excepto desayunos)",
+        "Propinas (guías, conductores)",
+        "Tarjeta de turismo ($12 USD) e impuestos aeroportuarios",
+        "Gastos personales (souvenirs, bebidas alcohólicas adicionales)",
+        "Actividades no especificadas en el itinerario"
+      ],
+      "toBring": [
+        "Pasaporte con vigencia mínima de 6 meses",
+        "Certificado de vacunación contra fiebre amarilla (si viaja desde países de riesgo)",
+        "Calzado cómodo para caminar + sandalias",
+        "Ropa fresca (mangas largas para protección solar/insectos)",
+        "Chaqueta o sweater (noches frías en zonas altas como Cerro Verde)",
+        "Traje de baño (opcional para lagos)",
+        "Sombrero/gorra, protector solar, repelente de insectos",
+        "Cámara fotográfica y prismáticos (para avistamiento de aves)",
+        "Medicamentos personales"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Colores, Sabores y Olores Frescos del Trifinio de Centro América",
+      "image": "/images/tour4-principal.jpg",
+      "extraPhotos": [
+        "/images/tour4-extra1.jpg",
+        "/images/tour4-extra2.jpg"
+      ],
+      "location": "El Salvador (San Salvador, Metapán, Geoparque El Espino, Zona Alta de Chalatenango, Suchitoto), Guatemala (Esquipulas), Honduras (Copán Ruinas)",
+      "duration": "13 días / 12 noches",
+      "groupSize": "6 a 15 personas",
+      "availability": "Todo el año (evitar temporada de lluvias: mayo-octubre)",
+      "description": "Un viaje multicultural que explora la riqueza natural, histórica y gastronómica de El Salvador, Guatemala y Honduras. Desde sitios arqueológicos mayas hasta fincas cafetaleras, aguas termales y pueblos coloniales, este tour combina aventura, cultura y relajación en el corazón del Trifinio (frontera tripartita).",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a San Salvador",
+          "description": "Traslado al hotel.",
+          "accommodation": "San Salvador",
+          "images": []
+        },
+        {
+          "day": 2,
+          "title": "Joya de Cerén y Metapán",
+          "description": "Visita al sitio arqueológico Joya de Cerén (Patrimonio de la Humanidad). Tour por Metapán ('Ciudad Blanca') y Geoparque El Espino.",
+          "images": [
+            "/images/tour4-dia2-1.jpg"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Aventura en Geoparque El Espino",
+          "description": "Ordeño de vacas, caminata a Cascada El Limo y Roca Gigante.",
+          "accommodation": "Geoparque El Espino",
+          "images": [
+            "/images/tour4-dia3-1.jpg"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Esquipulas (Guatemala)",
+          "description": "Visita a la Basílica del Cristo Negro y mercado de artesanías.",
+          "accommodation": "Hotel El Gran Chortí",
+          "images": [
+            "/images/tour4-dia4-1.jpg"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Copán (Honduras) - Día 1",
+          "description": "Llegada a Copán Ruinas. Tour introductorio.",
+          "accommodation": "Hotel Camino Maya",
+          "images": []
+        },
+        {
+          "day": 6,
+          "title": "Copán (Honduras) - Día 2",
+          "description": "Tour arqueológico en Copán Ruinas (Escalinata Jeroglífica, Juego de Pelota). Aguas termales en Luna Jaguar Spa.",
+          "images": [
+            "/images/tour4-dia6-1.jpg"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Copán (Honduras) - Día 3",
+          "description": "Finca cafetalera Santa Isabel y parque de aves.",
+          "images": [
+            "/images/tour4-dia7-1.jpg"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Zona Alta de Chalatenango (El Salvador) - Día 1",
+          "description": "Actividades agrícolas comunitarias.",
+          "accommodation": "Zona Alta de Chalatenango",
+          "images": []
+        },
+        {
+          "day": 9,
+          "title": "Zona Alta de Chalatenango (El Salvador) - Día 2",
+          "description": "Baño en el Río Sumpul (límite natural entre Honduras y El Salvador).",
+          "images": [
+            "/images/tour4-dia9-1.jpg"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Suchitoto - Día 1",
+          "description": "Taller de arte Naif en La Palma.",
+          "accommodation": "Suchitoto",
+          "images": [
+            "/images/tour4-dia10-1.jpg"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "Suchitoto - Día 2",
+          "description": "Experiencia en Licorera Cihuatán (½ botella de ron incluida).",
+          "images": []
+        },
+        {
+          "day": 12,
+          "title": "San Salvador",
+          "description": "Visita al Parque El Boquerón y centro histórico.",
+          "accommodation": "San Salvador",
+          "images": []
+        },
+        {
+          "day": 13,
+          "title": "Salida",
+          "description": "Traslado al aeropuerto.",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Traslados aeropuerto-hotel-aeropuerto",
+        "Vehículo con aire acondicionado en recorridos",
+        "Transporte en camión a fincas y zonas rurales",
+        "Alojamiento: 2 noches en Geoparque El Espino, 2 noches en Zona Alta de Chalatenango, 2 noches en Suchitoto, 2 noches en San Salvador (El Salvador), 1 noche en Hotel El Gran Chortí (Guatemala), 3 noches en Hotel Camino Maya (Honduras)",
+        "Desayunos diarios",
+        "Comidas especiales: 1 almuerzo en Geoparque El Limo, 1 almuerzo en Finca Santa Isabel (Honduras), 1 cena en Hacienda San Lucas (gastronomía maya), 1 almuerzo en Zona Alta de Chalatenango",
+        "Entradas a sitios arqueológicos: Joya de Cerén, Cihuatán (El Salvador) y Copán (Honduras)",
+        "Experiencias: Ordeño de vacas y caminata a Cascada El Limo, Tour de café en Finca Santa Isabel, Visita a aguas termales Luna Jaguar Spa, Taller de pintura Naif en La Palma, Experiencia de ron en Licorera Cihuatán (½ botella incluida)",
+        "City tours: Metapán, Esquipulas, Suchitoto, San Salvador",
+        "Seguro: Assist Card"
+      ],
+      "excludes": [
+        "Vuelos internacionales",
+        "Almuerzos y cenas no especificados",
+        "Propinas (guías, conductores)",
+        "Tarjetas de turismo en fronteras ($10-15 USD por país)",
+        "Impuestos aeroportuarios",
+        "Gastos personales (souvenirs, bebidas alcohólicas adicionales)"
+      ],
+      "toBring": [
+        "Pasaporte con vigencia mínima de 6 meses",
+        "Certificado de vacunación contra fiebre amarilla (si viaja desde países de riesgo)",
+        "Calzado para caminata + sandalias",
+        "Ropa fresca (mangas largas para protección solar/insectos)",
+        "Chaqueta (noches frías en zonas altas)",
+        "Traje de baño (aguas termales y ríos)",
+        "Sombrero, protector solar, repelente de insectos",
+        "Prismáticos y cámara fotográfica",
+        "Medicamentos personales"
+      ]
+    },{
+      "id": 5,
+      "title": "La Rosa, Las Estrellas y Los Volcanes",
+      "image": "/images/tour5-principal.jpg",
+      "extraPhotos": [
+        "/images/tour5-extra1.jpg",
+        "/images/tour5-extra2.jpg"
+      ],
+      "location": "El Salvador (San Salvador, Volcán de Santa Ana, Izalco, Cerro Verde, Ahuachapán, Lago de Coatepeque)",
+      "duration": "7 días / 6 noches",
+      "groupSize": "6 a 15 personas",
+      "availability": "Todo el año",
+      "description": "Un viaje literario y geológico que une la historia de Consuelo Suncín (la musa salvadoreña de El Principito) con la exploración de los majestuosos volcanes de El Salvador. Combina caminatas desafiantes, paisajes surrealistas y encuentros culturales únicos, como la cena con la familia de Consuelo.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Legado de Consuelo",
+          "description": "Cena-conversatorio con Gladys Alvarado Suncín (sobrina nieta de Consuelo Suncín, musa de El Principito)",
+          "location": "San Salvador",
+          "accommodation": "San Salvador",
+          "images": [
+            "/images/tour5-dia1-1.jpg"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Boquerón y Joya de Cerén",
+          "description": "Caminata al cráter del Boquerón. Visita a Joya de Cerén (Patrimonio de la Humanidad). Foro 'Buscando el Asteroide B-612' en Finca Campo Bello.",
+          "accommodation": "Finca Campo Bello",
+          "images": [
+            "/images/tour5-dia2-1.jpg",
+            "/images/tour5-dia2-2.jpg"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Volcán de Santa Ana",
+          "description": "Ascenso de 5-8 horas hasta la laguna sulfúrica turquesa (2,730 msnm)",
+          "location": "Volcán Ilamatepec (Santa Ana)",
+          "accommodation": "Finca Campo Bello",
+          "images": [
+            "/images/tour5-dia3-1.jpg"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Izalco - El Volcán Joven",
+          "description": "Subida por rocas sueltas para vistas al Pacífico y volcanes de 3 países",
+          "location": "Volcán Izalco ('Faro del Pacífico')",
+          "accommodation": "Hotel Casa Mamapán",
+          "images": [
+            "/images/tour5-dia4-1.jpg"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Energía Geotérmica",
+          "description": "Ausoles de Ahuachapán (paisajes lunares con fumarolas). Relax en Termales de Alicante.",
+          "location": "Ahuachapán",
+          "accommodation": "San Salvador",
+          "images": [
+            "/images/tour5-dia5-1.jpg"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Lago de Coatepeque",
+          "description": "Día libre: Navegación o visita a la Isla del Cerro (templo pipil)",
+          "images": [
+            "/images/tour5-dia6-1.jpg"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Salida",
+          "description": "Traslado al aeropuerto",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Traslados aeropuerto-hotel-aeropuerto",
+        "Vehículo con aire acondicionado durante el tour",
+        "Alojamiento: 2 noches en Finca Campo Bello, 1 noche en Hotel Casa Mamapán, 2 noches en San Salvador",
+        "Desayunos diarios",
+        "Cena especial con Gladys Alvarado Suncín",
+        "Libro 'La Rosa que cautivó al Principito'",
+        "Entradas: Joya de Cerén, parques nacionales volcánicos",
+        "Actividades: Caminatas al Boquerón, Santa Ana e Izalco",
+        "Visita a Termales de Alicante",
+        "Día en Lago de Coatepeque",
+        "Seguro: Assist Card"
+      ],
+      "excludes": [
+        "Vuelos internacionales",
+        "Almuerzos y cenas no especificadas",
+        "Propinas (guías, conductores)",
+        "Tarjeta de turismo ($12 USD)",
+        "Equipo de trekking personal (bastones, mochilas)",
+        "Gastos personales"
+      ],
+      "toBring": [
+        "Botas de montaña impermeables",
+        "Ropa térmica (noches frías en tierras altas)",
+        "Traje de baño (termales y lago)",
+        "Bastones de trekking (recomendado)",
+        "Mochila resistente (20-30L)",
+        "Protector solar, gorra y repelente de insectos",
+        "Pasaporte con vigencia +6 meses",
+        "Certificado de vacunación contra fiebre amarilla (si aplica)",
+        "Cámara fotográfica (para paisajes volcánicos)"
+      ]
+    },{
+      "id": 6,
+      "title": "Ruta Maya: De Chiapas a la Riviera Maya",
+      "image": "/images/tour6-principal.jpg",
+      "extraPhotos": [
+        "/images/tour6-extra1.jpg",
+        "/images/tour6-extra2.jpg"
+      ],
+      "location": "México (Chiapas, Tabasco, Campeche, Yucatán, Quintana Roo)",
+      "duration": "12 días / 11 noches",
+      "groupSize": "8-15 personas",
+      "availability": "Todo el año",
+      "description": "Un viaje épico a través del corazón del mundo maya, explorando desde los cañones de Chiapas hasta las playas de Cancún. Incluye sitios arqueológicos Patrimonio de la Humanidad, comunidades indígenas, selvas, cenotes y ciudades coloniales.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Cañón del Sumidero",
+          "description": "Recorrido en lancha por el Cañón del Sumidero. Visita al pueblo mágico de Chiapa de Corzo.",
+          "location": "Tuxtla Gutiérrez → Chiapa de Corzo",
+          "accommodation": "San Cristóbal de las Casas",
+          "images": [
+            "/images/tour6-dia1-1.jpg"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "El Chiflón y Lagos de Montebello",
+          "description": "Caminata a cascadas (Velo de Novia, Ala de Ángel). Paseo en balsa en el lago Pojoj.",
+          "accommodation": "San Cristóbal de las Casas",
+          "images": [
+            "/images/tour6-dia2-1.jpg"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Cultura Tzotzil",
+          "description": "Rituales en la iglesia de San Juan Chamula. Taller de textiles y comida tradicional en Zinacantán.",
+          "accommodation": "San Cristóbal de las Casas",
+          "images": [
+            "/images/tour6-dia3-1.jpg"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Olmecas en Villahermosa",
+          "description": "Museo al aire libre con cabezas olmecas en Parque La Venta.",
+          "location": "San Cristóbal → Villahermosa",
+          "accommodation": "Villahermosa",
+          "images": [
+            "/images/tour6-dia4-1.jpg"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Ruta del Cacao",
+          "description": "Visita a hacienda de cacao y zona arqueológica Comalcalco (última ciudad maya).",
+          "location": "Villahermosa → Comalcalco",
+          "accommodation": "Palenque",
+          "images": [
+            "/images/tour6-dia5-1.jpg"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Palenque",
+          "description": "Tour por la ciudad maya de Palenque. Baño en cascadas Roberto Barrios.",
+          "accommodation": "Palenque",
+          "images": [
+            "/images/tour6-dia6-1.jpg"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Campeche Fortificada",
+          "description": "Recorrido por el fuerte San Miguel y malecón de la ciudad amurallada.",
+          "location": "Palenque → Campeche",
+          "accommodation": "Campeche",
+          "images": [
+            "/images/tour6-dia7-1.jpg"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Uxmal y Mérida",
+          "description": "Exploración de la zona arqueológica Uxmal (arquitectura Puuc).",
+          "location": "Campeche → Mérida",
+          "accommodation": "Mérida",
+          "images": [
+            "/images/tour6-dia8-1.jpg"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Mérida Blanca",
+          "description": "Visita al Paseo Montejo y centro histórico colonial.",
+          "accommodation": "Mérida",
+          "images": [
+            "/images/tour6-dia9-1.jpg"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Chichén Itzá",
+          "description": "Tour por la Maravilla del Mundo. Nado en cenote sagrado Ik Kil.",
+          "location": "Mérida → Chichén Itzá",
+          "accommodation": "Valladolid",
+          "images": [
+            "/images/tour6-dia10-1.jpg"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "Tulum Caribeño",
+          "description": "Ruinas mayas frente al mar en Tulum. Tarde libre en Playa del Carmen.",
+          "location": "Valladolid → Riviera Maya",
+          "accommodation": "Playa del Carmen",
+          "images": [
+            "/images/tour6-dia11-1.jpg"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Salida",
+          "description": "Traslado al aeropuerto de Cancún.",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Alojamiento: 11 noches en hoteles 4* (habitación doble/matrimonial)",
+        "Transporte privado (sedan, van o sprinter según tamaño de grupo)",
+        "Lancha compartida en Cañón del Sumidero",
+        "11 desayunos",
+        "Entradas a sitios arqueológicos: Palenque, Uxmal, Chichén Itzá, Tulum, Comalcalco",
+        "Visitas naturales: Cascadas El Chiflón, Lagos de Montebello, Cenote Ik Kil",
+        "Experiencias culturales: Comunidades de San Juan Chamula y Zinacantán",
+        "City tours: San Cristóbal, Campeche, Mérida",
+        "Seguro básico de viajero"
+      ],
+      "excludes": [
+        "Vuelos internacionales",
+        "Almuerzos y cenas (excepto desayunos)",
+        "Actividades opcionales (tirolesas en El Chiflón - ~$25 USD)",
+        "Propinas (guías, conductores, maleteros)",
+        "Impuestos aeroportuarios (~$30 USD)",
+        "Bebidas alcohólicas"
+      ],
+      "toBring": [
+        "Calzado para caminatas (senderos arqueológicos)",
+        "Ropa ligera (clima cálido-húmedo) + sudadera (noches frescas en San Cristóbal)",
+        "Traje de baño (cenotes y cascadas)",
+        "Sombrero de ala ancha y protector solar biodegradable",
+        "Repelente de insectos (selva y zonas arqueológicas)",
+        "Cámara fotográfica con bolsa impermeable",
+        "Documentación: Pasaporte/identificación oficial",
+        "Efectivo en pesos mexicanos (comunidades rurales)"
+      ],
+      "startPoint": "Aeropuerto de Tuxtla Gutiérrez (Chiapas)",
+      "endPoint": "Aeropuerto de Cancún (Quintana Roo)"
+    },{
+      "id": 7,
+      "title": "Arte, Cultura y Naturaleza",
+      "image": "/images/tour7-principal.jpg",
+      "extraPhotos": [
+        "/images/tour7-extra1.jpg",
+        "/images/tour7-extra2.jpg"
+      ],
+      "location": "El Salvador (San Salvador, Panchimalco, Suchitoto, Cerro Verde, Lago de Coatepeque)",
+      "duration": "7 días / 6 noches",
+      "groupSize": "Pequeños grupos (4-8 personas)",
+      "availability": "Todo el año (recomendado noviembre-abril)",
+      "description": "Un viaje íntimo que combina experiencias artísticas, encuentros culturales únicos y conexión con la naturaleza. Desde cenas bohemias con artistas locales hasta baños de bosque en Cerro Verde y días de relax en el Lago de Coatepeque, diseñado para inspirar los sentidos.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Bohemia en Comasagua",
+          "description": "Cena en La Giralda: Atardecer con artesanas locales, música en vivo y degustación de vinos/cervezas artesanales.",
+          "location": "Aeropuerto → Comasagua",
+          "accommodation": "San Salvador",
+          "images": [
+            "/images/tour7-dia1-1.jpg"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Panchimalco Artístico",
+          "description": "Visita al Jardín Escultórico y taller con Miguel Ángel Ramírez. Cena con maridaje + charla sobre 'La Rosa que cautivó al Principito'.",
+          "accommodation": "San Salvador",
+          "images": [
+            "/images/tour7-dia2-1.jpg"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "San Salvador Creativo",
+          "description": "Tour urbano: Iglesias coloniales, MARTE (arte moderno) y museo antropológico. Cena en el Café Punto (MARTE).",
+          "images": [
+            "/images/tour7-dia3-1.jpg"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Suchitoto Indigo",
+          "description": "Taller de añil + paseo en lancha por el Lago Suchitlán con avistamiento de aves.",
+          "location": "San Salvador → Suchitoto",
+          "accommodation": "Suchitoto",
+          "images": [
+            "/images/tour7-dia4-1.jpg"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Terapia Forestal",
+          "description": "Meditación guiada en bosque nuboso de Cerro Verde + almuerzo con vista al Volcán de Izalco.",
+          "location": "Suchitoto → Cerro Verde",
+          "accommodation": "Lago de Coatepeque",
+          "images": [
+            "/images/tour7-dia5-1.jpg"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Coatepeque Sensorial",
+          "description": "Jetski, kayak, paddleboard + taller de pintura al estilo Fernando Llort (arte naif).",
+          "accommodation": "Lago de Coatepeque",
+          "images": [
+            "/images/tour7-dia6-1.jpg"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Salida",
+          "description": "Traslado al aeropuerto con parada en mercado de artesanías (opcional).",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Alojamiento: 4 noches en hotel boutique (San Salvador), 2 noches en Hotel del Lago Cardedeu",
+        "Desayunos diarios + 3 cenas especiales (La Giralda, degustación con maridaje, Café Punto)",
+        "Experiencias artísticas: Taller con Miguel Ángel Ramírez, charla con Gladys Alvarado, tour MARTE",
+        "Talleres: Añil en Suchitoto, pintura estilo Fernando Llort",
+        "Actividades acuáticas: Jetski, kayak, paddleboard en Coatepeque",
+        "Terapias: Baño de bosque en Cerro Verde, sesión de yoga/masaje",
+        "Transporte privado con A/C + lancha en Lago Suchitlán",
+        "Entradas a todos los sitios culturales y naturales"
+      ],
+      "excludes": [
+        "Vuelos internacionales",
+        "Almuerzos (excepto día 5 en Cerro Verde)",
+        "Propinas (artistas, guías, conductores - sugerido $10-15 USD/día)",
+        "Seguro médico de viaje (recomendado)",
+        "Actividades opcionales: Clase de surf ($45), tour privado de arte ($75)"
+      ],
+      "toBring": [
+        "Ropa cómoda para talleres artísticos (que pueda mancharse)",
+        "Zapatos para caminar + sandalias de agua",
+        "Cuaderno de bocetos (opcional para talleres)",
+        "Traje de baño + protector solar biodegradable",
+        "Chaqueta ligera (noches frescas en Cerro Verde)",
+        "Efectivo en USD (para compras de arte en Panchimalco/Suchitoto)",
+        "Cámara fotográfica (sin flash para museos)"
+      ],
+      "startPoint": "Aeropuerto Internacional de El Salvador (SAL)",
+      "endPoint": "Aeropuerto Internacional de El Salvador (SAL)",
+      "specialNotes": [
+        "Posibilidad de personalizar talleres para grupos corporativos",
+        "Opción vegana/vegetariana disponible en todas las cenas",
+        "Horario flexible para artistas (adaptable a procesos creativos)"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Nicaragua: Del Lago a la Playa",
+      "image": "/images/tour8-principal.jpg",
+      "extraPhotos": [
+        "/images/tour8-extra1.jpg",
+        "/images/tour8-extra2.jpg"
+      ],
+      "location": "Nicaragua (Managua, Granada, Isla de Ometepe, San Juan del Sur)",
+      "duration": "8 días / 7 noches",
+      "groupSize": "6-12 personas",
+      "availability": "Todo el año (mejor de noviembre a abril)",
+      "description": "Un recorrido completo por lo mejor del Pacífico nicaragüense, combinando historia colonial, aventura en volcanes, relax en islas paradisíacas y atardeceres en playas de ensueño.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a Managua",
+          "description": "Tour por el centro histórico: Parque Lomas de Tiscapa, Palacio Nacional, antigua Catedral. Atardecer en el Puerto Salvador Allende.",
+          "accommodation": "Managua",
+          "images": [
+            "/images/tour8-dia1-1.jpg"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Granada Colonial",
+          "description": "Recorrido en coche de caballos por la ciudad colonial. Subida al campanario de la Catedral María Auxiliadora. Paseo en lancha por las Isletas del Lago Cocibolca.",
+          "location": "Managua → Granada",
+          "accommodation": "Granada",
+          "images": [
+            "/images/tour8-dia2-1.jpg"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Mombacho y Apoyo",
+          "description": "Canopy en el Volcán Mombacho (2 km de cables). Tarde de relax en las aguas termales de Laguna de Apoyo.",
+          "accommodation": "Granada",
+          "images": [
+            "/images/tour8-dia3-1.jpg"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Isla de Ometepe",
+          "description": "Ferry a Ometepe. Visita a Punta Jesús María. Baño en Ojo de Agua (manantial volcánico). Atardecer en Playa Mangos con vista al Volcán Concepción.",
+          "location": "Granada → Ometepe",
+          "accommodation": "Ometepe",
+          "images": [
+            "/images/tour8-dia4-1.jpg"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Cascada San Ramón",
+          "description": "Caminata por bosque nuboso hasta la cascada (4-5 hrs). Tarde en la Reserva Charco Verde (mariposario y leyendas locales).",
+          "accommodation": "Ometepe",
+          "images": [
+            "/images/tour8-dia5-1.jpg"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "San Juan del Sur",
+          "description": "Ferry de regreso y traslado a San Juan del Sur. Visita al Mirador del Cristo de la Misericordia. Recorrido por playas cercanas (Playa Madera, Marsella).",
+          "location": "Ometepe → San Juan del Sur",
+          "accommodation": "San Juan del Sur",
+          "images": [
+            "/images/tour8-dia6-1.jpg"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Aventura en Catamarán",
+          "description": "Navegación a Playa Blanca con avistamiento de vida marina. Actividades: pesca, snorkel y juegos en la playa.",
+          "accommodation": "San Juan del Sur",
+          "images": [
+            "/images/tour8-dia7-1.jpg"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Regreso",
+          "description": "Traslado al aeropuerto.",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Alojamiento: 1 noche en Managua, 2 noches en Granada, 2 noches en Ometepe, 2 noches en San Juan del Sur",
+        "Desayunos diarios",
+        "Actividades: Tour histórico en Managua, recorrido en coche de caballos (Granada)",
+        "Aventuras: Canopy en Volcán Mombacho, trekking a Cascada San Ramón",
+        "Experiencias acuáticas: Paseo en lancha por Isletas, catamarán con snorkel",
+        "Transporte: Traslados privados con A/C + ferry a Ometepe",
+        "Entradas: Laguna de Apoyo, Ojo de Agua, Reserva Charco Verde",
+        "Guía turístico certificado"
+      ],
+      "excludes": [
+        "Vuelos internacionales",
+        "Almuerzos y cenas (presupuesto recomendado: $15-25 USD/día)",
+        "Propinas (guías: $5-10 USD/día, conductores: $3-5 USD/día)",
+        "Seguro de viaje (obligatorio para actividades de aventura)",
+        "Equipo especializado (opcional alquiler de cámaras subacuáticas: $20)"
+      ],
+      "toBring": [
+        "Ropa cómoda para clima cálido (30-35°C promedio)",
+        "Zapatos para caminata (senderos volcánicos rocosos)",
+        "Traje de baño + sandalias de agua",
+        "Protector solar biodegradable + repelente de insectos",
+        "Gorra/sombrero y gafas polarizadas",
+        "Cámara subacuática (opcional para snorkel)",
+        "Efectivo en córdobas/dólares (lugares remotos no aceptan tarjetas)"
+      ],
+      "startPoint": "Aeropuerto Internacional Augusto C. Sandino (MGA)",
+      "endPoint": "Aeropuerto Internacional Augusto C. Sandino (MGA)",
+      "physicalLevel": "Moderado (requiere condición física para trekking de 4-5 horas)",
+      "highlights": [
+        "Vistas panorámicas desde el Volcán Mombacho",
+        "Encuentro con monos aulladores en Isletas de Granada",
+        "Baños en aguas mineralizadas de Ojo de Agua",
+        "Atardeceres en Playa Marsella (San Juan del Sur)",
+        "Posibilidad de ver tortugas marinas (temporada de anidación)"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "León: Volcanes, Historia y Adrenalina",
+      "image": "/images/tour9-principal.jpg",
+      "extraPhotos": [
+        "/images/tour9-extra1.jpg",
+        "/images/tour9-extra2.jpg"
+      ],
+      "location": "Nicaragua (Managua, León, Volcán Cerro Negro, Playas Poneloya)",
+      "duration": "4 días / 3 noches",
+      "groupSize": "6-15 personas",
+      "availability": "Todo el año (evitar septiembre-octubre por lluvias)",
+      "description": "Un viaje intenso que combina cultura colonial, historia prehispánica y aventura extrema en el joven Volcán Cerro Negro. Ideal para viajeros que buscan emociones fuertes y descubrir el patrimonio de Nicaragua.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a Managua",
+          "description": "Tour urbano: Parque Lomas de Tiscapa, Teatro Nacional Rubén Darío. Atardecer en Puerto Salvador Allende (Lago Xolotlán).",
+          "accommodation": "Managua",
+          "images": [
+            "/images/tour9-dia1-1.jpg"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "León Histórico",
+          "description": "Visita a las Ruinas de León Viejo (Patrimonio UNESCO). Recorrido cultural por León: Catedral, Fundación Ortiz-Gurdián y Casa-Museo Rubén Darío.",
+          "location": "Managua → León",
+          "accommodation": "León",
+          "images": [
+            "/images/tour9-dia2-1.jpg",
+            "/images/tour9-dia2-2.jpg"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Aventura Volcánica",
+          "description": "Ascenso al Volcán Cerro Negro (1 hora). Sandboarding en cenizas volcánicas (hasta 60 km/h). Tarde de relax en Playas Poneloya.",
+          "accommodation": "León",
+          "images": [
+            "/images/tour9-dia3-1.jpg"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Regreso",
+          "description": "Traslado al aeropuerto con parada en León para compras de artesanías (opcional).",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Alojamiento: 1 noche en Managua (hotel céntrico), 2 noches en León (hotel colonial)",
+        "Desayunos diarios",
+        "Entradas: León Viejo, Catedral de León, museos",
+        "Equipo básico para sandboarding (traje overol, gafas, tabla)",
+        "Guía especializado en aventura (inglés/español)",
+        "Transporte privado con A/C (Managua-León-Managua)",
+        "Botiquín de primeros auxilios para actividades extremas"
+      ],
+      "excludes": [
+        "Vuelos internacionales",
+        "Almuerzos y cenas (presupuesto recomendado: $12-20 USD/comida)",
+        "Propinas (guía: $8-10 USD/día, conductor: $5 USD/día)",
+        "Seguro de viaje con cobertura para deportes extremos",
+        "Equipo personal (guantes para sandboarding - alquiler $5)"
+      ],
+      "toBring": [
+        "Zapatos cerrados con buen agarre (terreno volcánico escarpado)",
+        "Ropa ligera + chaqueta cortavientos (cerro Negro es ventoso)",
+        "Protector solar SPF50+ (la arena volcánica refleja radiación)",
+        "Gorra con cordón (para el descenso en sandboarding)",
+        "Mochila pequeña (1.5L agua mínima para la caminata)",
+        "Cámara resistente con funda anti-arena",
+        "Efectivo en córdobas (para artesanías y playas)"
+      ],
+      "physicalRequirements": {
+        "sandboarding": "Nivel medio (instrucción previa incluida)",
+        "hiking": "1 hora en pendiente de 30° (728 msnm)",
+        "notRecommendedFor": "Personas con problemas cardiacos o vértigo"
       },
-      {
-        "id": 2,
-        "title": "Safari en el Serengeti",
-        "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1170&q=80",
-        "location": "Tanzania",
-        "duration": "7 días",
-        "rating": 4.7,
-        "groupSize" :"2-12",
-        "price": "3499",
-        "itinerary": [
-          {
-            "day": 1,
-            "title": "Llegada a Arusha",
-            "description": "Llegada a Arusha y asentamiento en el hotel. Briefing sobre el safari.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 2,
-            "title": "Parque Nacional Tarangire",
-            "description": "Exploración del Parque Nacional Tarangire y avistamiento de elefantes.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 3,
-            "title": "Parque Nacional Serengeti",
-            "description": "Viaje al Parque Nacional Serengeti y primer safari al atardecer.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 4,
-            "title": "Safari en Serengeti",
-            "description": "Safari completo por el Serengeti, avistamiento de leones y otros animales salvajes.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 5,
-            "title": "Migración de Ñus",
-            "description": "Observación de la migración de ñus y otros animales en su hábitat natural.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 6,
-            "title": "Visita a un Pueblo Maasai",
-            "description": "Visita a una aldea Maasai y experiencia cultural.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 7,
-            "title": "Regreso a Arusha",
-            "description": "Regreso a Arusha y salida hacia el aeropuerto.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          }
-        ],
-        "description": "Embárcate en un safari inolvidable por el Serengeti, donde podrás observar la migración de los ñus y una gran variedad de vida salvaje en su hábitat natural.",
-        "photos": [
-          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-        ],
-        "includes": [
-    "Alojamiento en lodge ecológico",
-    "Todas las comidas",
-    "Guía naturalista bilingüe",
-    "Transporte fluvial",
-    "Equipo de seguridad"
-  ],
-  "excludes": [
-    "Vuelos a Iquitos",
-    "Seguro de viaje",
-    "Bebidas alcohólicas",
-    "Propinas"
-  ],
-  "toBring": [
-    "Repelente de insectos",
-    "Ropa ligera y rápida seca",
-    "Impermeable",
-    "Botas de jungle",
-    "Binoculares",
-    "Cámara subacuática"
+      "optionalExtras": [
+        {
+          "name": "Tour Nocturno de Leyendas",
+          "price": "$25 USD",
+          "duration": "2 horas",
+          "description": "Recorrido teatralizado por el León colonial"
+        },
+        {
+          "name": "Clase de Surf en Poneloya",
+          "price": "$30 USD",
+          "duration": "2.5 horas",
+          "includes": "Tabla e instructor certificado"
+        }
+      ],
+      "safety": [
+        "Guías certificados en primeros auxilios de montaña",
+        "Equipo de sandboarding con certificación ASTM",
+        "Protocolos de evacuación en volcán (vehículo 4x4 standby)"
+      ]
+    }
+
   ]
-      },
-      {
-        "id": 3,
-        "title": "Caminata por el Camino Inca",
-        "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&w=1170&q=80",
-        "location": "Cusco, Perú",
-        "duration": "4 días",
-        "rating": 4.9,
-        "groupSize" :"2-12",
-        "price": "899",
-        "itinerary": [
-          {
-            "day": 1,
-            "title": "Inicio del Camino Inca",
-            "description": "Comienza la caminata desde el km 82. Acampada en Wayllabamba.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 2,
-            "title": "Paso de Warmiwañusca",
-            "description": "Caminata hacia el paso de Warmiwañusca, el punto más alto del recorrido.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 3,
-            "title": "Ruinas de Wiñay Wayna",
-            "description": "Visita a las ruinas de Wiñay Wayna y llegada a Machu Picchu.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 4,
-            "title": "Exploración de Machu Picchu",
-            "description": "Exploración completa de Machu Picchu y regreso a Cusco.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          }
-        ],
-        "description": "Realiza una caminata épica por el famoso Camino Inca hacia Machu Picchu. Disfruta de impresionantes vistas, ruinas antiguas y la cultura inca.",
-        "photos": [
-          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-        ]
-        ,
-            "includes": [
-        "Alojamiento en lodge ecológico",
-        "Todas las comidas",
-        "Guía naturalista bilingüe",
-        "Transporte fluvial",
-        "Equipo de seguridad"
-      ],
-      "excludes": [
-        "Vuelos a Iquitos",
-        "Seguro de viaje",
-        "Bebidas alcohólicas",
-        "Propinas"
-      ],
-      "toBring": [
-        "Repelente de insectos",
-        "Ropa ligera y rápida seca",
-        "Impermeable",
-        "Botas de jungle",
-        "Binoculares",
-        "Cámara subacuática"
-      ]
-      },
-      {
-        "id": 4,
-        "title": "Exploración de la Gran Muralla",
-        "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1168&q=80",
-        "location": "China",
-        "duration": "6 días",
-        "rating": 4.6,
-        "groupSize" :"2-12",
-        "price": "1199",
-        "itinerary": [
-          {
-            "day": 1,
-            "title": "Llegada a Beijing",
-            "description": "Llegada a Beijing y asentamiento en el hotel. Paseo nocturno por la ciudad.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 2,
-            "title": "Visita a la Ciudad Prohibida",
-            "description": "Exploración de la Ciudad Prohibida y la Plaza de Tiananmen.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 3,
-            "title": "Gran Muralla - Sección Badaling",
-            "description": "Visita a la sección Badaling de la Gran Muralla y caminata por sus impresionantes paisajes.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 4,
-            "title": "Gran Muralla - Sección Mutianyu",
-            "description": "Exploración de la sección Mutianyu de la Gran Muralla y actividades al aire libre.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-            ,
-            "includes": [
-        "Alojamiento en lodge ecológico",
-        "Todas las comidas",
-        "Guía naturalista bilingüe",
-        "Transporte fluvial",
-        "Equipo de seguridad"
-      ],
-      "excludes": [
-        "Vuelos a Iquitos",
-        "Seguro de viaje",
-        "Bebidas alcohólicas",
-        "Propinas"
-      ],
-      "toBring": [
-        "Repelente de insectos",
-        "Ropa ligera y rápida seca",
-        "Impermeable",
-        "Botas de jungle",
-        "Binoculares",
-        "Cámara subacuática"
-      ]
-          },
-          {
-            "day": 5,
-            "title": "Cultura China",
-            "description": "Visita a un pueblo tradicional chino y experiencia cultural.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 6,
-            "title": "Regreso a casa",
-            "description": "Regreso a Beijing y salida hacia el aeropuerto.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          }
-        ],
-
-        "description": "Descubre la historia y la majestuosidad de la Gran Muralla China en un recorrido de 6 días. Explora diferentes secciones de la muralla y aprende sobre su construcción.",
-        "photos": [
-          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-        ]
-        ,
-            "includes": [
-        "Alojamiento en lodge ecológico",
-        "Todas las comidas",
-        "Guía naturalista bilingüe",
-        "Transporte fluvial",
-        "Equipo de seguridad"
-      ],
-      "excludes": [
-        "Vuelos a Iquitos",
-        "Seguro de viaje",
-        "Bebidas alcohólicas",
-        "Propinas"
-      ],
-      "toBring": [
-        "Repelente de insectos",
-        "Ropa ligera y rápida seca",
-        "Impermeable",
-        "Botas de jungle",
-        "Binoculares",
-        "Cámara subacuática"
-      ]
-      },
-      {
-        "id": 5,
-        "title": "Exploración de la Gran Muralla",
-        "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1168&q=80",
-        "location": "China",
-        "duration": "6 días",
-        "rating": 4.6,
-        "groupSize" :"2-12",
-        "price": "1199",
-        "itinerary": [
-          {
-            "day": 1,
-            "title": "Llegada a Beijing",
-            "description": "Llegada a Beijing y asentamiento en el hotel. Paseo nocturno por la ciudad.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 2,
-            "title": "Visita a la Ciudad Prohibida",
-            "description": "Exploración de la Ciudad Prohibida y la Plaza de Tiananmen.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 3,
-            "title": "Gran Muralla - Sección Badaling",
-            "description": "Visita a la sección Badaling de la Gran Muralla y caminata por sus impresionantes paisajes.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 4,
-            "title": "Gran Muralla - Sección Mutianyu",
-            "description": "Exploración de la sección Mutianyu de la Gran Muralla y actividades al aire libre.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-            ,
-            "includes": [
-        "Alojamiento en lodge ecológico",
-        "Todas las comidas",
-        "Guía naturalista bilingüe",
-        "Transporte fluvial",
-        "Equipo de seguridad"
-      ],
-      "excludes": [
-        "Vuelos a Iquitos",
-        "Seguro de viaje",
-        "Bebidas alcohólicas",
-        "Propinas"
-      ],
-      "toBring": [
-        "Repelente de insectos",
-        "Ropa ligera y rápida seca",
-        "Impermeable",
-        "Botas de jungle",
-        "Binoculares",
-        "Cámara subacuática"
-      ]
-          },
-          {
-            "day": 5,
-            "title": "Cultura China",
-            "description": "Visita a un pueblo tradicional chino y experiencia cultural.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          },
-          {
-            "day": 6,
-            "title": "Regreso a casa",
-            "description": "Regreso a Beijing y salida hacia el aeropuerto.",
-            "imagesItinerario": [
-              "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-              "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-            ]
-          }
-        ],
-
-        "description": "Descubre la historia y la majestuosidad de la Gran Muralla China en un recorrido de 6 días. Explora diferentes secciones de la muralla y aprende sobre su construcción.",
-        "photos": [
-          "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/02/MIRADOR-PARADISE.jpg",
-          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/53/75/5e/photo0jpg.jpg?w=500&h=500&s=1",
-          "https://i.pinimg.com/originals/e1/6c/f9/e16cf98e00aed80a51b77708d602875c.webp"
-        ]
-        ,
-            "includes": [
-        "Alojamiento en lodge ecológico",
-        "Todas las comidas",
-        "Guía naturalista bilingüe",
-        "Transporte fluvial",
-        "Equipo de seguridad"
-      ],
-      "excludes": [
-        "Vuelos a Iquitos",
-        "Seguro de viaje",
-        "Bebidas alcohólicas",
-        "Propinas"
-      ],
-      "toBring": [
-        "Repelente de insectos",
-        "Ropa ligera y rápida seca",
-        "Impermeable",
-        "Botas de jungle",
-        "Binoculares",
-        "Cámara subacuática"
-      ]
-      }
-    ]
-  }
-  
+}

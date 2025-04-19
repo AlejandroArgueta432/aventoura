@@ -110,16 +110,11 @@ const ToursYContacto = () => {
                         <span>{tour.location}</span>
                       </div>
                     </div>
-                    <div className="bg-[#f39703] text-white px-3 py-1 rounded-full font-bold">
-                      {tour.price} $
-                    </div>
+                 
                   </div>
 
                   <div className="flex items-center gap-4 my-4">
-                    <div className="flex items-center bg-[#f39703]/10 px-3 py-1 rounded-full">
-                      <Star className="h-4 w-4 text-[#f39703] mr-1" />
-                      <span className="text-sm font-medium">{tour.rating}</span>
-                    </div>
+                  
                     <div className="flex items-center text-gray-600">
                       <Users className="h-4 w-4 mr-1 text-[#f39703]" />
                       <span className="text-sm">{tour.groupSize} personas</span>
