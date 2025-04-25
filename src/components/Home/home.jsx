@@ -34,20 +34,20 @@ const Home = () => {
   const contacts = [
     {
       icon: <Phone className="h-5 w-5" />,
-      text: '+34 123 456 789',
-      link: 'tel:+34123456789',
+      text: '+1 714 232 9319',
+      link: 'tel:+17142329319',
       bgColor: 'bg-green-500 hover:bg-green-600'
     },
     {
       icon: <Mail className="h-5 w-5" />,
-      text: 'info@aventoura.com',
-      link: 'mailto:info@aventoura.com',
+      text: 'aventouraes@gmail.com',
+      link: 'aventouraes@gmail.com',
       bgColor: 'bg-red-500 hover:bg-red-600'
     },
     {
       icon: <MessageSquare className="h-5 w-5" />,
       text: 'WhatsApp',
-      link: 'https://wa.me/34123456789',
+      link: 'https://wa.me/17142329319',
       bgColor: 'bg-green-400 hover:bg-green-500'
     }
   ];

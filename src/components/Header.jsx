@@ -152,6 +152,13 @@ const Header = () => {
             >
               Nosotros
             </Link>
+
+            <Link 
+  to="/tours" 
+  className={`px-3 py-2 font-medium ${location.pathname === '/tours' ? 'text-[#f39703] font-semibold' : 'text-[#413d3e] hover:text-[#f39703]'} transition-colors duration-200`}
+>
+  Contacto
+</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -245,6 +252,12 @@ const Header = () => {
               >
                 Nosotros
               </Link>
+              <Link 
+              to="/tours" 
+              className={`px-3 py-2 font-medium ${location.pathname === '/tours' ? 'text-[#f39703] font-semibold' : 'text-[#413d3e] hover:text-[#f39703]'} transition-colors duration-200`}
+            >
+              Contacto
+            </Link>
             </div>
           </motion.div>
         )}

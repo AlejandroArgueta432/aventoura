@@ -10,7 +10,7 @@
       ],
       "location": "El Salvador (Ruta de las Flores, Apaneca, Salto de Malacatiupan, Parque Cerro Verde, San Salvador)",
       "duration": "5 días / 4 noches",
-      "groupSize": "6 a 15 personas",
+      "groupSize": "6 personas",
       "availability": "Consultar según temporada",
       "description": "Un recorrido auténtico por la cultura, naturaleza y gastronomía de El Salvador, explorando la encantadora Ruta de las Flores, fincas de café, cascadas termales y el imponente Parque Nacional Cerro Verde. Incluye experiencias rurales, historia colonial y aventura en paisajes volcánicos.",
       "itinerary": [
@@ -59,8 +59,8 @@
         "Traslados aeropuerto-hotel-aeropuerto",
         "Transporte con aire acondicionado",
         "Desayunos diarios",
-        "Guía turístico durante 4 días",
-        "Seguro: Assist Card",
+      
+      
         "Agua mineral abordo"
       ],
       "excludes": [
@@ -68,7 +68,7 @@
         "Almuerzos y cenas no especificados",
         "Propinas (guías, conductores)",
         "Gastos personales (souvenirs, bebidas alcohólicas)",
-        "Tarjeta de turismo ($12 USD aprox.) e impuestos aeroportuarios",
+      
         "Actividades no mencionadas"
       ],
       "toBring": [
@@ -98,7 +98,7 @@
       ],
       "location": "El Salvador (Suchitoto, Ilobasco, Alegría, Puerto Barillas, San Salvador, Panchimalco)",
       "duration": "7 días / 6 noches",
-      "groupSize": "10 a 15 personas",
+      "groupSize": "10 personas",
       "availability": "Todo el año",
       "description": "Un viaje cultural y natural por el corazón de El Salvador, explorando pueblos coloniales, arte tradicional, cafetales, lagunas volcánicas y la Reserva de Biósfera de Jiquilisco. Incluye talleres de añil, cerámica, pintura y experiencias con comunidades locales.",
       "itinerary": [
@@ -178,7 +178,7 @@
         "Entrada a Laguna de Alegría, Puerto San Juan y Parque El Boquerón",
         "Taller de pintura estilo Fernando Llort",
         "Experiencia con el artista Miguel Ángel (Panchimalco)",
-        "Seguro: Assist Card",
+     
         "Agua mineral en el transporte"
       ],
       "excludes": [
@@ -186,7 +186,7 @@
         "Almuerzos y cenas (excepto desayunos)",
         "Actividades opcionales en Puerto Barillas: renta de kayaks/bicicletas, tour a plantaciones de cacao o playas, teñido de añil (opcional en Suchitoto)",
         "Propinas (guías, conductores)",
-        "Tarjeta de turismo ($12 USD) e impuestos aeroportuarios",
+  
         "Gastos personales (souvenirs, bebidas)"
       ],
       "toBring": [
@@ -217,7 +217,7 @@
       ],
       "location": "El Salvador (Suchitoto, Cihuatán, San Salvador, Panchimalco, Ruta de las Flores, Cerro Verde)",
       "duration": "7 días / 6 noches",
-      "groupSize": "10 a 15 personas",
+      "groupSize": "10 personas",
       "availability": "Todo el año",
       "description": "Un viaje diverso que combina historia colonial, arqueología, arte, naturaleza y gastronomía. Desde el bohemio Suchitoto hasta los volcanes de Cerro Verde, pasando por experiencias únicas como la fabricación de ron y talleres con artistas locales.",
       "itinerary": [
@@ -296,14 +296,14 @@
         "Taller con el artista Miguel Ángel Ramírez (Panchimalco)",
         "Entradas a Cerro Verde y Puerto San Juan",
         "Tour en beneficio cafetalero (Ruta de las Flores)",
-        "Seguro: Assist Card",
+     
         "Agua mineral en el transporte"
       ],
       "excludes": [
         "Vuelos internacionales",
         "Almuerzos y cenas (excepto desayunos)",
         "Propinas (guías, conductores)",
-        "Tarjeta de turismo ($12 USD) e impuestos aeroportuarios",
+       
         "Gastos personales (souvenirs, bebidas alcohólicas adicionales)",
         "Actividades no especificadas en el itinerario"
       ],
@@ -322,14 +322,15 @@
     {
       "id": 4,
       "title": "Colores, Sabores y Olores Frescos del Trifinio de Centro América",
-      "image": "/images/tour4-principal.jpg",
+      "image": "/images/tour4/extra3.jpg",
       "extraPhotos": [
-        "/images/tour4-extra1.jpg",
-        "/images/tour4-extra2.jpg"
+        "/images/tour4/extra1.jpg",
+        "/images/tour4/extra2.png",
+           "/images/tour4/extra4.jpg"
       ],
-      "location": "El Salvador (San Salvador, Metapán, Geoparque El Espino, Zona Alta de Chalatenango, Suchitoto), Guatemala (Esquipulas), Honduras (Copán Ruinas)",
+      "location": "El Salvador, Guatemala, Honduras ",
       "duration": "13 días / 12 noches",
-      "groupSize": "6 a 15 personas",
+      "groupSize": "6 personas",
       "availability": "Todo el año (evitar temporada de lluvias: mayo-octubre)",
       "description": "Un viaje multicultural que explora la riqueza natural, histórica y gastronómica de El Salvador, Guatemala y Honduras. Desde sitios arqueológicos mayas hasta fincas cafetaleras, aguas termales y pueblos coloniales, este tour combina aventura, cultura y relajación en el corazón del Trifinio (frontera tripartita).",
       "itinerary": [
@@ -345,7 +346,7 @@
           "title": "Joya de Cerén y Metapán",
           "description": "Visita al sitio arqueológico Joya de Cerén (Patrimonio de la Humanidad). Tour por Metapán ('Ciudad Blanca') y Geoparque El Espino.",
           "images": [
-            "/images/tour4-dia2-1.jpg"
+        
           ]
         },
         {
@@ -354,7 +355,7 @@
           "description": "Ordeño de vacas, caminata a Cascada El Limo y Roca Gigante.",
           "accommodation": "Geoparque El Espino",
           "images": [
-            "/images/tour4-dia3-1.jpg"
+         
           ]
         },
         {
@@ -363,7 +364,7 @@
           "description": "Visita a la Basílica del Cristo Negro y mercado de artesanías.",
           "accommodation": "Hotel El Gran Chortí",
           "images": [
-            "/images/tour4-dia4-1.jpg"
+         
           ]
         },
         {
@@ -378,7 +379,7 @@
           "title": "Copán (Honduras) - Día 2",
           "description": "Tour arqueológico en Copán Ruinas (Escalinata Jeroglífica, Juego de Pelota). Aguas termales en Luna Jaguar Spa.",
           "images": [
-            "/images/tour4-dia6-1.jpg"
+      
           ]
         },
         {
@@ -386,7 +387,7 @@
           "title": "Copán (Honduras) - Día 3",
           "description": "Finca cafetalera Santa Isabel y parque de aves.",
           "images": [
-            "/images/tour4-dia7-1.jpg"
+
           ]
         },
         {
@@ -401,7 +402,7 @@
           "title": "Zona Alta de Chalatenango (El Salvador) - Día 2",
           "description": "Baño en el Río Sumpul (límite natural entre Honduras y El Salvador).",
           "images": [
-            "/images/tour4-dia9-1.jpg"
+        
           ]
         },
         {
@@ -410,7 +411,7 @@
           "description": "Taller de arte Naif en La Palma.",
           "accommodation": "Suchitoto",
           "images": [
-            "/images/tour4-dia10-1.jpg"
+        
           ]
         },
         {
@@ -442,14 +443,14 @@
         "Comidas especiales: 1 almuerzo en Geoparque El Limo, 1 almuerzo en Finca Santa Isabel (Honduras), 1 cena en Hacienda San Lucas (gastronomía maya), 1 almuerzo en Zona Alta de Chalatenango",
         "Entradas a sitios arqueológicos: Joya de Cerén, Cihuatán (El Salvador) y Copán (Honduras)",
         "Experiencias: Ordeño de vacas y caminata a Cascada El Limo, Tour de café en Finca Santa Isabel, Visita a aguas termales Luna Jaguar Spa, Taller de pintura Naif en La Palma, Experiencia de ron en Licorera Cihuatán (½ botella incluida)",
-        "City tours: Metapán, Esquipulas, Suchitoto, San Salvador",
-        "Seguro: Assist Card"
+        "City tours: Metapán, Esquipulas, Suchitoto, San Salvador"
+      
       ],
       "excludes": [
         "Vuelos internacionales",
         "Almuerzos y cenas no especificados",
         "Propinas (guías, conductores)",
-        "Tarjetas de turismo en fronteras ($10-15 USD por país)",
+       
         "Impuestos aeroportuarios",
         "Gastos personales (souvenirs, bebidas alcohólicas adicionales)"
       ],
@@ -468,14 +469,13 @@
     {
       "id": 5,
       "title": "La Rosa, Las Estrellas y Los Volcanes",
-      "image": "/images/tour5-principal.jpg",
+      "image": "/images/tour5/extra1.png",
       "extraPhotos": [
-        "/images/tour5-extra1.jpg",
-        "/images/tour5-extra2.jpg"
+    
       ],
       "location": "El Salvador (San Salvador, Volcán de Santa Ana, Izalco, Cerro Verde, Ahuachapán, Lago de Coatepeque)",
       "duration": "7 días / 6 noches",
-      "groupSize": "6 a 15 personas",
+      "groupSize": "6 personas",
       "availability": "Todo el año",
       "description": "Un viaje literario y geológico que une la historia de Consuelo Suncín (la musa salvadoreña de El Principito) con la exploración de los majestuosos volcanes de El Salvador. Combina caminatas desafiantes, paisajes surrealistas y encuentros culturales únicos, como la cena con la familia de Consuelo.",
       "itinerary": [
@@ -486,7 +486,7 @@
           "location": "San Salvador",
           "accommodation": "San Salvador",
           "images": [
-            "/images/tour5-dia1-1.jpg"
+    
           ]
         },
         {
@@ -495,8 +495,7 @@
           "description": "Caminata al cráter del Boquerón. Visita a Joya de Cerén (Patrimonio de la Humanidad). Foro 'Buscando el Asteroide B-612' en Finca Campo Bello.",
           "accommodation": "Finca Campo Bello",
           "images": [
-            "/images/tour5-dia2-1.jpg",
-            "/images/tour5-dia2-2.jpg"
+    
           ]
         },
         {
@@ -506,7 +505,7 @@
           "location": "Volcán Ilamatepec (Santa Ana)",
           "accommodation": "Finca Campo Bello",
           "images": [
-            "/images/tour5-dia3-1.jpg"
+   
           ]
         },
         {
@@ -516,7 +515,7 @@
           "location": "Volcán Izalco ('Faro del Pacífico')",
           "accommodation": "Hotel Casa Mamapán",
           "images": [
-            "/images/tour5-dia4-1.jpg"
+      
           ]
         },
         {
@@ -526,7 +525,7 @@
           "location": "Ahuachapán",
           "accommodation": "San Salvador",
           "images": [
-            "/images/tour5-dia5-1.jpg"
+       
           ]
         },
         {
@@ -534,7 +533,7 @@
           "title": "Lago de Coatepeque",
           "description": "Día libre: Navegación o visita a la Isla del Cerro (templo pipil)",
           "images": [
-            "/images/tour5-dia6-1.jpg"
+   
           ]
         },
         {
@@ -554,14 +553,14 @@
         "Entradas: Joya de Cerén, parques nacionales volcánicos",
         "Actividades: Caminatas al Boquerón, Santa Ana e Izalco",
         "Visita a Termales de Alicante",
-        "Día en Lago de Coatepeque",
-        "Seguro: Assist Card"
+        "Día en Lago de Coatepeque"
+    
       ],
       "excludes": [
         "Vuelos internacionales",
         "Almuerzos y cenas no especificadas",
         "Propinas (guías, conductores)",
-        "Tarjeta de turismo ($12 USD)",
+ 
         "Equipo de trekking personal (bastones, mochilas)",
         "Gastos personales"
       ],
@@ -580,14 +579,14 @@
     {
       "id": 6,
       "title": "Ruta Maya: De Chiapas a la Riviera Maya",
-      "image": "/images/tour6-principal.jpg",
+      "image": "/images/tour6/extra1.jpg",
       "extraPhotos": [
-        "/images/tour6-extra1.jpg",
-        "/images/tour6-extra2.jpg"
+        "/images/tour6/extra2.jpg",
+        "/images/tour6/extra3.jpg"
       ],
       "location": "México (Chiapas, Tabasco, Campeche, Yucatán, Quintana Roo)",
       "duration": "12 días / 11 noches",
-      "groupSize": "8-15 personas",
+      "groupSize": "8 personas",
       "availability": "Todo el año",
       "description": "Un viaje épico a través del corazón del mundo maya, explorando desde los cañones de Chiapas hasta las playas de Cancún. Incluye sitios arqueológicos Patrimonio de la Humanidad, comunidades indígenas, selvas, cenotes y ciudades coloniales.",
       "itinerary": [
@@ -598,7 +597,7 @@
           "location": "Tuxtla Gutiérrez → Chiapa de Corzo",
           "accommodation": "San Cristóbal de las Casas",
           "images": [
-            "/images/tour6-dia1-1.jpg"
+      
           ]
         },
         {
@@ -607,7 +606,7 @@
           "description": "Caminata a cascadas (Velo de Novia, Ala de Ángel). Paseo en balsa en el lago Pojoj.",
           "accommodation": "San Cristóbal de las Casas",
           "images": [
-            "/images/tour6-dia2-1.jpg"
+    
           ]
         },
         {
@@ -616,7 +615,7 @@
           "description": "Rituales en la iglesia de San Juan Chamula. Taller de textiles y comida tradicional en Zinacantán.",
           "accommodation": "San Cristóbal de las Casas",
           "images": [
-            "/images/tour6-dia3-1.jpg"
+     
           ]
         },
         {
@@ -626,7 +625,7 @@
           "location": "San Cristóbal → Villahermosa",
           "accommodation": "Villahermosa",
           "images": [
-            "/images/tour6-dia4-1.jpg"
+        
           ]
         },
         {
@@ -636,7 +635,7 @@
           "location": "Villahermosa → Comalcalco",
           "accommodation": "Palenque",
           "images": [
-            "/images/tour6-dia5-1.jpg"
+       
           ]
         },
         {
@@ -645,7 +644,7 @@
           "description": "Tour por la ciudad maya de Palenque. Baño en cascadas Roberto Barrios.",
           "accommodation": "Palenque",
           "images": [
-            "/images/tour6-dia6-1.jpg"
+    
           ]
         },
         {
@@ -655,7 +654,7 @@
           "location": "Palenque → Campeche",
           "accommodation": "Campeche",
           "images": [
-            "/images/tour6-dia7-1.jpg"
+       
           ]
         },
         {
@@ -665,7 +664,7 @@
           "location": "Campeche → Mérida",
           "accommodation": "Mérida",
           "images": [
-            "/images/tour6-dia8-1.jpg"
+       
           ]
         },
         {
@@ -674,7 +673,7 @@
           "description": "Visita al Paseo Montejo y centro histórico colonial.",
           "accommodation": "Mérida",
           "images": [
-            "/images/tour6-dia9-1.jpg"
+ 
           ]
         },
         {
@@ -684,7 +683,7 @@
           "location": "Mérida → Chichén Itzá",
           "accommodation": "Valladolid",
           "images": [
-            "/images/tour6-dia10-1.jpg"
+    
           ]
         },
         {
@@ -694,7 +693,7 @@
           "location": "Valladolid → Riviera Maya",
           "accommodation": "Playa del Carmen",
           "images": [
-            "/images/tour6-dia11-1.jpg"
+       
           ]
         },
         {
@@ -712,15 +711,15 @@
         "Entradas a sitios arqueológicos: Palenque, Uxmal, Chichén Itzá, Tulum, Comalcalco",
         "Visitas naturales: Cascadas El Chiflón, Lagos de Montebello, Cenote Ik Kil",
         "Experiencias culturales: Comunidades de San Juan Chamula y Zinacantán",
-        "City tours: San Cristóbal, Campeche, Mérida",
-        "Seguro básico de viajero"
+        "City tours: San Cristóbal, Campeche, Mérida"
+    
       ],
       "excludes": [
         "Vuelos internacionales",
         "Almuerzos y cenas (excepto desayunos)",
-        "Actividades opcionales (tirolesas en El Chiflón - ~$25 USD)",
+       
         "Propinas (guías, conductores, maleteros)",
-        "Impuestos aeroportuarios (~$30 USD)",
+
         "Bebidas alcohólicas"
       ],
       "toBring": [
@@ -739,14 +738,17 @@
     {
       "id": 7,
       "title": "Arte, Cultura y Naturaleza",
-      "image": "/images/tour7-principal.jpg",
+      "image": "/images/tour7/extra4.png",
       "extraPhotos": [
-        "/images/tour7-extra1.jpg",
-        "/images/tour7-extra2.jpg"
+        "/images/tour7/extra1.png",
+        "/images/tour7/extra2.png",
+            "/images/tour7/extra3.png",
+        "/images/tour7/extra5.png",
+               "/images/tour7/extra6.png"
       ],
       "location": "El Salvador (San Salvador, Panchimalco, Suchitoto, Cerro Verde, Lago de Coatepeque)",
       "duration": "7 días / 6 noches",
-      "groupSize": "Pequeños grupos (4-8 personas)",
+      "groupSize": "6 personas",
       "availability": "Todo el año (recomendado noviembre-abril)",
       "description": "Un viaje íntimo que combina experiencias artísticas, encuentros culturales únicos y conexión con la naturaleza. Desde cenas bohemias con artistas locales hasta baños de bosque en Cerro Verde y días de relax en el Lago de Coatepeque, diseñado para inspirar los sentidos.",
       "itinerary": [
@@ -757,7 +759,7 @@
           "location": "Aeropuerto → Comasagua",
           "accommodation": "San Salvador",
           "images": [
-            "/images/tour7-dia1-1.jpg"
+     
           ]
         },
         {
@@ -766,7 +768,7 @@
           "description": "Visita al Jardín Escultórico y taller con Miguel Ángel Ramírez. Cena con maridaje + charla sobre 'La Rosa que cautivó al Principito'.",
           "accommodation": "San Salvador",
           "images": [
-            "/images/tour7-dia2-1.jpg"
+
           ]
         },
         {
@@ -774,7 +776,7 @@
           "title": "San Salvador Creativo",
           "description": "Tour urbano: Iglesias coloniales, MARTE (arte moderno) y museo antropológico. Cena en el Café Punto (MARTE).",
           "images": [
-            "/images/tour7-dia3-1.jpg"
+ 
           ]
         },
         {
@@ -784,7 +786,7 @@
           "location": "San Salvador → Suchitoto",
           "accommodation": "Suchitoto",
           "images": [
-            "/images/tour7-dia4-1.jpg"
+     
           ]
         },
         {
@@ -794,7 +796,7 @@
           "location": "Suchitoto → Cerro Verde",
           "accommodation": "Lago de Coatepeque",
           "images": [
-            "/images/tour7-dia5-1.jpg"
+
           ]
         },
         {
@@ -803,7 +805,7 @@
           "description": "Jetski, kayak, paddleboard + taller de pintura al estilo Fernando Llort (arte naif).",
           "accommodation": "Lago de Coatepeque",
           "images": [
-            "/images/tour7-dia6-1.jpg"
+     
           ]
         },
         {
@@ -827,8 +829,8 @@
         "Vuelos internacionales",
         "Almuerzos (excepto día 5 en Cerro Verde)",
         "Propinas (artistas, guías, conductores - sugerido $10-15 USD/día)",
-        "Seguro médico de viaje (recomendado)",
-        "Actividades opcionales: Clase de surf ($45), tour privado de arte ($75)"
+      
+        "Actividades opcionales"
       ],
       "toBring": [
         "Ropa cómoda para talleres artísticos (que pueda mancharse)",
@@ -850,14 +852,14 @@
     {
       "id": 8,
       "title": "Nicaragua: Del Lago a la Playa",
-      "image": "/images/tour8-principal.jpg",
+      "image":   "/images/tour8/extra1.jpg",
       "extraPhotos": [
-        "/images/tour8-extra1.jpg",
-        "/images/tour8-extra2.jpg"
+        "/images/tour8/extra2.jpg",
+        "/images/tour8/extra3.jpg"
       ],
       "location": "Nicaragua (Managua, Granada, Isla de Ometepe, San Juan del Sur)",
       "duration": "8 días / 7 noches",
-      "groupSize": "6-12 personas",
+      "groupSize": "6 personas",
       "availability": "Todo el año (mejor de noviembre a abril)",
       "description": "Un recorrido completo por lo mejor del Pacífico nicaragüense, combinando historia colonial, aventura en volcanes, relax en islas paradisíacas y atardeceres en playas de ensueño.",
       "itinerary": [
@@ -867,7 +869,7 @@
           "description": "Tour por el centro histórico: Parque Lomas de Tiscapa, Palacio Nacional, antigua Catedral. Atardecer en el Puerto Salvador Allende.",
           "accommodation": "Managua",
           "images": [
-            "/images/tour8-dia1-1.jpg"
+          
           ]
         },
         {
@@ -877,7 +879,7 @@
           "location": "Managua → Granada",
           "accommodation": "Granada",
           "images": [
-            "/images/tour8-dia2-1.jpg"
+          
           ]
         },
         {
@@ -886,7 +888,7 @@
           "description": "Canopy en el Volcán Mombacho (2 km de cables). Tarde de relax en las aguas termales de Laguna de Apoyo.",
           "accommodation": "Granada",
           "images": [
-            "/images/tour8-dia3-1.jpg"
+    
           ]
         },
         {
@@ -896,7 +898,7 @@
           "location": "Granada → Ometepe",
           "accommodation": "Ometepe",
           "images": [
-            "/images/tour8-dia4-1.jpg"
+        
           ]
         },
         {
@@ -905,7 +907,7 @@
           "description": "Caminata por bosque nuboso hasta la cascada (4-5 hrs). Tarde en la Reserva Charco Verde (mariposario y leyendas locales).",
           "accommodation": "Ometepe",
           "images": [
-            "/images/tour8-dia5-1.jpg"
+           
           ]
         },
         {
@@ -915,7 +917,7 @@
           "location": "Ometepe → San Juan del Sur",
           "accommodation": "San Juan del Sur",
           "images": [
-            "/images/tour8-dia6-1.jpg"
+      
           ]
         },
         {
@@ -924,7 +926,7 @@
           "description": "Navegación a Playa Blanca con avistamiento de vida marina. Actividades: pesca, snorkel y juegos en la playa.",
           "accommodation": "San Juan del Sur",
           "images": [
-            "/images/tour8-dia7-1.jpg"
+      
           ]
         },
         {
@@ -946,8 +948,8 @@
       ],
       "excludes": [
         "Vuelos internacionales",
-        "Almuerzos y cenas (presupuesto recomendado: $15-25 USD/día)",
-        "Propinas (guías: $5-10 USD/día, conductores: $3-5 USD/día)",
+        "Almuerzos ",
+        "Propinas ",
         "Seguro de viaje (obligatorio para actividades de aventura)",
         "Equipo especializado (opcional alquiler de cámaras subacuáticas: $20)"
       ],
@@ -974,14 +976,14 @@
     {
       "id": 9,
       "title": "León: Volcanes, Historia y Adrenalina",
-      "image": "/images/tour9-principal.jpg",
+      "image": "/images/tour9/extra1.png",
       "extraPhotos": [
-        "/images/tour9-extra1.jpg",
-        "/images/tour9-extra2.jpg"
+        "/images/tour9/extra2.png",
+        "/images/tour9/extra3.png"
       ],
       "location": "Nicaragua (Managua, León, Volcán Cerro Negro, Playas Poneloya)",
       "duration": "4 días / 3 noches",
-      "groupSize": "6-15 personas",
+      "groupSize": "6 personas",
       "availability": "Todo el año (evitar septiembre-octubre por lluvias)",
       "description": "Un viaje intenso que combina cultura colonial, historia prehispánica y aventura extrema en el joven Volcán Cerro Negro. Ideal para viajeros que buscan emociones fuertes y descubrir el patrimonio de Nicaragua.",
       "itinerary": [
@@ -991,7 +993,7 @@
           "description": "Tour urbano: Parque Lomas de Tiscapa, Teatro Nacional Rubén Darío. Atardecer en Puerto Salvador Allende (Lago Xolotlán).",
           "accommodation": "Managua",
           "images": [
-            "/images/tour9-dia1-1.jpg"
+          
           ]
         },
         {
@@ -1001,8 +1003,7 @@
           "location": "Managua → León",
           "accommodation": "León",
           "images": [
-            "/images/tour9-dia2-1.jpg",
-            "/images/tour9-dia2-2.jpg"
+           
           ]
         },
         {
@@ -1011,7 +1012,7 @@
           "description": "Ascenso al Volcán Cerro Negro (1 hora). Sandboarding en cenizas volcánicas (hasta 60 km/h). Tarde de relax en Playas Poneloya.",
           "accommodation": "León",
           "images": [
-            "/images/tour9-dia3-1.jpg"
+            
           ]
         },
         {
@@ -1032,8 +1033,8 @@
       ],
       "excludes": [
         "Vuelos internacionales",
-        "Almuerzos y cenas (presupuesto recomendado: $12-20 USD/comida)",
-        "Propinas (guía: $8-10 USD/día, conductor: $5 USD/día)",
+        "Almuerzos y cenas ",
+        "Propinas ",
         "Seguro de viaje con cobertura para deportes extremos",
         "Equipo personal (guantes para sandboarding - alquiler $5)"
       ],
@@ -1069,6 +1070,496 @@
         "Guías certificados en primeros auxilios de montaña",
         "Equipo de sandboarding con certificación ASTM",
         "Protocolos de evacuación en volcán (vehículo 4x4 standby)"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Al Sureste del Mundo Maya",
+      "image": "/images/tour10/extra6.png",
+      "extraPhotos": [
+        "/images/tour10/extra1.jpg",
+        "/images/tour10/extra2.png",
+        "/images/tour10/extra3.png",
+        "/images/tour10/extra4.jpg",
+        "/images/tour10/extra5.png",
+        "/images/tour10/1.1Dia.jpg"
+      ],
+      "location": "El Salvador, Guatemala, Honduras",
+      "duration": "12 días / 11 noches",
+      "groupSize": "8 personas",
+      "availability": "todo el año",
+      "description": "Un viaje arqueológico por los tesoros mayas de El Salvador, Guatemala y Honduras, explorando ciudades ancestrales como Joya de Cerén (UNESCO), Tikal y Copán. Combina historia, naturaleza y encuentros con comunidades locales.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a San Salvador",
+          "description": "Traslado al hotel. Tarde libre para descansar o explorar la ciudad.",
+          "location": "Aeropuerto Internacional de El Salvador → San Salvador",
+          "accommodation": "Noche en San Salvador",
+          "images": []
+        },
+        {
+          "day": 2,
+          "title": "MUNA & Lago de Ilopango",
+          "description": "Visita al Museo Nacional de Antropología (MUNA) y tour geológico en la Caldera de Ilopango con experto.",
+          "location": "San Salvador → Ilopango",
+          "accommodation": "Noche en San Salvador",
+          "images": []
+        },
+        {
+          "day": 3,
+          "title": "Joya de Cerén & San Andrés",
+          "description": "Exploración de Joya de Cerén (Patrimonio UNESCO) y el sitio arqueológico San Andrés.",
+          "location": "San Salvador → La Libertad → Ahuachapán",
+          "accommodation": "Noche en Ahuachapan",
+          "images": []
+        },
+        {
+          "day": 4,
+          "title": "Tazumal & Casa Blanca",
+          "description": "Visita a las pirámides de Tazumal y taller de añil en Casa Blanca.",
+          "location": "Ahuachapán → Chalchuapa",
+          "accommodation": "Noche en Ahuachapan",
+          "images": []
+        },
+        {
+          "day": 5,
+          "title": "Kaminaljuyú (Guatemala)",
+          "description": "Traslado a Guatemala y visita al sitio arqueológico Kaminaljuyú y Museo Miraflores.",
+          "location": "Ahuachapán → Ciudad de Guatemala",
+          "accommodation": "Nohce en Ciudad de Guatemala",
+          "images": []
+        },
+        {
+          "day": 6,
+          "title": " Museo de Arqueológia y Etnologia",
+          "description": "Visita al Museo de Arqueología y Etnología.",
+          "location": "Ciudad de Guatemala → Flores",
+          "accommodation": "Noche en Flores a orillas del Lago Petén Itzá",
+          "images": []
+        },
+        {
+          "day": 7,
+          "title": "Yaxhá",
+          "description": "Tour por la ciudad maya de Yaxhá y su laguna sagrada.",
+          "location": "Flores → Yaxhá",
+          "accommodation": "Noche en Flores",
+          "images": []
+        },
+        {
+          "day": 8,
+          "title": "Tikal (UNESCO)",
+          "description": "Día completo en Tikal: Templo del Gran Jaguar, Plaza de los Siete Templos y avistamiento de fauna.",
+          "location": "Flores → Tikal",
+          "accommodation": "Hotel Lago Petén Itzá (Flores)",
+          "images": []
+        },
+        {
+          "day": 9,
+          "title": "Quiriguá",
+          "description": "Visita a las estelas mayas de Quiriguá (Patrimonio UNESCO) y traslado a Río Motagua.",
+          "location": "Flores → Quiriguá → Río Motagua",
+          "accommodation": "Hotel Nanajuana (Río Motagua)",
+          "images": []
+        },
+        {
+          "day": 10,
+          "title": "Copán (Honduras)",
+          "description": "Trámites migratorios y traslado a Copán. Tarde libre en el pueblo colonial.",
+          "location": "Río Motagua → Copán Ruinas",
+          "accommodation": "Hotel en Ruinas de Copán",
+          "images": []
+        },
+        {
+          "day": 11,
+          "title": "Copán (UNESCO)",
+          "description": "Tour por el sitio arqueológico: Escalinata de los Jeroglíficos, Túneles Rosalila y Parque de Guacamayos.",
+          "location": "Copán Ruinas",
+          "accommodation": "Hotel en Ruinas de Copán",
+          "images": []
+        },
+        {
+          "day": 12,
+          "title": "Regreso a San Pedro Sula",
+          "description": "Traslado a San Pedro Sula ",
+          "location": "Copán Ruinas → San Pedro Sula",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Traslados ",
+        "Transporte con aire acondicionado durante todo el tour",
+      
+        "Alojamiento: 2 noches en San Salvador, 2 noches en Ahuachapán, 1 noche en Ciudad de Guatemala, 3 noches en Flores, 1 noche en Río Motagua, 2 noches en Copán",
+      
+        "Entradas a sitios arqueológicos: Joya de Cerén, Tazumal, Kaminaljuyú, Yaxhá, Tikal, Quiriguá, Copán",
+        "Visitas a museos: MUNA (El Salvador), Museo Miraflores (Guatemala), Museo de Arqueología (Guatemala)",
+        "Guía especializado en cultura maya",
+        "Seguro: Assist Card"
+      
+      ],
+      "excludes": [
+     
+        "Almuerzos y cenas no especificados",
+        
+ 
+        "Bebidas alcohólicas o gastos personales",
+        "Actividades opcionales no mencionadas"
+      ],
+      "toBring": [
+        "Pasaporte vigente (mínimo 6 meses)",
+        "Copias de reservas y seguro de viaje",
+        "Certificado de vacunación contra fiebre amarilla (si aplica)",
+        "Calzado cómodo para caminar (senderos arqueológicos)",
+        "Ropa ligera + chaqueta (noches frescas)",
+        "Traje de baño (lagos y hoteles con piscina)",
+        "Sombrero, protector solar, repelente de mosquitos",
+        "Binoculares (para avistar fauna en Tikal)",
+        "Cámara fotográfica",
+        "Medicamentos personales"
+      ]
+    }, 
+    {
+      "id": 11,
+      "title": "Secretos del Noreste de México",
+      "image": "/images/tour11/cover.png",
+      "extraPhotos": [
+        "/images/tour11/extra1.jpg",
+        "/images/tour11/extra2.jpg",
+        "/images/tour11/extra3.jpg",
+        "/images/tour11/extra4.jpg",
+        "/images/tour11/extra5.jpg"
+      ],
+      "location": "Noreste de México (Monterrey, Santiago, Saltillo, Parras, Mapimí, Cuatro Ciénegas, Torreón)",
+      "duration": "14 días / 13 noches",
+      "groupSize": "10 personas",
+      "availability": "Todo el año (evitar junio-septiembre por calor extremo)",
+      "description": "Un viaje cultural, vinícola y paleontológico por los tesoros ocultos del noreste mexicano: pueblos mágicos, museos de clase mundial, viñedos históricos, dunas desérticas y ecosistemas únicos como Cuatro Ciénegas. Incluye experiencias astronómicas y gastronomía regional.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a Monterrey",
+          "description": "Traslado al hotel y reunión informativa.",
+          "location": "Aeropuerto Internacional de Monterrey → Hotel",
+          "accommodation": "Monterrey",
+          "images": []
+        },
+        {
+          "day": 2,
+          "title": "Arte e Historia en Monterrey",
+          "description": "Visita al Museo de Arte Contemporáneo (MARCO), Museo de la Revolución y paseo por el Canal de Santa Lucía. Almuerzo en 'El Gran Pastor' .",
+          "location": "Monterrey",
+          "accommodation": "Monterrey",
+          "images": []
+        },
+        {
+          "day": 3,
+          "title": "Pueblo Mágico y Cascada",
+          "description": "Tour por Santiago (Pueblo Mágico) y caminata a la Cascada Cola de Caballo.",
+          "location": "Monterrey → Santiago",
+          "accommodation": "Santiago",
+          "images": []
+        },
+        {
+          "day": 4,
+          "title": "Desierto y Vinos",
+          "description": "Visita al Museo del Desierto (fósiles de dinosaurios) y viñedos 'Vinos Dinos' en San Juan de la Vaquería.",
+          "location": "Santiago → Saltillo",
+          "accommodation": "Saltillo",
+          "images": []
+        },
+        {
+          "day": 5,
+          "title": "Paleontología y Petroglifos",
+          "description": "Recorrido con especialistas en Rincón Colorado (zona paleontológica), huellas de dinosaurios y petroglifos de Narigua.",
+          "location": "Saltillo → General Cepeda",
+          "accommodation": "Saltillo",
+          "images": []
+        },
+        {
+          "day": 6,
+          "title": "Ruta del Vino en Parras",
+          "description": "Visita a Viñedo Don Leo y Parvada. City tour por Parras.",
+          "location": "Saltillo → Parras",
+          "accommodation": "Parras",
+          "images": []
+        },
+        {
+          "day": 7,
+          "title": "Primera Vinícola de América y Dunas",
+          "description": "Tour en Casa Madero (fundada en 1597). Visita a las Dunas de Bilbao en Viesca y atracciones de Torreón (Teleférico, Cristo de las Noas).",
+          "location": "Parras → Torreón",
+          "accommodation": "Torreón",
+          "images": []
+        },
+        {
+          "day": 8,
+          "title": "Pueblo Mágico de Mapimí",
+          "description": "Exploración del Puente de Ojuela (mina abandonada) y pueblo fantasma.",
+          "location": "Torreón → Mapimí",
+          "accommodation": "Mapimí",
+          "images": []
+        },
+        {
+          "day": 9,
+          "title": "Cuatro Ciénegas",
+          "description": "Recorrido por el área natural protegida: mina de mármol, Dunas de Yeso, Poza Azul y Río Mezquites.",
+          "location": "Mapimí → Cuatro Ciénegas",
+          "accommodation": "Cuatro Ciénegas",
+          "images": []
+        },
+        {
+          "day": 10,
+          "title": "Museo Génesis y Noche Astronómica",
+          "description": "Visita al Museo Génesis, Parque las Playitas y cata de vinos artesanales en Pueblo Viejo con velada astronómica.",
+          "location": "Cuatro Ciénegas",
+          "accommodation": "Cuatro Ciénegas",
+          "images": []
+        },
+        {
+          "day": 11,
+          "title": "Cultura y Arquitectura",
+          "description": "Tour por el Museo Carranza, Casa de la Cultura y edificios históricos.",
+          "location": "Cuatro Ciénegas",
+          "accommodation": "Cuatro Ciénegas",
+          "images": []
+        },
+        {
+          "day": 12,
+          "title": "Termas y Estrellas",
+          "description": "Relajación en Termas de San Joaquín y observación astronómica con telescopio profesional.",
+          "location": "Cuatro Ciénegas",
+          "accommodation": "Cuatro Ciénegas",
+          "images": []
+        },
+        {
+          "day": 13,
+          "title": "Grutas y Parque Fundidora",
+          "description": "Visita a las Grutas de Villa García y tarde libre.",
+          "location": "Cuatro Ciénegas → Monterrey",
+          "accommodation": "Monterrey",
+          "images": []
+        },
+        {
+          "day": 14,
+          "title": "Salida",
+          "description": "Traslado al aeropuerto.",
+          "location": "Hotel → Aeropuerto de Monterrey",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Alojamiento en ocupación doble (13 noches)",
+        "Desayunos diarios",
+        "Traslados terrestres en destino",
+        "Guía especializado bilingüe (inglés/español)",
+        "Seguro de viaje",
+        "Entradas a todos los sitios mencionados",
+        "Actividades descritas: catas de vino, veladas astronómicas, tours paleontológicos"
+      ],
+      "excludes": [
+        "Vuelos internacionales/domésticos",
+        "Almuerzos y cenas no especificados",
+        "Bebidas alcohólicas (excepto en catas incluidas)",
+        "Propinas (guías, conductores, restaurantes)",
+        "Gastos personales (souvenirs, lavandería)"
+      ],
+      "toBring": [
+        "Pasaporte/INE vigente",
+        "Ropa cómoda para clima desértico (días calurosos, noches frías)",
+        "Calzado para senderismo (dunas, grutas)",
+        "Traje de baño (termas y pozas)",
+        "Protector solar, gorra y gafas de sol",
+        "Binoculares y cámara fotográfica",
+        "Abrigo ligero para noches astronómicas"
+      ]
+    },
+     {
+      "id": 12,
+      "title": "Granada Corn Island",
+      "image": "/images/tour12/extra5.png",
+      "extraPhotos": [
+        "/images/tour12/extra1.png",
+        "/images/tour12/extra2.png",
+        "/images/tour12/extra3.png",
+        "/images/tour12/extra4.png"
+       
+      ],
+      "location": "Nicaragua (Managua, Granada, Mombacho, Corn Island, Little Corn Island)",
+      "duration": "6 días / 5 noches",
+      "groupSize": "8 personas",
+      "availability": "Todo el año ",
+      "description": "Un viaje que combina historia colonial, aventura volcánica y relax caribeño. Explora Managua, la encantadora Granada, el volcán Mombacho, y las paradisíacas islas Corn Island y Little Corn Island con sus playas de arena blanca y aguas turquesas.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a Managua & City Tour",
+          "description": "Traslado al hotel. Por la tarde, visita al centro histórico: Parque Lomas de Tiscapa, Palacio Nacional, Plaza de la Revolución, antigua Catedral de Managua y Teatro Nacional Rubén Darío. Atardecer en el puerto Salvador Allende con vista al Lago Xolotlán.",
+          "location": "Aeropuerto → Managua",
+          "accommodation": "Managua",
+          "images": []
+        },
+        {
+          "day": 2,
+          "title": "Granada Colonial & Isletas del Lago Cocibolca",
+          "description": "Traslado a Granada (fundada en 1524). Recorrido panorámico en coche de caballo para ver sitios emblemáticos como la Catedral María Auxiliadora. Almuerzo incluido. Paseo en lancha por las isletas volcánicas del Lago Cocibolca. Tarde libre.",
+          "location": "Managua → Granada",
+          "accommodation": "Granada",
+          "images": []
+        },
+        {
+          "day": 3,
+          "title": "Volcán Mombacho & Laguna Apoyo",
+          "description": "Excursión al Volcán Mombacho: senderos, flora y fauna. Canopy en Finca Miravalle. Visita a la Laguna Apoyo (cráter volcánico con aguas termales). Regreso a Granada.",
+          "location": "Granada → Mombacho → Laguna Apoyo",
+          "accommodation": "Granada",
+          "images": []
+        },
+        {
+          "day": 4,
+          "title": "traslado a Corn Island",
+          "description": "Traslado a Corn Island (Caribe Sur). Tarde libre para disfrutar playas de arena blanca y aguas turquesas.",
+          "location": "Granada → Aeropuerto → Corn Island",
+          "accommodation": "Corn Island",
+          "images": []
+        },
+        {
+          "day": 5,
+          "title": "Little Corn Island Adventure",
+          "description": "Traslado en lancha rápida a Little Corn Island. Día libre para explorar la isla, bucear o hacer snorkel en arrecifes de coral. Alojamiento en Little Corn Island.",
+          "location": "Corn Island → Little Corn Island",
+          "accommodation": "Little Corn Island",
+          "images": []
+        },
+        {
+          "day": 6,
+          "title": "Regreso a Managua",
+          "description": "Traslado a Managua. Fin de servicios.",
+          "location": "Little Corn Island → Corn Island → Aeropuerto → Managua",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Traslados aeropuerto-hotel-aeropuerto",
+        "Transporte terrestre y acuático durante el tour",
+    
+        "Alojamiento: 1 noche en Managua, 2 noches en Granada, 1 noche en Corn Island, 1 noche en Little Corn Island",
+       
+        "Actividades: city tour en coche de caballo, tour en lancha por isletas, canopy en Mombacho, entrada a Laguna Apoyo",
+        "Guía turístico bilingüe (español/inglés)",
+        "Seguro de viaje básico"
+      ],
+      "excludes": [
+    
+        "Almuerzos y cenas no especificados",
+        "Bebidas alcohólicas",
+        "Equipo de snorkel/buceo (alquiler opcional en Little Corn Island)",
+        "Propinas (guías, conductores, restaurantes)"
+   
+      ],
+      "toBring": [
+        "Pasaporte válido (mínimo 6 meses)",
+        "Ropa ligera + impermeable (lluvias tropicales)",
+        "Traje de baño, sandalias y calzado para senderismo",
+        "Protector solar, repelente de insectos y gorra",
+        "Equipo de snorkel (opcional)",
+        "Efectivo en córdobas/dólares (pocos lugares aceptan tarjetas en islas)"
+      ]
+    }, {
+      "id": 13,
+      "title": "Ciudades Coloniales de Nicaragua: Granada y León",
+      "image": "/images/tour13/extra1.jpg",
+      "extraPhotos": [
+     
+        "/images/tour13/extra2.png",
+        "/images/tour13/extra3.jpg",
+        "/images/tour13/extra4.png"
+     
+      ],
+      "location": "Nicaragua (Managua, Granada, León, Chichigalpa)",
+      "duration": "6 días / 5 noches",
+      "groupSize": "6 a 12 personas",
+      "availability": "Todo el año (recomendado noviembre-abril)",
+      "description": "Un recorrido por las joyas coloniales de Nicaragua: Granada y León, declaradas Patrimonio Cultural. Combina historia, arquitectura, naturaleza volcánica y experiencias únicas como el canopy sobre el Mombacho y la ruta del ron Flor de Caña.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Llegada a Managua & City Tour Histórico",
+          "description": "Traslado al hotel. Visita al centro histórico: Parque Lomas de Tiscapa (vistas del cráter), Palacio Nacional, Plaza de la Revolución, antigua Catedral de Managua y Teatro Nacional Rubén Darío. Atardecer en el puerto Salvador Allende (Lago Xolotlán).",
+          "location": "Aeropuerto Internacional → Managua",
+          "accommodation": "Hotel en Managua",
+          "images": []
+        },
+        {
+          "day": 2,
+          "title": "Granada Colonial & Isletas del Cocibolca",
+          "description": "Traslado a Granada ('La Gran Sultana'). Recorrido en coche de caballo por calles empedradas, visitando la Catedral María Auxiliadora (vistas desde el campanario). Paseo en lancha por las isletas volcánicas del Lago Cocibolca.",
+          "location": "Managua → Granada",
+          "accommodation": "Hotel en Granada",
+          "images": []
+        },
+        {
+          "day": 3,
+          "title": "Aventura en Mombacho & Laguna Apoyo",
+          "description": "Excursión al Volcán Mombacho: senderos entre bosque nuboso y canopy de 2km (17 plataformas). Visita a la Laguna Apoyo (cráter volcánico) para nadar en sus aguas termales o kayak.",
+          "location": "Granada → Reserva Natural Mombacho → Laguna Apoyo",
+          "accommodation": "Hotel en Granada",
+          "images": []
+        },
+        {
+          "day": 4,
+          "title": "León Viejo & León Colonial",
+          "description": "Visita a las Ruinas de León Viejo (Patrimonio UNESCO). Tour por León: Catedral (subida a terrazas), Museo Rubén Darío, iglesias barrocas y arte callejero revolucionario.",
+          "location": "Granada → León Viejo → León",
+          "accommodation": "Hotel en León",
+          "images": []
+        },
+        {
+          "day": 5,
+          "title": "Ruta del Ron & Playas de Poneloya",
+          "description": "Tour en Flor de Caña (Chichigalpa): 6 estaciones interactivas sobre el proceso del ron premiado. Tarde en playas vírgenes de Poneloya y Las Peñitas (océano Pacífico).",
+          "location": "León → Chichigalpa → Poneloya",
+          "accommodation": "Hotel en León",
+          "images": []
+        },
+        {
+          "day": 6,
+          "title": "Regreso a Managua",
+          "description": "Traslado al aeropuerto internacional.",
+          "location": "León → Aeropuerto Internacional",
+          "images": []
+        }
+      ],
+      "includes": [
+        "Traslados privados con A/C durante todo el recorrido",
+        "Alojamiento: 1 noche en Managua, 2 noches en Granada, 2 noches en León",
+        "Desayunos diarios",
+        "Entradas a sitios mencionados: Mombacho, León Viejo, Catedral de León, Flor de Caña",
+        "Actividades: paseo en coche de caballo, tour en lancha por isletas, canopy en Mombacho",
+        "Guía turístico especializado (español/inglés)",
+        "Seguro básico de viaje"
+      ],
+      "excludes": [
+    
+        "Almuerzos y cenas (excepto desayunos)",
+        "Bebidas alcohólicas (excepto degustación en Flor de Caña)",
+        "Equipo de snorkel/kayak (alquiler opcional en Laguna Apoyo)",
+        "Propinas (guías, conductores)",
+        "Gastos personales (souvenirs, lavandería)"
+      ],
+      "toBring": [
+        "Pasaporte válido + copias",
+        "Ropa ligera y sombrero (clima cálido)",
+        "Calzado cómodo para caminar (calles empedradas)",
+        "Traje de baño, protector solar y repelente de insectos",
+        "Chaqueta ligera (noches frescas en León)",
+        "Cámara fotográfica (vistas panorámicas desde catedrales y volcanes)"
+      ],
+      "highlights": [
+        "Granada: Ciudad colonial mejor conservada de Centroamérica (fundada en 1524)",
+        "León: Capital intelectual de Nicaragua con arte revolucionario",
+        "Experiencias únicas: canopy sobre volcán activo y tour en ron premiado",
+        "Patrimonios UNESCO: Ruinas de León Viejo y Catedral de León"
       ]
     }
 

@@ -41,7 +41,7 @@ const Nosotros = () => {
       {/* Hero Section */}
       <div className="relative h-96 bg-gradient-to-r from-[#f39703] to-[#f8b133] flex items-center justify-center overflow-hidden">
         <motion.div 
-          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-[url(/images/background.png)] bg-cover bg-center opacity-20"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 10, repeat: Infinity, repeatType: "reverse" }}
@@ -81,7 +81,7 @@ const Nosotros = () => {
               className="bg-white p-1 rounded-xl shadow-lg"
             >
               <img 
-                src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                src="/images/about.jpg" 
                 alt="Equipo Aventoura" 
                 className="rounded-lg w-full h-auto"
               />

@@ -356,7 +356,7 @@ const Tour = () => {
                     <Users className="h-5 w-5 text-amber-600" />
                   </div>
                   <div>
-                    <p className="font-medium text-gray-700">Tamaño del grupo</p>
+                    <p className="font-medium text-gray-700">Minimo de personas</p>
                     <p className="text-gray-600">{tour.groupSize}</p>
                   </div>
                 </div>
