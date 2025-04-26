@@ -1,15 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, forwardRef, useImperativeHandle } from 'react';
 import { MapPin, CalendarDays, ChevronDown, ChevronUp, Filter, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const ToursPreview = () => {
+const ToursPreview = forwardRef(({ activeFilter }, ref) => {
   const [tours, setTours] = useState([]);
   const [filteredTours, setFilteredTours] = useState([]);
   const [visibleCount, setVisibleCount] = useState(4);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [activeFilter, setActiveFilter] = useState('todos');
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
   const categories = [
@@ -21,6 +20,13 @@ const ToursPreview = () => {
     { id: 'nicaragua', name: 'Nicaragua', icon: '🇳🇮', count: 4 },
     { id: 'multidestinos', name: 'Multidestinos', icon: '✈️', count: 2 }
   ];
+
+  // Exponer la función de filtrado al componente padre
+  useImperativeHandle(ref, () => ({
+    filterByCategory: (categoryId) => {
+      filterTours(categoryId);
+    }
+  }));
 
   useEffect(() => {
     const fetchTours = async () => {
@@ -71,52 +77,56 @@ const ToursPreview = () => {
     fetchTours();
   }, []);
 
+  // Efecto para aplicar el filtro cuando cambia activeFilter
+  useEffect(() => {
+    if (activeFilter) {
+      filterTours(activeFilter);
+    }
+  }, [activeFilter]);
+
   const filterTours = (categoryId) => {
-    setActiveFilter(categoryId);
-    setIsFilterOpen(false);
+    let filtered = [];
     
     if (categoryId === 'todos') {
-      setFilteredTours(tours);
-      return;
-    }
-    
-    let filtered = [];
-    switch(categoryId) {
-      case 'ruta-maya':
-        filtered = tours.filter(t => 
-          t.title.includes('Ruta Maya') || t.title.includes('Al Sureste del Mundo Maya')
-        );
-        break;
-      case 'trifinio':
-        filtered = tours.filter(t => 
-          t.title.includes('Trifinio')
-        );
-        break;
-      case 'mexico':
-        filtered = tours.filter(t => 
-          t.title.includes('México') || t.location.includes('México') || 
-          t.title.includes('Chiapas') || t.title.includes('Riviera Maya')
-        );
-        break;
-      case 'el-salvador':
-        filtered = tours.filter(t => 
-          t.location.includes('El Salvador') && !t.location.includes('Guatemala') && 
-          !t.location.includes('Honduras')
-        );
-        break;
-      case 'nicaragua':
-        filtered = tours.filter(t => 
-          t.location.includes('Nicaragua')
-        );
-        break;
-      case 'multidestinos':
-        filtered = tours.filter(t => 
-          (t.location.includes('El Salvador') && t.location.includes('Guatemala')) || 
-          t.location.includes('Honduras')
-        );
-        break;
-      default:
-        filtered = tours;
+      filtered = tours;
+    } else {
+      switch(categoryId) {
+        case 'ruta-maya':
+          filtered = tours.filter(t => 
+            t.title.includes('Ruta Maya') || t.title.includes('Al Sureste del Mundo Maya')
+          );
+          break;
+        case 'trifinio':
+          filtered = tours.filter(t => 
+            t.title.includes('Trifinio')
+          );
+          break;
+        case 'mexico':
+          filtered = tours.filter(t => 
+            t.title.includes('México') || t.location.includes('México') || 
+            t.title.includes('Chiapas') || t.title.includes('Riviera Maya')
+          );
+          break;
+        case 'el-salvador':
+          filtered = tours.filter(t => 
+            t.location.includes('El Salvador') && !t.location.includes('Guatemala') && 
+            !t.location.includes('Honduras')
+          );
+          break;
+        case 'nicaragua':
+          filtered = tours.filter(t => 
+            t.location.includes('Nicaragua')
+          );
+          break;
+        case 'multidestinos':
+          filtered = tours.filter(t => 
+            (t.location.includes('El Salvador') && t.location.includes('Guatemala')) || 
+            t.location.includes('Honduras')
+          );
+          break;
+        default:
+          filtered = tours;
+      }
     }
     
     setFilteredTours(filtered);
@@ -160,83 +170,83 @@ const ToursPreview = () => {
           </p>
         </motion.div>
 
-        {/* Nuevo diseño del filtro */}
-        <div className="mb-10">
-          {/* Filtro para desktop - Diseño moderno con chips */}
-          <div className="hidden md:block">
-            <div className="flex flex-wrap justify-center gap-3">
-              {categories.map((category) => (
-                <motion.button
-                  key={category.id}
-                  onClick={() => filterTours(category.id)}
-                  className={`flex items-center px-4 py-2 rounded-full transition-all duration-200 ${activeFilter === category.id 
-                    ? 'bg-amber-600 text-white shadow-md' 
-                    : 'bg-white text-gray-700 hover:bg-gray-100 shadow-sm border border-gray-200'}`}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <span className="mr-2 text-lg">{category.icon}</span>
-                  <span className="font-medium">{category.name}</span>
-                  {category.count > 0 && (
-                    <span className={`ml-2 px-2 py-0.5 rounded-full text-xs font-bold ${activeFilter === category.id 
-                      ? 'bg-amber-700 text-white' 
-                      : 'bg-gray-200 text-gray-800'}`}>
-                      {category.count}
-                    </span>
-                  )}
-                </motion.button>
-              ))}
-            </div>
-          </div>
-
-          {/* Filtro para móvil - Menú moderno */}
-          <div className="md:hidden">
-            <div className="relative">
-              <button
-                onClick={() => setIsFilterOpen(!isFilterOpen)}
-                className={`w-full flex items-center justify-between px-4 py-3 rounded-xl ${isFilterOpen ? 'bg-amber-600 text-white' : 'bg-white text-gray-700 border border-gray-300'}`}
+        {/* Filtro para desktop */}
+        <div className="hidden md:block mb-10">
+          <div className="flex flex-wrap justify-center gap-3">
+            {categories.map((category) => (
+              <motion.button
+                key={category.id}
+                onClick={() => filterTours(category.id)}
+                className={`flex items-center px-4 py-2 rounded-full transition-all duration-200 ${activeFilter === category.id 
+                  ? 'bg-amber-600 text-white shadow-md' 
+                  : 'bg-white text-gray-700 hover:bg-gray-100 shadow-sm border border-gray-200'}`}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
               >
-                <div className="flex items-center">
-                  <Filter className={`h-5 w-5 mr-2 ${isFilterOpen ? 'text-white' : 'text-amber-500'}`} />
-                  <span className="font-medium">
-                    {categories.find(c => c.id === activeFilter)?.name || 'Filtrar'}
+                <span className="mr-2 text-lg">{category.icon}</span>
+                <span className="font-medium">{category.name}</span>
+                {category.count > 0 && (
+                  <span className={`ml-2 px-2 py-0.5 rounded-full text-xs font-bold ${activeFilter === category.id 
+                    ? 'bg-amber-700 text-white' 
+                    : 'bg-gray-200 text-gray-800'}`}>
+                    {category.count}
                   </span>
-                </div>
-                {isFilterOpen ? (
-                  <X className="h-5 w-5" />
-                ) : (
-                  <ChevronDown className="h-5 w-5" />
                 )}
-              </button>
+              </motion.button>
+            ))}
+          </div>
+        </div>
 
-              <AnimatePresence>
-                {isFilterOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute z-10 w-full mt-2 bg-white rounded-xl shadow-lg overflow-hidden"
-                  >
-                    {categories.map((category) => (
-                      <button
-                        key={category.id}
-                        onClick={() => filterTours(category.id)}
-                        className={`w-full px-4 py-3 text-left flex items-center justify-between ${activeFilter === category.id ? 'bg-amber-50 text-amber-700' : 'hover:bg-gray-50'}`}
-                      >
-                        <div className="flex items-center">
-                          <span className="mr-3 text-lg">{category.icon}</span>
-                          <span>{category.name}</span>
-                        </div>
-                        <span className={`px-2 py-0.5 rounded-full text-xs font-bold ${activeFilter === category.id ? 'bg-amber-600 text-white' : 'bg-gray-200 text-gray-800'}`}>
-                          {category.count}
-                        </span>
-                      </button>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
+        {/* Filtro para móvil */}
+        <div className="md:hidden mb-10">
+          <div className="relative">
+            <button
+              onClick={() => setIsFilterOpen(!isFilterOpen)}
+              className={`w-full flex items-center justify-between px-4 py-3 rounded-xl ${isFilterOpen ? 'bg-amber-600 text-white' : 'bg-white text-gray-700 border border-gray-300'}`}
+            >
+              <div className="flex items-center">
+                <Filter className={`h-5 w-5 mr-2 ${isFilterOpen ? 'text-white' : 'text-amber-500'}`} />
+                <span className="font-medium">
+                  {categories.find(c => c.id === activeFilter)?.name || 'Filtrar'}
+                </span>
+              </div>
+              {isFilterOpen ? (
+                <X className="h-5 w-5" />
+              ) : (
+                <ChevronDown className="h-5 w-5" />
+              )}
+            </button>
+
+            <AnimatePresence>
+              {isFilterOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.2 }}
+                  className="absolute z-10 w-full mt-2 bg-white rounded-xl shadow-lg overflow-hidden"
+                >
+                  {categories.map((category) => (
+                    <button
+                      key={category.id}
+                      onClick={() => {
+                        filterTours(category.id);
+                        setIsFilterOpen(false);
+                      }}
+                      className={`w-full px-4 py-3 text-left flex items-center justify-between ${activeFilter === category.id ? 'bg-amber-50 text-amber-700' : 'hover:bg-gray-50'}`}
+                    >
+                      <div className="flex items-center">
+                        <span className="mr-3 text-lg">{category.icon}</span>
+                        <span>{category.name}</span>
+                      </div>
+                      <span className={`px-2 py-0.5 rounded-full text-xs font-bold ${activeFilter === category.id ? 'bg-amber-600 text-white' : 'bg-gray-200 text-gray-800'}`}>
+                        {category.count}
+                      </span>
+                    </button>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
         </div>
 
@@ -334,6 +344,6 @@ const ToursPreview = () => {
       </div>
     </section>
   );
-};
+});
 
 export default ToursPreview;

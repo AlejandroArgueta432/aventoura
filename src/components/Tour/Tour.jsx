@@ -383,7 +383,7 @@ const Tour = () => {
               <h3 className="text-xl font-bold mb-2">¿Interesado en este tour?</h3>
               <p className="mb-4">Reserva ahora y asegura tu lugar</p>
               <button className="w-full bg-white text-amber-600 font-medium py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors">
-                Contactar para reservar
+              <a href="https://wa.me/17142329319" > Contactar para reservar</a>  
               </button>
             </motion.div>
           </div>

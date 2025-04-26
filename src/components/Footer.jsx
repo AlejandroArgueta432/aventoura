@@ -91,14 +91,16 @@ const Footer = () => {
                 <span className="text-gray-300">Av. Principal 123, Ciudad</span>
               </motion.li>*/}  
 
-              <motion.li 
+             {/*    <motion.li 
                 className="flex items-center"
                 whileHover={{ x: 3 }}
                 transition={{ type: 'spring', stiffness: 300 }}
               >
                 <Phone className="h-5 w-5 mr-3 text-[#f39703] flex-shrink-0" />
                 <a href="tel:+34123456789" className="text-gray-300 hover:text-white transition-colors">+1 714 232 9319 </a>
-              </motion.li>
+              </motion.li>*/} 
+
+
               <motion.li 
                 className="flex items-center"
                 whileHover={{ x: 3 }}

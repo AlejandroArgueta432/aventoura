@@ -6,38 +6,37 @@ import ToursPreview from './ToursPreview';
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isScrolling, setIsScrolling] = useState(false);
+  const [activeFilter, setActiveFilter] = useState('todos');
   const toursRef = useRef(null);
+  const toursPreviewRef = useRef(null);
   const intervalRef = useRef(null);
 
   const slides = [
     {
-      image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Montañas majestuosas con lago',
-      title: 'Aventuras en la Naturaleza',
-      subtitle: 'Descubre los paisajes más impresionantes del planeta'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Playa tropical con palmeras',
-      title: 'Paraísos Tropicales',
-      subtitle: 'Relájate en las playas más exóticas del mundo'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+      image: '/images/home3.jpg',
       alt: 'Ciudad histórica con arquitectura impresionante',
-      title: 'Culturas Fascinantes',
-      subtitle: 'Sumérgete en la historia y tradiciones locales'
-    }
+      title: 'Región trifinio',
+      subtitle: 'Un Solo Corazón, Tres Culturas por Descubrir.',
+      category: 'trifinio'
+    },
+    {
+      image: '/images/home1.jpg',
+      alt: 'Montañas majestuosas con lago',
+      title: 'El Salvador',
+      subtitle: 'Corazón de Centroamérica, alma de aventura.',
+      category: 'el-salvador'
+    },
+    {
+      image: '/images/home2.jpg',
+      alt: 'Playa tropical con palmeras',
+      title: 'Ruta maya',
+      subtitle: 'El alma ancestral de Mesoamérica',
+      category: 'ruta-maya'
+    },
   ];
 
   // Contactos
   const contacts = [
-    {
-      icon: <Phone className="h-5 w-5" />,
-      text: '+1 714 232 9319',
-      link: 'tel:+17142329319',
-      bgColor: 'bg-green-500 hover:bg-green-600'
-    },
     {
       icon: <Mail className="h-5 w-5" />,
       text: 'aventouraes@gmail.com',
@@ -71,8 +70,15 @@ const Home = () => {
     }
   };
 
-  // Scroll suave mejorado
+  // Scroll suave y filtrado
   const scrollToTours = () => {
+    const currentCategory = slides[currentSlide].category;
+    setActiveFilter(currentCategory);
+    
+    if (toursPreviewRef.current) {
+      toursPreviewRef.current.filterByCategory(currentCategory);
+    }
+
     if (toursRef.current && !isScrolling) {
       setIsScrolling(true);
       const start = window.pageYOffset;
@@ -238,9 +244,8 @@ const Home = () => {
 
       {/* Sección de Tours Destacados */}
       <div ref={toursRef} className="mt-4">
-        <ToursPreview />
+        <ToursPreview ref={toursPreviewRef} activeFilter={activeFilter} />
       </div>
-      
     </div>
   );
 };

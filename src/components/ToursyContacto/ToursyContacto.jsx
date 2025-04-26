@@ -12,12 +12,7 @@ const ToursYContacto = () => {
 
   // Datos de contacto mejorados
   const contactInfo = [
-    { 
-      icon: <Phone className="text-[#f39703]" />, 
-      text: '+1 714 232 9319', 
-      link: 'tel:+17142329319',
-      description: 'Llámanos para reservas o consultas' 
-    },
+  
     { 
       icon: <Mail className="text-[#f39703]" />, 
       text: 'aventouraes@gmail.com', 
@@ -181,20 +176,11 @@ const ToursYContacto = () => {
                           <CalendarDays className="text-[#f39703] h-5 w-5" />
                         </div>
                         <div>
-                          <h3 className="font-semibold text-[#413d3e]">Días laborales</h3>
-                          <p className="text-gray-600">Lunes a Viernes: 9:00 - 18:00</p>
+                          <h3 className="font-semibold text-[#413d3e]">Siempre disponible</h3>
+                         
                         </div>
                       </div>
-                      <div className="flex items-start">
-                        <div className="bg-[#f39703] bg-opacity-10 p-2 rounded-lg mr-4">
-                          <CalendarDays className="text-[#f39703] h-5 w-5" />
-                        </div>
-                        <div>
-                          <h3 className="font-semibold text-[#413d3e]">Fines de semana</h3>
-                          <p className="text-gray-600">Sábados: 10:00 - 14:00</p>
-                          <p className="text-gray-600">Domingos: Cerrado</p>
-                        </div>
-                      </div>
+                  
                     </div>
                     
                     {/* Sección adicional para mantener el balance visual */}
