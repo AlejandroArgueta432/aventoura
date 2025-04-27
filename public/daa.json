@@ -415,7 +415,7 @@
     },
     {
       "id": 6,
-      "title": "Ruta Maya-Mexico",
+      "title": "Ruta Maya - Mexico",
       "image": "/images/tour6/extra1.jpg",
       "extraPhotos": [
         "/images/tour6/extra2.jpg",
@@ -835,152 +835,98 @@
       ]
     },
     {
-      "id": 10,
-      "title": "Al Sureste del Mundo Maya",
-      "image": "/images/tour10/extra6.png",
+      "id": 9,
+      "title": "León: Volcanes, Historia y Adrenalina",
+      "image": "/images/tour9/extra1.png",
       "extraPhotos": [
-        "/images/tour10/extra1.jpg",
-        "/images/tour10/extra2.png",
-        "/images/tour10/extra3.png",
-        "/images/tour10/extra4.jpg",
-        "/images/tour10/extra5.png",
-        "/images/tour10/1.1Dia.jpg"
+        "/images/tour9/extra2.png",
+        "/images/tour9/extra3.png"
       ],
-      "location": "El Salvador, Guatemala, Honduras",
-      "duration": "12 días / 11 noches",
-      "groupSize": "8 personas",
-      "availability": "todo el año",
-      "description": "Un viaje arqueológico por los tesoros mayas de El Salvador, Guatemala y Honduras, explorando ciudades ancestrales como Joya de Cerén (UNESCO), Tikal y Copán. Combina historia, naturaleza y encuentros con comunidades locales.",
+      "location": "Nicaragua (Managua, León, Volcán Cerro Negro, Playas Poneloya)",
+      "duration": "4 días / 3 noches",
+      "groupSize": "6 personas",
+      "availability": "Todo el año (evitar septiembre-octubre por lluvias)",
+      "description": "Un viaje intenso que combina cultura colonial, historia prehispánica y aventura extrema en el joven Volcán Cerro Negro. Ideal para viajeros que buscan emociones fuertes y descubrir el patrimonio de Nicaragua.",
       "itinerary": [
         {
           "day": 1,
-          "title": "Llegada a San Salvador",
-          "description": "Traslado al hotel. Tarde libre para descansar o explorar la ciudad.",
-          "location": "Aeropuerto Internacional de El Salvador → San Salvador",
-          "accommodation": "Noche en San Salvador",
+          "title": "Dia 1 Managua",
+          "description": "Bienvenidos!! Traslado a su hotel. Por la tarde realizaremos una visita al centro histórico de Managua exploramos su historia iniciando en Parque Lomas de Tiscapa, luego nos trasladaremos al Palacio Nacional y Plaza de la revolución, antigua Catedral de Managua, Teatro Nacional Rubén Darío y finalizamos la tarde con la puesta del sol admirando el Lago Xolotlán en el puerto Salvador Allende. Alojamiento.",
+          "accommodation": "Managua",
           "images": []
         },
         {
           "day": 2,
-          "title": "MUNA & Lago de Ilopango",
-          "description": "Visita al Museo Nacional de Antropología (MUNA) y tour geológico en la Caldera de Ilopango con experto.",
-          "location": "San Salvador → Ilopango",
-          "accommodation": "Noche en San Salvador",
+          "title": "Dia 2 Managua - León",
+          "description": "Iniciamos este día después del desayuno trasladándose hacia la ciudad de León, ubicada en el occidente del país, también es conocida como La Ciudad Universitaria. Iniciamos nuestro recorrido por la Ruinas de León Viejo, uno de los más antiguos asentamientos coloniales españoles de América. Posterior realizaremos tour por la ciudad actual de León, en nuestro recorrido podrás apreciar las iglesias más emblemáticas y famosas de la ciudad, el museo archivo Rubén Darío, Casa de Arte y cultura y al finalizar un tour de la Catedral de León aqui hay mucho por descubrir en esta gran pieza arquitectónica Desde su terraza se disfruta de una preciosa panorámica de la ciudad. Alojamiento.",
+          "location": "Managua → León",
+          "accommodation": "León",
           "images": []
         },
         {
           "day": 3,
-          "title": "Joya de Cerén & San Andrés",
-          "description": "Exploración de Joya de Cerén (Patrimonio UNESCO) y el sitio arqueológico San Andrés.",
-          "location": "San Salvador → La Libertad → Ahuachapán",
-          "accommodation": "Noche en Ahuachapan",
+          "title": "Dia 3 Volcan Cerro Negro",
+          "description": "Despues del desayuno, tomamos nuestro traslado para iniciar una aventura en el Volcan Cerro Negro, es el volcan más joven de Centro América (167 años) y uno de los más activos del país, despues de una caminata de 1 hora, haremos el descenso practicando sandboarding, antes se le otorgara su traje de proteccion, preparate para la emocion y adrenalina suba sobre una tabla especial y láncese a toda velocidad por la ladera. Por la tarde nos trasladamos a las Playas de Poneloya y las Peñitas, al finalizar el día regresamos a León. Alojamiento.",
+          "accommodation": "León",
           "images": []
         },
         {
           "day": 4,
-          "title": "Tazumal & Casa Blanca",
-          "description": "Visita a las pirámides de Tazumal y taller de añil en Casa Blanca.",
-          "location": "Ahuachapán → Chalchuapa",
-          "accommodation": "Noche en Ahuachapan",
-          "images": []
-        },
-        {
-          "day": 5,
-          "title": "Kaminaljuyú (Guatemala)",
-          "description": "Traslado a Guatemala y visita al sitio arqueológico Kaminaljuyú y Museo Miraflores.",
-          "location": "Ahuachapán → Ciudad de Guatemala",
-          "accommodation": "Nohce en Ciudad de Guatemala",
-          "images": []
-        },
-        {
-          "day": 6,
-          "title": " Museo de Arqueológia y Etnologia",
-          "description": "Visita al Museo de Arqueología y Etnología.",
-          "location": "Ciudad de Guatemala → Flores",
-          "accommodation": "Noche en Flores a orillas del Lago Petén Itzá",
-          "images": []
-        },
-        {
-          "day": 7,
-          "title": "Yaxhá",
-          "description": "Tour por la ciudad maya de Yaxhá y su laguna sagrada.",
-          "location": "Flores → Yaxhá",
-          "accommodation": "Noche en Flores",
-          "images": []
-        },
-        {
-          "day": 8,
-          "title": "Tikal (UNESCO)",
-          "description": "Día completo en Tikal: Templo del Gran Jaguar, Plaza de los Siete Templos y avistamiento de fauna.",
-          "location": "Flores → Tikal",
-          "accommodation": "Hotel Lago Petén Itzá (Flores)",
-          "images": []
-        },
-        {
-          "day": 9,
-          "title": "Quiriguá",
-          "description": "Visita a las estelas mayas de Quiriguá (Patrimonio UNESCO) y traslado a Río Motagua.",
-          "location": "Flores → Quiriguá → Río Motagua",
-          "accommodation": "Hotel Nanajuana (Río Motagua)",
-          "images": []
-        },
-        {
-          "day": 10,
-          "title": "Copán (Honduras)",
-          "description": "Trámites migratorios y traslado a Copán. Tarde libre en el pueblo colonial.",
-          "location": "Río Motagua → Copán Ruinas",
-          "accommodation": "Hotel en Ruinas de Copán",
-          "images": []
-        },
-        {
-          "day": 11,
-          "title": "Copán (UNESCO)",
-          "description": "Tour por el sitio arqueológico: Escalinata de los Jeroglíficos, Túneles Rosalila y Parque de Guacamayos.",
-          "location": "Copán Ruinas",
-          "accommodation": "Hotel en Ruinas de Copán",
-          "images": []
-        },
-        {
-          "day": 12,
-          "title": "Regreso a San Pedro Sula",
-          "description": "Traslado a San Pedro Sula ",
-          "location": "Copán Ruinas → San Pedro Sula",
+          "title": "Dia 4 León - Managua",
+          "description": "Desayuno. A la hora indicada salimos de León y nos trasladamos hacia el aeropuerto. Fin del Servicio.",
           "images": []
         }
       ],
       "includes": [
-        "Traslados ",
-        "Transporte con aire acondicionado durante todo el tour",
-      
-        "Alojamiento: 2 noches en San Salvador, 2 noches en Ahuachapán, 1 noche en Ciudad de Guatemala, 3 noches en Flores, 1 noche en Río Motagua, 2 noches en Copán",
-      
-        "Entradas a sitios arqueológicos: Joya de Cerén, Tazumal, Kaminaljuyú, Yaxhá, Tikal, Quiriguá, Copán",
-        "Visitas a museos: MUNA (El Salvador), Museo Miraflores (Guatemala), Museo de Arqueología (Guatemala)",
-        "Guía especializado en cultura maya",
-        "Seguro: Assist Card"
-      
+        "Alojamiento: 1 noche en Managua (hotel céntrico), 2 noches en León (hotel colonial)",
+        "Desayunos diarios",
+        "Entradas: León Viejo, Catedral de León, museos",
+        "Equipo básico para sandboarding (traje overol, gafas, tabla)",
+        "Guía especializado en aventura (inglés/español)",
+        "Transporte privado con A/C (Managua-León-Managua)",
+        "Botiquín de primeros auxilios para actividades extremas"
       ],
       "excludes": [
-     
-        "Almuerzos y cenas no especificados",
-        
- 
-        "Bebidas alcohólicas o gastos personales",
-        "Actividades opcionales no mencionadas"
+        "Vuelos internacionales",
+        "Almuerzos y cenas ",
+        "Propinas ",
+        "Seguro de viaje con cobertura para deportes extremos",
+        "Equipo personal (guantes para sandboarding - alquiler $5)"
       ],
       "toBring": [
-        "Pasaporte vigente (mínimo 6 meses)",
-        "Copias de reservas y seguro de viaje",
-        "Certificado de vacunación contra fiebre amarilla (si aplica)",
-        "Calzado cómodo para caminar (senderos arqueológicos)",
-        "Ropa ligera + chaqueta (noches frescas)",
-        "Traje de baño (lagos y hoteles con piscina)",
-        "Sombrero, protector solar, repelente de mosquitos",
-        "Binoculares (para avistar fauna en Tikal)",
-        "Cámara fotográfica",
-        "Medicamentos personales"
+        "Zapatos cerrados con buen agarre (terreno volcánico escarpado)",
+        "Ropa ligera + chaqueta cortavientos (cerro Negro es ventoso)",
+        "Protector solar SPF50+ (la arena volcánica refleja radiación)",
+        "Gorra con cordón (para el descenso en sandboarding)",
+        "Mochila pequeña (1.5L agua mínima para la caminata)",
+        "Cámara resistente con funda anti-arena",
+        "Efectivo en córdobas (para artesanías y playas)"
+      ],
+      "physicalRequirements": {
+        "sandboarding": "Nivel medio (instrucción previa incluida)",
+        "hiking": "1 hora en pendiente de 30° (728 msnm)",
+        "notRecommendedFor": "Personas con problemas cardiacos o vértigo"
+      },
+      "optionalExtras": [
+        {
+          "name": "Tour Nocturno de Leyendas",
+          "price": "$25 USD",
+          "duration": "2 horas",
+          "description": "Recorrido teatralizado por el León colonial"
+        },
+        {
+          "name": "Clase de Surf en Poneloya",
+          "price": "$30 USD",
+          "duration": "2.5 horas",
+          "includes": "Tabla e instructor certificado"
+        }
+      ],
+      "safety": [
+        "Guías certificados en primeros auxilios de montaña",
+        "Equipo de sandboarding con certificación ASTM",
+        "Protocolos de evacuación en volcán (vehículo 4x4 standby)"
       ]
-    },
+    }, 
     {
       "id": 11,
       "title": "Secretos del Noreste de México",
