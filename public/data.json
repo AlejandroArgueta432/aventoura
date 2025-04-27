@@ -3,35 +3,51 @@
     {
       "id": 1,
       "title": "Paraísos Rurales - El Salvador",
-      "image": "/images/extra1.jpg",
+      "image":   "/images/extra1.jpg",
       "extraPhotos": [
+      
         "/images/extra2.jpg"
       ],
       "location": "El Salvador (Ruta de las Flores, Apaneca, Salto de Malacatiupan, Parque Cerro Verde, San Salvador)",
-      "duration": "4 días / 3 noches",
+      "duration": "5 días / 4 noches",
       "groupSize": "6 personas",
       "availability": "Consultar según temporada",
       "description": "Un recorrido auténtico por la cultura, naturaleza y gastronomía de El Salvador, explorando la encantadora Ruta de las Flores, fincas de café, cascadas termales y el imponente Parque Nacional Cerro Verde. Incluye experiencias rurales, historia colonial y aventura en paisajes volcánicos.",
       "itinerary": [
         {
           "day": 1,
-          "title": "Llegada",
-          "description": "Encuentro en el aeropuerto de El Salvador y traslado a su hotel en La Ruta de las Flores, un paseo por varios pueblitos encantadores en la Sierra Apaneca Lamatepec Noche en La Ruta de Las Flores"
+          "title": "Llegada a la Ruta de las Flores",
+          "description": "Traslado al hotel en la Ruta de las Flores, un recorrido por pueblos pintorescos como Ataco.",
+          "location": "Aeropuerto de El Salvador → Sierra Apaneca-Lamatepec",
+          "accommodation": "Hotel Fleur de Lis",
+          "images": [
+            "/images/1.1Dia.jpg"
+          ]
         },
         {
           "day": 2,
-          "title": "Todo sobre café",
-          "description": "Conocerán acerca del café, visitando una finca para aprender todo sobre plantaciones, el proceso de conversión a una bebida de carácter universal y los diferentes métodos de preparación. Esta finca la administra una familia donde el papá da la explicación, los hijos muestran cómo se hace y la mamá nos invita a un delicioso almuerzo de campo preparado por ella. Es un centro de formación en caficultura que apoya a pequeños y medianos productores a aprender sobre la producción de café de forma sostenible. Después de almuerzo recorrerán La Ruta de Las Flores visitando Ataco a caminar por sus callecitas empedradas, tomar algún café por allí con pan dulce y comprar artesanías. Noche en Ruta de las Flores"
+          "title": "Todo sobre el Café",
+          "description": "Visita a una finca cafetalera familiar, aprendizaje del proceso de cultivo y preparación. Almuerzo casero. Tarde libre en Ataco (artesanías, cafés locales).",
+          "images": [
+            "/images/2.1Dia.jpg",
+            "/images/2.2Dia.jpg"
+          ]
         },
         {
           "day": 3,
-          "title": "Lugares especiales",
-          "description": "Salida hacia el Salto de Malacatiupan, una cascada hermosa rodeada de belleza escénica natural. Aquí se unen aguas del río Agua Caliente con el río San Antonio, formando pozas con sabrosas temperaturas para relajarse. El almuerzo será en el restaurante de al lado desde donde se escucha la cascada. Después de la sabrosa comida local se dirigirán a la parte más alta de Apaneca, podrán caminar por la orilla de la Laguna Verde o atreverse a navegar en 'cayuco' será divertido. La cena será en el restaurante que está con vista hacia la laguna. Noche en La Ruta de las Flores"
+          "title": "Cascadas y Laguna Verde",
+          "description": "Relajación en pozas naturales y paseo en cayuco en la laguna. Cena con vista al agua.",
+          "images": [
+            "/images/3.1Dia.png"
+          ]
         },
         {
           "day": 4,
-          "title": "Parque Natural protegido Cerro Verde",
-          "description": "Salida temprano hacia el Complejo Los Volcanes donde se encuentra el Parque Natural Cerro Verde. Desde allí, al estirar la mano, se siente casi tocar el Volcán de Izalco. Es impresionante. Este coloso fue llamado El Faro del Pacífico porque por muchos años guió navíos con sus constantes erupciones incandescentes que se veían desde muy adentro del Océano Pacífico. Recorrerán el sendero 'Una Ventana a la Naturaleza' para disfrutar de las vistas espectaculares y tomar hermosas fotografías. Luego continuarán a San Salvador y por la tarde irán a recorrer el centro histórico de la ciudad capital. Noche en San Salvador"
+          "title": "Volcanes y San Salvador",
+          "description": "Senderismo con vistas al 'Faro del Pacífico' y tour cultural en la capital.",
+          "images": [
+            "/images/4.1Dia.jpg"
+          ]
         }
       ],
       "includes": [
@@ -43,6 +59,8 @@
         "Traslados aeropuerto-hotel-aeropuerto",
         "Transporte con aire acondicionado",
         "Desayunos diarios",
+      
+      
         "Agua mineral abordo"
       ],
       "excludes": [
@@ -50,6 +68,7 @@
         "Almuerzos y cenas no especificados",
         "Propinas (guías, conductores)",
         "Gastos personales (souvenirs, bebidas alcohólicas)",
+      
         "Actividades no mencionadas"
       ],
       "toBring": [
@@ -66,45 +85,87 @@
     {
       "id": 2,
       "title": "Vamos a El Salvador",
-      "image": "/images/tour2/extra6.png",
+      "image":     "/images/tour2/extra6.png",
       "extraPhotos": [
+      
         "/images/tour2/extra1.jpg",
         "/images/tour2/extra2.png",
         "/images/tour2/extra3.png",
         "/images/tour2/extra4.jpg",
         "/images/tour2/extra5.png",
         "/images/tour2/1.1Dia.jpg"
+      
       ],
       "location": "El Salvador (Suchitoto, Ilobasco, Alegría, Puerto Barillas, San Salvador, Panchimalco)",
-      "duration": "5 dias / 4 noches",
+      "duration": "7 días / 6 noches",
       "groupSize": "10 personas",
       "availability": "Todo el año",
       "description": "Un viaje cultural y natural por el corazón de El Salvador, explorando pueblos coloniales, arte tradicional, cafetales, lagunas volcánicas y la Reserva de Biósfera de Jiquilisco. Incluye talleres de añil, cerámica, pintura y experiencias con comunidades locales.",
       "itinerary": [
         {
           "day": 1,
-          "title": "Llegada",
-          "description": "Encuentro en el aeropuerto internacional de El Salvador y traslado a Suchitoto, ciudad colonial que ha mantenido sus tradiciones y cultura a traves del tiempo. Noche en Suchitoto"
+          "title": "Llegada a Suchitoto",
+          "description": "Traslado al pueblo colonial y tiempo libre para explorar sus calles empedradas.",
+          "location": "Aeropuerto → Suchitoto ('Pájaro Flor')",
+          "accommodation": "Suchitoto",
+          "images": [
+        
+          ]
         },
         {
           "day": 2,
-          "title": "Suchitoto",
-          "description": "Suchitoto que en nahuat quiere decir Pájaro Flor, es un pueblo que ha conservado la historia en sus calles empedradas y entre grandes casas de balcones antiguos. Recorrerán el Lago de Suchitlán en lancha admirando paisajes y aves nativas y migratorias que siempre hay en esos humedales. Visitarán algunos lugares emblemáticos como el Museo de Alejandro Cotto y la hermosa iglesia. Hay cafés, tiendas de artesanías, talleres como los añil para teñir su propia artesanía y aprender el proceso de cómo se transforma una planta común, en el famoso tinte. Durante la temporada del Festival de Arte y Cultura, podrán disfrutar de presentaciones artísticas en el Teatro Alejandro Cotto. Noche en Suchitoto"
+          "title": "Suchitoto y Lago Suchitlán",
+          "description": "Recorrido en lancha por el lago (aves migratorias). Visita al Museo Alejandro Cotto y taller de añil.",
+          "accommodation": "Suchitoto",
+          "images": [
+         
+          ]
         },
         {
           "day": 3,
           "title": "Ilobasco y Alegría",
-          "description": "Ilobasco o 'Lugar de Tortillas de Elote Tierno' en nahuat es un pueblo con raíces ancestrales, ahora se destaca en la alfarería con sus bellos diseños plasmados en cerámica, barro o arcilla. Los artesanos de este lugar son unos verdaderos artistas y es aquí donde se consiguen las famosas sorpresas que contienen miniaturas con escenas de la vida cotidiana y otros personajes que tradicionalmente se utilizan para colocar en los Nacimientos o Belenes. Continuarán hacia el pueblo de Alegría en la Sierra Tecapa Chinameca, otro lugar rodeado de fincas cafetaleras. Noche en Alegría"
+          "description": "Las famosas 'sorpresas' de barro y paisajes cafetaleros.",
+          "location": "Ilobasco → Alegría",
+          "accommodation": "Alegría",
+          "images": [
+      
+          ]
         },
         {
           "day": 4,
-          "title": "Alegría y el café",
-          "description": "Es una ciudad muy pintoresca, de vistas hermosas y de clima templado, donde aprenderán acerca del café salvadoreño y visitarán la Laguna de Alegría, la cual es un cráter del volcán Tecapa. Visitarán una finca de café para conocer acerca de este fruto, desde su planta, caminando por senderos y finalizando con una demostración de métodos de preparación para degustar una sabrosa taza de café. Noche en Puerto Barillas"
+          "title": "Café y Laguna Volcánica",
+          "description": "Tour en finca cafetalera. Visita a la Laguna de Alegría (cráter del volcán Tecapa).",
+          "accommodation": "Puerto Barillas",
+          "images": [
+          
+          ]
         },
         {
           "day": 5,
-          "title": "Reserva de Biósfera Jiquilisco Xirihualtique",
-          "description": "Su despertar en Puerto Barillas será en medio de manglares que se encuentran en la Reserva de Biósfera Jiquilisco Xirihualtique"
+          "title": "Reserva de Jiquilisco",
+          "description": "Santuario del Mono Araña, kayak en manglares o playa.",
+          "accommodation": "Puerto Barillas",
+          "images": [
+         
+          ]
+        },
+        {
+          "day": 6,
+          "title": "San Salvador y Arte",
+          "description": "Taller de pintura Fernando Llort. Tour por el centro histórico.",
+          "accommodation": "San Salvador",
+          "images": [
+         
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Panchimalco y Salida",
+          "description": "Visita a la iglesia colonial y taller escultórico.",
+          "location": "Panchimalco ('Lugar de Escudos')",
+          "images": [
+          
+          ]
         }
       ],
       "includes": [
@@ -117,6 +178,7 @@
         "Entrada a Laguna de Alegría, Puerto San Juan y Parque El Boquerón",
         "Taller de pintura estilo Fernando Llort",
         "Experiencia con el artista Miguel Ángel (Panchimalco)",
+     
         "Agua mineral en el transporte"
       ],
       "excludes": [
@@ -124,6 +186,7 @@
         "Almuerzos y cenas (excepto desayunos)",
         "Actividades opcionales en Puerto Barillas: renta de kayaks/bicicletas, tour a plantaciones de cacao o playas, teñido de añil (opcional en Suchitoto)",
         "Propinas (guías, conductores)",
+  
         "Gastos personales (souvenirs, bebidas)"
       ],
       "toBring": [
@@ -142,13 +205,15 @@
     {
       "id": 3,
       "title": "De Todo un Poco - El Salvador",
-      "image": "/images/tour3/extra1.jpg",
+      "image":    "/images/tour3/extra1.jpg",
       "extraPhotos": [
+     
         "/images/tour3/extra2.jpg",
         "/images/tour3/extra3.jpg",
         "/images/tour3/extra4.png",
         "/images/tour3/extra5.png",
         "/images/tour3/extra6.jpg"
+     
       ],
       "location": "El Salvador (Suchitoto, Cihuatán, San Salvador, Panchimalco, Ruta de las Flores, Cerro Verde)",
       "duration": "7 días / 6 noches",
@@ -158,38 +223,66 @@
       "itinerary": [
         {
           "day": 1,
-          "title": "Llegada",
-          "description": "Encuentro en el aeropuerto de El Salvador y traslado a su hotel Suchitoto. Noche en Suchitoto"
+          "title": "Llegada a Suchitoto",
+          "description": "Traslado al pueblo colonial, conocido por su arte y calles empedradas.",
+          "location": "Aeropuerto → Suchitoto ('Pájaro Flor')",
+          "accommodation": "La Posada de Suchitlán",
+          "images": [
+        
+          ]
         },
         {
           "day": 2,
-          "title": "Suchitoto",
-          "description": "Suchitoto es un pueblo que ha conservado la historia en sus calles empedradas y entre las casas de balcones antiguos. Suchitoto o PajaroFlor en nahuat ahora es un pueblo bohemio donde viven artistas, encuentran galerías de arte y museos. Si tienen suerte habrá presentaciones artísticas en el teatro, el día de su visita. El city tour es conociendo lugares emblemáticos de este hermoso lugar, como su iglesia. Hay tiendas de artesanías por doquier e irán a dar un recorrido en lancha por el Lago de Suchitlán. Noche en Suchitoto"
+          "title": "Explorando Suchitoto",
+          "description": "City tour: Iglesia, galerías de arte y museos. Recorrido en lancha por el Lago Suchitlán (aves migratorias).",
+          "accommodation": "Suchitoto",
+          "images": [
+         
+          ]
         },
         {
           "day": 3,
-          "title": "Cihuatán y Ron Cihuatán",
-          "description": "Salida hacia uno de los sitios arqueológicos más importantes de Centro América: Cihuatán, que en lengua nahuat significa Lugar de la Mujer o Lugar Junto a la Mujer, donde se han identificado 3 áreas principales: un centro ceremonial, el cual está delimitado por una muralla circundante; el área de la acrópolis, la cual es una gran plataforma sobre la que se ubican varias estructuras en donde se ha reconocido la zona habitacional de los nobles; y el área doméstica, es decir, el lugar donde vivía el resto de la población. Todo rodeado por amplias tierras agrícolas. Continuarán a vivir una experiencia diferente en la licorera Cihuatán. Aquí descubrirán el proceso de fabricación del Ron Cihuatán, uno de los mejores rones a nivel internacional. Entrarán a la bodega de añejamiento, les mostrarán como catar las diferentes calidades de estos licores y vivirán la experiencia de la 'mixología', además les ofrecerán cada botella a precio especial por si desea comprar. Noche en San Salvador"
+          "title": "Arqueología y Ron",
+          "description": "Visita a las ruinas precolombinas de Cihuatán. Experiencia de ron: Cata, mixología y ½ botella de regalo.",
+          "location": "Sitio arqueológico Cihuatán → Licorera Cihuatán",
+          "accommodation": "San Salvador",
+          "images": [
+          
+          ]
         },
         {
           "day": 4,
           "title": "Panchimalco y San Salvador",
-          "description": "Salida lida hacia Panchimalco de origen precolombino. Su iglesia, nombrada Monumento Nacional es una joya histórica de la época colonial digna de conservación, por su estilo arquitectónico y por las obras de arte que alberga. El recorrido incluye el Parque Escultórico y la visita a la Casa Taller Encuentros del pintor Miguel Angel Ramírez a quien le encanta recibir visitas y siempre tiene actividades preparada para que pasen un momento cultural muy agradable. Por la tarde se tiene programado un City tour por San Salvador visitando los más importante y emblemáticos espacios, edificios y plazas de nuestra ciudad capital, especialmente en el centro histórico. Noche en San Salvador"
+          "description": "Visita a la iglesia colonial de Panchimalco. Taller con el artista Miguel Ángel Ramírez. City tour por el centro histórico de San Salvador.",
+          "accommodation": "San Salvador",
+          "images": [
+        
+          ]
         },
         {
           "day": 5,
-          "title": "Cerro Verde",
-          "description": "Salida hacia el Parque Natural Cerro Verde que se encuentra en el complejo Los Volcanes, que a su vez es parte de la Reserva de la Biósfera Apaneca Lamatepec. Recorrerán el sendero 'Una Ventana a la Naturaleza' para disfrutar de vistas espectaculares. La vista más grandiosa es la del Volcán de Izalco que se siente casi tocarlo con las manos al estirar el brazo. Almorzarán en un restaurante de la zona antes de continuar el viaje hacia La Ruta de Las Flores para dar inicio a las diferentes visitas que se realizarán en medio de plantaciones de café y entre pueblos encantadores. Noche en La Ruta de las Flores"
+          "title": "Naturaleza en Cerro Verde",
+          "description": "Senderismo con vistas panorámicas al Volcán de Izalco y almuerzo local.",
+          "location": "Parque Cerro Verde",
+          "accommodation": "Ruta de las Flores",
+          "images": [
+      
+          ]
         },
         {
           "day": 6,
-          "title": "Ruta de las Flores",
-          "description": "Conocerán todo sobre el café visitando un beneficio donde les contarán acerca del proceso que se realiza antes de que se convierta en una sabrosa taza de esta bebida. También aprenderán sobre los diferentes métodos para prepararlo. Recorrerán otros lugares de interés de la Ruta de las Flores como Nahuizalco con sus artesanías en mimbre y el colorido pueblo de Ataco de calles empedradas y rodeado de cerros. En nahuat su nombre es Lugar de Elevados Manantiales. Noche en Ruta de las Flores"
+          "title": "Café y Pueblos Coloridos",
+          "description": "Tour en beneficio cafetalero (proceso del café). Visita a Ataco (artesanías) y Nahuizalco (mimbre).",
+          "accommodation": "Ruta de las Flores",
+          "images": [
+        
+          ]
         },
         {
           "day": 7,
           "title": "Salida",
-          "description": "Traslado al aeropuerto a la hora indicada"
+          "description": "Traslado al aeropuerto.",
+          "images": []
         }
       ],
       "includes": [
@@ -203,12 +296,14 @@
         "Taller con el artista Miguel Ángel Ramírez (Panchimalco)",
         "Entradas a Cerro Verde y Puerto San Juan",
         "Tour en beneficio cafetalero (Ruta de las Flores)",
+     
         "Agua mineral en el transporte"
       ],
       "excludes": [
         "Vuelos internacionales",
         "Almuerzos y cenas (excepto desayunos)",
         "Propinas (guías, conductores)",
+       
         "Gastos personales (souvenirs, bebidas alcohólicas adicionales)",
         "Actividades no especificadas en el itinerario"
       ],
@@ -231,9 +326,9 @@
       "extraPhotos": [
         "/images/tour4/extra1.jpg",
         "/images/tour4/extra2.png",
-        "/images/tour4/extra4.jpg"
+           "/images/tour4/extra4.jpg"
       ],
-      "location": "El Salvador, Guatemala, Honduras",
+      "location": "El Salvador, Guatemala, Honduras ",
       "duration": "13 días / 12 noches",
       "groupSize": "6 personas",
       "availability": "Todo el año (evitar temporada de lluvias: mayo-octubre)",
@@ -241,68 +336,102 @@
       "itinerary": [
         {
           "day": 1,
-          "title": "Llegada",
-          "description": "Encuentro con su guía en el aeropuerto internacional y traslado al hotel en San Salvador. Noche en San Salvador"
+          "title": "Llegada a San Salvador",
+          "description": "Traslado al hotel.",
+          "accommodation": "San Salvador",
+          "images": []
         },
         {
           "day": 2,
-          "title": "El Salvador - Metapán",
-          "description": "Salida de San Salvador hacia la ciudad de Metapán. En el camino se encuentra el sitio arqueológico de Joya de Cerén, Patrimonio de la Humanidad, exponiendo un pueblo que en plena vida productiva quedó bajo 14 capas de cenizas volcánicas guardando la historia hasta nuestros días. Almuerzo al llegar a Metapán para luego hacer una visita guiada al Centro Histórico de la Ciudad Blanca explorando el Museo del Plan Trifinio y el Museo del Pueblo, además de conocer la Iglesia Colonial. Para continuar hacia el Geoparque El Limo, se conducirán hasta el punto donde tomarán un vehículo 4x4 para recorrer un terreno accidentado, con preciosas vistas de la cascada que se vislumbra desde la calle. Luego del check-in habrá un recorrido por el Museo de Fósiles con rica historia geológica de la zona descubriendo fósiles de más de 150 millones de años, pertenecientes al cretácico superior. Antes de cena tendrán tiempo para relajarse y disfrutar del entorno natural del parque, explorando la zona o simplemente descansando. Después de cena participarán en actividades nocturnas opcionales, como una fogata en la zona común o una relajante noche bajo las estrellas. Noche en Geoparque El Espino"
+          "title": "Joya de Cerén y Metapán",
+          "description": "Visita al sitio arqueológico Joya de Cerén (Patrimonio de la Humanidad). Tour por Metapán ('Ciudad Blanca') y Geoparque El Espino.",
+          "images": [
+        
+          ]
         },
         {
           "day": 3,
-          "title": "Aventura en la naturaleza",
-          "description": "06:30: Experimenta el proceso de ordeño de vacas y aprende sobre la producción de lácteos frescos, un componente esencial de la vida en el campo. El desayuno es con productos cultivados en el parque, de los agricultores locales y la leche de las vacas contentas que pastan en el campo. Luego les espera una caminata hacia la Cascada El Limo, una joya natural del parque. La Cascada está rodeada de exuberante vegetación y contiene un salto de agua muy hermoso. Es el lugar perfecto para conectarse con la naturaleza y disfrutar de un momento de serenidad puro. Después del almuerzo habrá una caminata a la Roca Gigante llegando hasta un mirador espectacular a disfrutar de vistas panorámicas maravillosas y, al regreso, el atardecer. Noche en Geoparque El Espino"
+          "title": "Aventura en Geoparque El Espino",
+          "description": "Ordeño de vacas, caminata a Cascada El Limo y Roca Gigante.",
+          "accommodation": "Geoparque El Espino",
+          "images": [
+         
+          ]
         },
         {
           "day": 4,
-          "title": "El Salvador - Esquipulas",
-          "description": "Desayuno temprano en el Hotel y check out, salida hacia Esquipulas en Guatemala y al llegar y check-in el hotel. Por la tarde está programado un recorrido por el Centro Histórico iniciando en la Parroquia Santiago (primer Santuario) y continuarán a la Plaza La Marimba, Portal colonial de la Municipalidad y fuente colonial. Visita al Cerro Morola, al Santuario Belén y mirador panorámico. Concluyendo el recorrido en la Basílica del Señor de Esquipulas, explicando detalles arquitectónicos e históricos del templo con tiempo libre en Mercado de Artesanías para compra de souvenirs. La basílica fue construida entre 1740 y 1758 y alberga la milagrosa imagen del Cristo Negro Señor de Esquipulas. Es considerado el templo católico más grande de toda Centroamérica y es sorprendente ver tantas personas, entre ellas descendientes de los maya chortí, proyectar tanta fe, llevar velitas y agradecer favores recibidos. Noche Hotel El Gran Chortí"
+          "title": "Esquipulas (Guatemala)",
+          "description": "Visita a la Basílica del Cristo Negro y mercado de artesanías.",
+          "accommodation": "Hotel El Gran Chortí",
+          "images": [
+         
+          ]
         },
         {
           "day": 5,
-          "title": "Esquipulas - Copán",
-          "description": "Desayuno en el hotel para luego dirigirse a Copán. Estarán llegando aproximadamente al medio día dejándoles en el hotel Camino Maya. Tarde libre y por la noche cenarán en un lugar mágico ubicado en las colinas sobre el tranquilo Valle de Copán. El Hotel Hacienda San Lucas es un retiro familiar de 100 años de antigüedad, estará en el corazón de la cocina maya tradicional y cada plato cuenta una historia de tradición y sabor arraigado en las raíces más profundas de la cocina local. Nuestro restaurante es un santuario gastronómico que celebra la riqueza de la cultura y la cocina tradicional. Sumérgete en una experiencia culinaria inolvidable mientras exploras nuestro menú cuidadosamente elaborado, que presenta una exquisita selección de platos auténticos preparados con ingredientes frescos y locales. Noche en Hotel Camino Maya"
+          "title": "Copán (Honduras) - Día 1",
+          "description": "Llegada a Copán Ruinas. Tour introductorio.",
+          "accommodation": "Hotel Camino Maya",
+          "images": []
         },
         {
           "day": 6,
-          "title": "Sitio Arqueológico de COPAN",
-          "description": "Desayuno en hotel. Visita al parque arqueológico, donde encuentran la Escalinata Jeroglífica más larga de los mayas; el Juego de la Pelota, considerado el centro social de la ciudad; la Gran Plaza, famosa por las estelas y altares; la Acrópolis, reservada para la élite gobernante; túneles y entrada al museo de escultura. Por la tarde visitarán las aguas termales en Luna Jaguar Spa, es un eco spa con arquitectura de evocación maya con el objetivo de satisfacer sus sentidos a través de una experiencia única dedicada al bienestar físico, corporal y mental en medio de un ambiente selvático (reserva protegida) manantiales de agua fría y caliente. Noche en Hotel Camino Maya"
+          "title": "Copán (Honduras) - Día 2",
+          "description": "Tour arqueológico en Copán Ruinas (Escalinata Jeroglífica, Juego de Pelota). Aguas termales en Luna Jaguar Spa.",
+          "images": [
+      
+          ]
         },
         {
           "day": 7,
-          "title": "Finca Santa Isabel",
-          "description": "Desayuno en hotel, seguidamente se visitará la Finca Santa Isabel donde se trasladarán en un troco (camión) que los llevará montaña arriba y podrán apreciar las plantaciones de café, mientras el guía local realiza explicaciones del lugar. Luego habrá una caminata por varias estaciones. Al medio día su almuerzo será típico con bebida y postre. Luego pasan a 2da etapa de explicaciones del lavado, secado y tostado. Luego del almuerzo se visitará el parque de aves el cual es una reserva natural para diversas especies de aves que están en peligro de extinción. Este lugar se encuentra completamente rodeado de naturaleza. Noche en Hotel Camino Maya"
+          "title": "Copán (Honduras) - Día 3",
+          "description": "Finca cafetalera Santa Isabel y parque de aves.",
+          "images": [
+
+          ]
         },
         {
           "day": 8,
-          "title": "Copán, Honduras – Zona alta de Chalatenango, El Salvador",
-          "description": "Desayuno en el hotel y salida hacia las montañas más altas de El Salvador. Actividad de campo por la tarde. Noche en Zona Alta de Chalatenango"
+          "title": "Zona Alta de Chalatenango (El Salvador) - Día 1",
+          "description": "Actividades agrícolas comunitarias.",
+          "accommodation": "Zona Alta de Chalatenango",
+          "images": []
         },
         {
           "day": 9,
-          "title": "Agroturismo",
-          "description": "Desayuno de campo, para luego visitar los cultivos de hortalizas. Y según la época del año podrá sembrar o cortar y darse cuenta de los cuidos que requieren estos alimentos. Elaborarán pan o tortillas y esperamos se atreva a darse un buen chapuzón en las cristalina y frías aguas del río Sumpul. Este río tiene unas pozas en medio de la naturaleza y divide Honduras y El Salvador. Noche en Zona Alta de Chalatenango"
+          "title": "Zona Alta de Chalatenango (El Salvador) - Día 2",
+          "description": "Baño en el Río Sumpul (límite natural entre Honduras y El Salvador).",
+          "images": [
+        
+          ]
         },
         {
           "day": 10,
-          "title": "El Pital - Suchitoto",
-          "description": "Desayuno en el hotel y salida hacia La Palma, famosa por sus artesanías en madera y diseños en arte Naif, creación del pintor salvadoreño Fernando Llort. Su técnica consiste básicamente en representar momentos de la vida rural cotidiana, así como la flora y la fauna típicas del lugar. Tendrán la oportunidad de pintar su propia artesanía antes de continuar su viaje. En el camino hacia Suchitoto se encuenta La Licorera Cihuatán dónde descubrirán el proceso de fabricación del Ron Cihuatán, entrarán a la bodeja de añejamiento, les mostrarán como catar las diferentes calidades de estos licores y vivirán la experiencia de la 'mixología', además les ofrecerán cada botella a precio especial por si desea comprar. Luego se dirigirán a Suchitoto donde el resto de la tarde es libre para descansar o caminar por sus callecitas empedradas. Noche en Suchitoto"
+          "title": "Suchitoto - Día 1",
+          "description": "Taller de arte Naif en La Palma.",
+          "accommodation": "Suchitoto",
+          "images": [
+        
+          ]
         },
         {
           "day": 11,
-          "title": "Suchitoto",
-          "description": "Suchiototo siempre ha guardado sus tradiciones y cultura a través de los años y ahora es una ciudad bohemia donde viven artistas, con hoteles boutique encantadores, hay festivales cuando los protagonistas de todas las artes nos deleitan con sus creaciones. Suchitoto en lengua náhuatl quiere decir Pájaro Flor. Es referente de las 'tinciones'* en añil y donde encuentran museos, exposiciones, naturaleza, historia, gente afable, hermosos rincones, magníficas vistas. Noche en Suchitoto *teñidos"
+          "title": "Suchitoto - Día 2",
+          "description": "Experiencia en Licorera Cihuatán (½ botella de ron incluida).",
+          "images": []
         },
         {
           "day": 12,
-          "title": "Ciudad Capital",
-          "description": "Después del desayuno irán a visitar el sitio arqueológico de Cihuatán donde se han identificado 3 áreas principales: un centro ceremonial, el cual está delimitado por una muralla circundante; el área de la acrópolis (gran plataforma sobre la que se ubican varias estructuras en donde se ha identificado la zona habitacional de los nobles y el área doméstica, es decir, el lugar donde vivía el resto de la población. Todo rodeado por amplias tierras agrícolas. Finalmente llegarán a San Salvador y después del check-in en su hotel, se trasladarán al centro histórico visitando edificios y lugares más emblemáticos como la iglesia El Rosario, Catedral, El Palacio Nacional, las plazas, entre otros. Este día también subirán al Boquerón, el cual es un parque natural que se encuentra en el Volcán de San Salvador y constituye el cráter más grande de este coloso en cuyas faldas se encuentra la ciudad capital. Noche en San Salvador"
+          "title": "San Salvador",
+          "description": "Visita al Parque El Boquerón y centro histórico.",
+          "accommodation": "San Salvador",
+          "images": []
         },
         {
           "day": 13,
           "title": "Salida",
-          "description": "Traslado al aeropuerto a la hora indicada"
+          "description": "Traslado al aeropuerto.",
+          "images": []
         }
       ],
       "includes": [
@@ -312,14 +441,16 @@
         "Alojamiento: 2 noches en Geoparque El Espino, 2 noches en Zona Alta de Chalatenango, 2 noches en Suchitoto, 2 noches en San Salvador (El Salvador), 1 noche en Hotel El Gran Chortí (Guatemala), 3 noches en Hotel Camino Maya (Honduras)",
         "Desayunos diarios",
         "Comidas especiales: 1 almuerzo en Geoparque El Limo, 1 almuerzo en Finca Santa Isabel (Honduras), 1 cena en Hacienda San Lucas (gastronomía maya), 1 almuerzo en Zona Alta de Chalatenango",
-        "Entradas a sitio arqueológicos: Joya de Cerén, Cihuatán (El Salvador) y Copán (Honduras)",
+        "Entradas a sitios arqueológicos: Joya de Cerén, Cihuatán (El Salvador) y Copán (Honduras)",
         "Experiencias: Ordeño de vacas y caminata a Cascada El Limo, Tour de café en Finca Santa Isabel, Visita a aguas termales Luna Jaguar Spa, Taller de pintura Naif en La Palma, Experiencia de ron en Licorera Cihuatán (½ botella incluida)",
         "City tours: Metapán, Esquipulas, Suchitoto, San Salvador"
+      
       ],
       "excludes": [
         "Vuelos internacionales",
         "Almuerzos y cenas no especificados",
         "Propinas (guías, conductores)",
+       
         "Impuestos aeroportuarios",
         "Gastos personales (souvenirs, bebidas alcohólicas adicionales)"
       ],
@@ -339,7 +470,9 @@
       "id": 5,
       "title": "La Rosa, Las Estrellas y Los Volcanes",
       "image": "/images/tour5/extra1.png",
-      "extraPhotos": [],
+      "extraPhotos": [
+    
+      ],
       "location": "El Salvador (San Salvador, Volcán de Santa Ana, Izalco, Cerro Verde, Ahuachapán, Lago de Coatepeque)",
       "duration": "7 días / 6 noches",
       "groupSize": "6 personas",
@@ -348,38 +481,66 @@
       "itinerary": [
         {
           "day": 1,
-          "title": "Llegada",
-          "description": "Encuentro y traslado al hotel en San Salvador. Cena conversatorio con Gladys Abigail Alvarado Suncín, sobrina nieta de Consuelo Suncín, esposa de Antoine de Saint Exupery. Les será revelado parte de la vida de La Rosa que Cautivó al Principito. Noche en San Salvador"
+          "title": "Legado de Consuelo",
+          "description": "Cena-conversatorio con Gladys Alvarado Suncín (sobrina nieta de Consuelo Suncín, musa de El Principito)",
+          "location": "San Salvador",
+          "accommodation": "San Salvador",
+          "images": [
+    
+          ]
         },
         {
           "day": 2,
-          "title": "El Boquerón, Joya de Cerén, Reserva de Biósfera Apaneca Lamatepec",
-          "description": "El Boquerón en el Volcán de San Salvador, es el segundo cráter más ancho del país. La caminata es por el jardín que atraviesa un terreno irregularmente natural hasta llegar a la orilla del cráter con una vista espectacular del mismo. Después de las fotografías tomarán el camino hacia el sitio arqueológico de Joya de Cerén, nombrado Patrimonio de la Humanidad. Se desplazarán por la carretera que cruza un paisaje formado por rocas volcánicas de erupciones muy remotas en tiempo. Joya de Cerén es un grupo de estructuras de una comunidad campesina que en plena vida productiva quedó bajo 14 capas de ceniza de una erupción de un volcán cercano, hace 1,400 años. Continuarán hasta Finca Campo Bello donde pasarán la noche. Pero antes de ir a dormir y soñar, tendrán una actividad tipo foro de discusión: 'Buscando el Asteroide B-612'. Noche en Finca Campo Bello"
+          "title": "Boquerón y Joya de Cerén",
+          "description": "Caminata al cráter del Boquerón. Visita a Joya de Cerén (Patrimonio de la Humanidad). Foro 'Buscando el Asteroide B-612' en Finca Campo Bello.",
+          "accommodation": "Finca Campo Bello",
+          "images": [
+    
+          ]
         },
         {
           "day": 3,
-          "title": "Volcán Lamatepec o Cerro Padre",
-          "description": "Ustedes están amaneciendo en un punto medio entre los 3 volcanes que aparecen en el libro de El Principito del escritor Antoine de Saint Exupery. Este día, caminando entre senderos, subirán hasta el cráter del volcán más alto del país, El Volcán de Santa Ana. Esta es una de las caminatas más gratificantes que se realizan en la Reserva de Biósfera Apaneca Lamatepec. Atravesando el bosque, se llega al borde de este enorme cráter que en realidad son 5 cráteres, uno dentro del otro, de alrededor de 500 metros de profundidad y contiene en el fondo una hermosa laguna de ácido sulfúrico de color turquesa. Noche en Finca Campo Bello"
+          "title": "Volcán de Santa Ana",
+          "description": "Ascenso de 5-8 horas hasta la laguna sulfúrica turquesa (2,730 msnm)",
+          "location": "Volcán Ilamatepec (Santa Ana)",
+          "accommodation": "Finca Campo Bello",
+          "images": [
+   
+          ]
         },
         {
           "day": 4,
-          "title": "Volcán de Izalco y Cerro Verde",
-          "description": "El Volcán de Izalco es también llamado El Faro del Pacífico porque por muchos años guió navíos con sus constantes erupciones que se veían desde muy adentro del Océano Pacífico. El ascenso se realiza desde El Cerro Verde que también es un volcán dormido y la experiencia es fantástica. La caminata tiene una dificultad media alta sobre un terreno con rocas suelta, pero una vez conquistada la cima del Izalco, en un día despejado se puede observar el Océano Pacífico, el volcán de San Salvador, la cordillera entre El Salvador y Honduras y volcanes hasta de Guatemala. Hay algunas fumarolas humeantes como recordatorio de que este es un joven que ni siquiera está dormido, simplemente relajado. Noche en Hotel Casa Mamapan"
+          "title": "Izalco - El Volcán Joven",
+          "description": "Subida por rocas sueltas para vistas al Pacífico y volcanes de 3 países",
+          "location": "Volcán Izalco ('Faro del Pacífico')",
+          "accommodation": "Hotel Casa Mamapán",
+          "images": [
+      
+          ]
         },
         {
           "day": 5,
-          "title": "Los Ausoles – Aguas Termales - Ahuachapán",
-          "description": "Los ausoles constituyen uno de los fenómenos más interesantes del vulcanismo en la región nombrando a Ahuachapán 'La capital geotérmica de América Central'. Los ausoles se abren paso entre un depósito de rocas, masas semifluidas de barro y agua en estado de ebullición, lanzando continuamente grandes burbujas pesadas a las superficie. Por la tarde disfrutarán en Termales de Alicante la cual se destaca por sus catorce piscinas termales de diferentes tamaños. Situado entre hermosas montañas, ofrece una experiencia única de relajación y conexión con la naturaleza. Noche en Casa de Mamapán"
+          "title": "Energía Geotérmica",
+          "description": "Ausoles de Ahuachapán (paisajes lunares con fumarolas). Relax en Termales de Alicante.",
+          "location": "Ahuachapán",
+          "accommodation": "San Salvador",
+          "images": [
+       
+          ]
         },
         {
           "day": 6,
-          "title": "Lago de Coatepeque y San Salvador",
-          "description": "Después del desayuno en hotel se dirigirán a la ciudad capital de El Salvador pero antes de llegar tomarán un desvío para pasar el día en el hermoso Lago de Coatepeque. Es de origen volcánico y los accidentes más importantes son dos pequeñas penínsulas denominadas 'Los Anteojos y la isla del Cerro donde los indígenas pipiles tenían un templo y un monolito representativo de la Dios Itzcueye, esposa de Quetzalcóatl. El Lago Coatepeque en el 2013 participio en la octava maravilla del mundo donde obtuvo el segundo lugar. Por la tarde llegarán a San Salvador haciendo una corta visita al centro histórico para disfrutar de la iluminación y cenar en algún restaurante de la zona. Noche en San Salvador"
+          "title": "Lago de Coatepeque",
+          "description": "Día libre: Navegación o visita a la Isla del Cerro (templo pipil)",
+          "images": [
+   
+          ]
         },
         {
           "day": 7,
           "title": "Salida",
-          "description": "Traslado al aeropuerto a la hora indicada"
+          "description": "Traslado al aeropuerto",
+          "images": []
         }
       ],
       "includes": [
@@ -393,11 +554,13 @@
         "Actividades: Caminatas al Boquerón, Santa Ana e Izalco",
         "Visita a Termales de Alicante",
         "Día en Lago de Coatepeque"
+    
       ],
       "excludes": [
         "Vuelos internacionales",
         "Almuerzos y cenas no especificadas",
         "Propinas (guías, conductores)",
+ 
         "Equipo de trekking personal (bastones, mochilas)",
         "Gastos personales"
       ],
@@ -429,63 +592,115 @@
       "itinerary": [
         {
           "day": 1,
-          "title": "Cañón del Sumidero y Chiapa de Corzo",
-          "description": "Recepción en el aeropuerto de Tuxtla Gutiérrez y traslado al embarcadero para tomar nuestra lancha compartida para visitar el Cañón del Sumidero, en el recorrido tendremos varios puntos importantes a ver, 2.20 hrs después regresamos y tendremos nuestro city tour por Chiapa de Corzo pueblo mágico, dependiendo de la hora de comida del cliente podremos tenerla acá o trasladarnos a San Cristóbal que está a 1.30 hrs de distancia y comer ahí. Tarde libre. Hospedaje."
+          "title": "Cañón del Sumidero",
+          "description": "Recorrido en lancha por el Cañón del Sumidero. Visita al pueblo mágico de Chiapa de Corzo.",
+          "location": "Tuxtla Gutiérrez → Chiapa de Corzo",
+          "accommodation": "San Cristóbal de las Casas",
+          "images": [
+      
+          ]
         },
         {
           "day": 2,
-          "title": "Cascadas El Chiflón y Lagos de Montebello",
-          "description": "8 am ya desayunados, tour a las cascadas del chiflón, lugar donde veremos el velo de novia de 120 mtrs de altura, caminaremos alrededor de 1 km de subida y tendremos oportunidad de hacer tirolesas, en este mismo sitio veremos en el recorrido dos caídas de aguas más, la del suspiro y la del ala de ángel. Después nos trasladamos 1.30 hrs a los lagos de Montebello, en este sitio tendremos nuestra hora de comida. también dependiendo los tiempos visitaremos alrededor de 5 lagos entre los más importantes, Montebello, pojoj donde podremos hacer un paseo en balsa de madera, internacional donde vamos a pasar a Guatemala, entre otros. Al finalizar regresamos a San Cristóbal para llegar a las 9 pm aproximadamente."
+          "title": "El Chiflón y Lagos de Montebello",
+          "description": "Caminata a cascadas (Velo de Novia, Ala de Ángel). Paseo en balsa en el lago Pojoj.",
+          "accommodation": "San Cristóbal de las Casas",
+          "images": [
+    
+          ]
         },
         {
           "day": 3,
-          "title": "Comunidades Indígenas: San Juan Chamula y Zinacantán",
-          "description": "Ya desayunados 10 am nos trasladamos a las comunidades indígenas, a escasos 20 min de San Cristóbal llegamos a San Juan Chamula, lugar donde entraremos a su iglesia católica con costumbres prehispánicas, donde veremos los rituales de limpia que hacen, después nos trasladamos a Zinacantan, visitaremos su iglesia ya más normal que la de San Juan Chamula, también visitaremos una casa típica donde tienen sus telares de cintura, podremos vestirnos como ellos y también degustar de su comal (tortillas a mano, frijoles, etc.) a las 3 pm regresamos a San Cristóbal."
+          "title": "Cultura Tzotzil",
+          "description": "Rituales en la iglesia de San Juan Chamula. Taller de textiles y comida tradicional en Zinacantán.",
+          "accommodation": "San Cristóbal de las Casas",
+          "images": [
+     
+          ]
         },
         {
           "day": 4,
-          "title": "Villahermosa y Parque Museo La Venta",
-          "description": "9 am ya desayunados saldremos en camino 5 hrs a la ciudad de Villahermosa, Tabasco, visitaremos el parque museo La Venta, museo al aire libre donde veremos las cabezas Olmecas, realizaremos una caminata por este sitio, visitaremos un pequeño zoológico y vistas del lago. Después tiempo para comer y traslado a nuestro hotel, tarde para descansar. Hospedaje."
+          "title": "Olmecas en Villahermosa",
+          "description": "Museo al aire libre con cabezas olmecas en Parque La Venta.",
+          "location": "San Cristóbal → Villahermosa",
+          "accommodation": "Villahermosa",
+          "images": [
+        
+          ]
         },
         {
           "day": 5,
-          "title": "Ruta del Cacao y Comalcalco",
-          "description": "Ya desayunados 9 am a una hora aproximadamente de nuestro hotel, realizaremos nuestro tour del cacao al chocolate, visitaremos la iglesia de Cupilco, zona arqueológica de Comalcalco una de las ciudades mayas más al occidente de la cultura maya, visitaremos una hacienda de cacao y fábrica de chocolate, después tiempo para comer en Comalcalco. Después de comer tipo 5 pm nos trasladamos a Palenque, Chiapas para llegar tipo 8 pm a nuestro hospedaje. Noche."
+          "title": "Ruta del Cacao",
+          "description": "Visita a hacienda de cacao y zona arqueológica Comalcalco (última ciudad maya).",
+          "location": "Villahermosa → Comalcalco",
+          "accommodation": "Palenque",
+          "images": [
+       
+          ]
         },
         {
           "day": 6,
-          "title": "Palenque y Cascadas Roberto Barrios",
-          "description": "Por la mañana visitamos la zona arqueológica de Palenque, una de las joyas del mundo maya, tiempo de 3 hrs aproximadamente. Después visitaremos las cascadas de Roberto Barrios, en ella realizaremos una caminata por su sendero en medio de la selva chiapaneca. Después de comer regresamos a nuestro hotel en Palenque. Hospedaje."
+          "title": "Palenque",
+          "description": "Tour por la ciudad maya de Palenque. Baño en cascadas Roberto Barrios.",
+          "accommodation": "Palenque",
+          "images": [
+    
+          ]
         },
         {
           "day": 7,
           "title": "Campeche Fortificada",
-          "description": "Ya desayunados a las 8 am saldremos en un viaje de 6.30 hrs a San Francisco de Campeche, Campeche. Al llegar tiempo para comer. Ciudad puerto capital del estado conocida por sus edificios coloniales barrocos conservados, arquitectura militar y el distrito histórico amurallado. También visitaremos el fuerte de San Miguel y por la tarde un paseo por su hermoso malecón. Hospedaje."
+          "description": "Recorrido por el fuerte San Miguel y malecón de la ciudad amurallada.",
+          "location": "Palenque → Campeche",
+          "accommodation": "Campeche",
+          "images": [
+       
+          ]
         },
         {
           "day": 8,
-          "title": "Uxmal y traslado a Mérida",
-          "description": "9 am ya desayunados visitaremos a 3 hrs la zona arqueológica de Uxmal, este sitio es uno de los más importantes yacimientos mayas. Tiempo en el sitio con nuestro guía. Después tiempo para comer y traslado a Mérida, Yucatán. Llegada por la noche y hospedaje."
+          "title": "Uxmal y Mérida",
+          "description": "Exploración de la zona arqueológica Uxmal (arquitectura Puuc).",
+          "location": "Campeche → Mérida",
+          "accommodation": "Mérida",
+          "images": [
+       
+          ]
         },
         {
           "day": 9,
           "title": "Mérida Blanca",
-          "description": "City tour con nuestro guía por la ciudad. Es considerada una de las ciudades con mejor calidad de vida del país y una de las más seguras del continente. Su patrimonio histórico es producto de la mezcla de las culturas maya, española y africana durante la época colonial. Visitaremos su increíble centro historio, paseo Montejo, entre otros puntos de interés. También disfrutaremos de una de las mejores cocinas en México. Noche y hospedaje."
+          "description": "Visita al Paseo Montejo y centro histórico colonial.",
+          "accommodation": "Mérida",
+          "images": [
+ 
+          ]
         },
         {
           "day": 10,
-          "title": "Chichén Itzá y Cenote Ik Kil",
-          "description": "9 am ya desayunados saldremos a 2 hrs de camino a la joya de la corona, maravilla de la humanidad Chichen Itza, constituye uno de los testimonios mejor preservados de la civilización maya y fue uno de los asentamientos más extensos del centro – norte de la península de Yucatán. Esta zona arqueológica rodeada de misticismo e historia asombrara con sus increíbles edificaciones. Al finalizar traslado para pasar tiempo y nadar en el cenote ik kil, tiempo para comer y traslado de 3 hrs a la ciudad de Cancún, Quintana Roo. Hospedaje."
+          "title": "Chichén Itzá",
+          "description": "Tour por la Maravilla del Mundo. Nado en cenote sagrado Ik Kil.",
+          "location": "Mérida → Chichén Itzá",
+          "accommodation": "Valladolid",
+          "images": [
+    
+          ]
         },
         {
           "day": 11,
-          "title": "Tulum y Playa del Carmen",
-          "description": "9 am ya desayunados traslado de 2 hrs a la zona arqueológica de Tulum. Esta fue una ciudad amurallada de la cultura maya, con su principal edificio conocido como 'El Castillo', tiempo para estar en el sitio. De regreso a Cancún tendremos tiempo para comer y pasar la tarde en Playa del Carmen. Llegada por la noche a Cancún. Hospedaje."
+          "title": "Tulum Caribeño",
+          "description": "Ruinas mayas frente al mar en Tulum. Tarde libre en Playa del Carmen.",
+          "location": "Valladolid → Riviera Maya",
+          "accommodation": "Playa del Carmen",
+          "images": [
+       
+          ]
         },
         {
           "day": 12,
           "title": "Salida",
-          "description": "Nuestro hospedaje vence a las 11 del día, si se tiene su vuelo este día traslado al aeropuerto, también el cliente puede quedarse por cuenta propia a disfrutar de los hoteles todo incluido en el destino. Por nuestra cuenta este día es el fin de nuestros servicios."
+          "description": "Traslado al aeropuerto de Cancún.",
+          "images": []
         }
       ],
       "includes": [
@@ -497,11 +712,14 @@
         "Visitas naturales: Cascadas El Chiflón, Lagos de Montebello, Cenote Ik Kil",
         "Experiencias culturales: Comunidades de San Juan Chamula y Zinacantán",
         "City tours: San Cristóbal, Campeche, Mérida"
+    
       ],
       "excludes": [
         "Vuelos internacionales",
         "Almuerzos y cenas (excepto desayunos)",
+       
         "Propinas (guías, conductores, maleteros)",
+
         "Bebidas alcohólicas"
       ],
       "toBring": [
@@ -634,7 +852,7 @@
     {
       "id": 8,
       "title": "Nicaragua: Del Lago a la Playa",
-      "image": "/images/tour8/extra1.jpg",
+      "image":   "/images/tour8/extra1.jpg",
       "extraPhotos": [
         "/images/tour8/extra2.jpg",
         "/images/tour8/extra3.jpg"
@@ -647,60 +865,74 @@
       "itinerary": [
         {
           "day": 1,
-          "title": " Managua",
-          "description": "Bienvenidos!! Traslado a su hotel. Por la tarde realizaremos una visita al centro histórico de Managua exploramos su historia iniciando en Parque Lomas de Tiscapa, luego nos trasladaremos al Palacio Nacional y Plaza de la revolución, antigua Catedral de Managua, Teatro Nacional Rubén Darío y finalizamos la tarde con la puesta del sol admirando el Lago Xolotlán en el puerto Salvador Allende. Alojamiento",
-          "accommodation": "",
-          "images": []
+          "title": "Llegada a Managua",
+          "description": "Tour por el centro histórico: Parque Lomas de Tiscapa, Palacio Nacional, antigua Catedral. Atardecer en el Puerto Salvador Allende.",
+          "accommodation": "Managua",
+          "images": [
+          
+          ]
         },
         {
           "day": 2,
-          "title": " Managua - Granada",
-          "description": "Desayuno. A la hora indicada nos trasladaremos a la ciudad de Granada, conocida como la Gran Sultana, ciudad colonial fundada en 1524, iniciaremos nuestra visita con recorrido panorámico por la ciudad en coches de caballos acá tendremos la oportunidad de conocer todos los sitios emblemáticos de la ciudad incluyendo la famosa Catedral María Auxiliadora, tendremos tiempo para subir al campanario y poder observar la ciudad. Después del almuerzo, nos trasladamos a orillas del puerto cabaña amarilla para realizar un recorrido en lancha de motor sobre el gran Lago Cocibolca y sus isletas de origen volcánico, al terminar nos trasladaremos al hotel para realizar check-in, resto de la tarde libre. Alojamiento.",
-          "location": "",
-          "accommodation": "",
-          "images": []
+          "title": "Granada Colonial",
+          "description": "Recorrido en coche de caballos por la ciudad colonial. Subida al campanario de la Catedral María Auxiliadora. Paseo en lancha por las Isletas del Lago Cocibolca.",
+          "location": "Managua → Granada",
+          "accommodation": "Granada",
+          "images": [
+          
+          ]
         },
         {
           "day": 3,
-          "title": " Granada",
-          "description": "Después del desayuno nos trasladaremos al volcán Mombacho, para conocer sus senderos, la belleza de sus paisajes y la riqueza de su flora y fauna. Posteriormente realizaremos el canopy en la finca Miravalle, este tiene más de 2 kilómetros, 17 plataformas, 11 cables y 3 puentes colgantes. La siguiente parada es la Laguna Apoyo, es una reserva natural ubicada entre los departamentos de Masaya y Granada de origen volcánico, tiene un color azul oscuro brillante con sus aguas ligeramente saladas por los minerales que se encuentran en el fondo del cráter. Es el lugar perfecto para nadar, bucear, andar en kayak, leer un libro o relajarse en la hamaca. Al finalizar el día regresamos a Granada. Alojamiento",
-          "accommodation": "",
-          "images": []
+          "title": "Mombacho y Apoyo",
+          "description": "Canopy en el Volcán Mombacho (2 km de cables). Tarde de relax en las aguas termales de Laguna de Apoyo.",
+          "accommodation": "Granada",
+          "images": [
+    
+          ]
         },
         {
           "day": 4,
-          "title": " Granada - Ometepe",
-          "description": "Desayuno. A la hora indicada partimos hacia el puerto en San Jorge, Rivas para tomar ferry hasta la Isla de Ometepe, esta es una reserva de biosfera y es la isla más grande del mundo en un lago de agua dulce. Nuestra primera visita será a la famosa Punta de Jesus y Maria, por la tarde después de registrarnos en el hotel nos trasladamos a disfrutar de la piscina natural conocida por el nombre de Ojo de Agua, proviene directamente del Volcán Concepción. La puesta del sol la pasaremos en Playa Mangos con la mejor vista panorámica al volcán Concepción. Alojamiento",
-          "location": "",
-          "accommodation": "",
-          "images": []
+          "title": "Isla de Ometepe",
+          "description": "Ferry a Ometepe. Visita a Punta Jesús María. Baño en Ojo de Agua (manantial volcánico). Atardecer en Playa Mangos con vista al Volcán Concepción.",
+          "location": "Granada → Ometepe",
+          "accommodation": "Ometepe",
+          "images": [
+        
+          ]
         },
         {
           "day": 5,
-          "title": " Ometepe",
-          "description": "arborizadas del volcán Maderas en busca de La Cascada San Ramón, La naturaleza es abundante durante todo el camino y hay varios animales que se pueden observar. Por la tarde nos dirigimos a la reserva ecológica Charco Verde conoceremos su historia y la leyenda de Chico Largo el recorrido finaliza con un lindo mariposario. Alojamiento",
-          "accommodation": "",
-          "images": []
+          "title": "Cascada San Ramón",
+          "description": "Caminata por bosque nuboso hasta la cascada (4-5 hrs). Tarde en la Reserva Charco Verde (mariposario y leyendas locales).",
+          "accommodation": "Ometepe",
+          "images": [
+           
+          ]
         },
         {
           "day": 6,
-          "title": " Ometepe - San Juan del Sur",
-          "description": "Después del desayuno partiremos hacia el puerto para tomar ferry de regreso hacia San Jorge, una vez en tierra firme, saldremos hacia las playas de San Juan del Sur, Rivas. Visitaremos el mirador de Jesús de la Misericordia que por su ubicación cuenta una de las mejores vistas de la bahía. Por la tarde haremos un recorrido por las playas más populares y visitadas como Playa Madera y Playa Marsella. Al llegar la noche podrás disfrutar de la vida nocturna que ofrece la bahía, entre bares y restaurantes frente al mar. Alojamiento.",
-          "location": "",
-          "accommodation": "",
-          "images": []
+          "title": "San Juan del Sur",
+          "description": "Ferry de regreso y traslado a San Juan del Sur. Visita al Mirador del Cristo de la Misericordia. Recorrido por playas cercanas (Playa Madera, Marsella).",
+          "location": "Ometepe → San Juan del Sur",
+          "accommodation": "San Juan del Sur",
+          "images": [
+      
+          ]
         },
         {
           "day": 7,
-          "title": " San Juan del Sur",
-          "description": "Desayuno. Por la mañana recorrer las calles del pueblo de San Juan del Sur y visitar el mercado local, por la tarde nos dirigimos al puerto y abordamos un catamarán en el que navegaremos a Playa Blanca, tendrás la oportunidad de observar una variedad de peces, delfines, tortugas y ballenas dependiendo de la temporada. Podrás pescar en el camino, practicar snorkel y realizar juegos de playa, regresamos a San Juan del Sur al anochecer. Alojamiento",
-          "accommodation": "",
-          "images": []
+          "title": "Aventura en Catamarán",
+          "description": "Navegación a Playa Blanca con avistamiento de vida marina. Actividades: pesca, snorkel y juegos en la playa.",
+          "accommodation": "San Juan del Sur",
+          "images": [
+      
+          ]
         },
         {
           "day": 8,
-          "title": " San Juan del  Sur - Managua",
-          "description": "Desayuno. A la hora indicada traslado hacia el aeropuerto. Fin del Servicio",
+          "title": "Regreso",
+          "description": "Traslado al aeropuerto.",
           "images": []
         }
       ],
@@ -757,30 +989,36 @@
       "itinerary": [
         {
           "day": 1,
-          "title": " Managua",
-          "description": "Bienvenidos!! Traslado a su hotel. Por la tarde realizaremos una visita al centro histórico de Managua exploramos su historia iniciando en Parque Lomas de Tiscapa, luego nos trasladaremos al Palacio Nacional y Plaza de la revolución, antigua Catedral de Managua, Teatro Nacional Rubén Darío y finalizamos la tarde con la puesta del sol admirando el Lago Xolotlán en el puerto Salvador Allende. Alojamiento.",
+          "title": "Llegada a Managua",
+          "description": "Tour urbano: Parque Lomas de Tiscapa, Teatro Nacional Rubén Darío. Atardecer en Puerto Salvador Allende (Lago Xolotlán).",
           "accommodation": "Managua",
-          "images": []
+          "images": [
+          
+          ]
         },
         {
           "day": 2,
-          "title": " Managua - León",
-          "description": "Iniciamos este día después del desayuno trasladándose hacia la ciudad de León, ubicada en el occidente del país, también es conocida como La Ciudad Universitaria. Iniciamos nuestro recorrido por la Ruinas de León Viejo, uno de los más antiguos asentamientos coloniales españoles de América. Posterior realizaremos tour por la ciudad actual de León, en nuestro recorrido podrás apreciar las iglesias más emblemáticas y famosas de la ciudad, el museo archivo Rubén Darío, Casa de Arte y cultura y al finalizar un tour de la Catedral de León aqui hay mucho por descubrir en esta gran pieza arquitectónica Desde su terraza se disfruta de una preciosa panorámica de la ciudad. Alojamiento.",
+          "title": "León Histórico",
+          "description": "Visita a las Ruinas de León Viejo (Patrimonio UNESCO). Recorrido cultural por León: Catedral, Fundación Ortiz-Gurdián y Casa-Museo Rubén Darío.",
           "location": "Managua → León",
           "accommodation": "León",
-          "images": []
+          "images": [
+           
+          ]
         },
         {
           "day": 3,
-          "title": "Volcan Cerro Negro",
-          "description": "Despues del desayuno, tomamos nuestro traslado para iniciar una aventura en el Volcan Cerro Negro, es el volcan más joven de Centro América (167 años) y uno de los más activos del país, despues de una caminata de 1 hora, haremos el descenso practicando sandboarding, antes se le otorgara su traje de proteccion, preparate para la emocion y adrenalina suba sobre una tabla especial y láncese a toda velocidad por la ladera. Por la tarde nos trasladamos a las Playas de Poneloya y las Peñitas, al finalizar el día regresamos a León. Alojamiento.",
-          "accommodation": "",
-          "images": []
+          "title": "Aventura Volcánica",
+          "description": "Ascenso al Volcán Cerro Negro (1 hora). Sandboarding en cenizas volcánicas (hasta 60 km/h). Tarde de relax en Playas Poneloya.",
+          "accommodation": "León",
+          "images": [
+            
+          ]
         },
         {
           "day": 4,
-          "title": "León - Managua",
-          "description": "Desayuno. A la hora indicada salimos de León y nos trasladamos hacia el aeropuerto. Fin del Servicio.",
+          "title": "Regreso",
+          "description": "Traslado al aeropuerto con parada en León para compras de artesanías (opcional).",
           "images": []
         }
       ],
@@ -835,96 +1073,150 @@
       ]
     },
     {
-      "id": 9,
-      "title": "León: Volcanes, Historia y Adrenalina",
-      "image": "/images/tour9/extra1.png",
+      "id": 10,
+      "title": "Al Sureste del Mundo Maya",
+      "image": "/images/tour10/extra6.png",
       "extraPhotos": [
-        "/images/tour9/extra2.png",
-        "/images/tour9/extra3.png"
+        "/images/tour10/extra1.jpg",
+        "/images/tour10/extra2.png",
+        "/images/tour10/extra3.png",
+        "/images/tour10/extra4.jpg",
+        "/images/tour10/extra5.png",
+        "/images/tour10/1.1Dia.jpg"
       ],
-      "location": "Nicaragua (Managua, León, Volcán Cerro Negro, Playas Poneloya)",
-      "duration": "4 días / 3 noches",
-      "groupSize": "6 personas",
-      "availability": "Todo el año (evitar septiembre-octubre por lluvias)",
-      "description": "Un viaje intenso que combina cultura colonial, historia prehispánica y aventura extrema en el joven Volcán Cerro Negro. Ideal para viajeros que buscan emociones fuertes y descubrir el patrimonio de Nicaragua.",
+      "location": "El Salvador, Guatemala, Honduras",
+      "duration": "12 días / 11 noches",
+      "groupSize": "8 personas",
+      "availability": "todo el año",
+      "description": "Un viaje arqueológico por los tesoros mayas de El Salvador, Guatemala y Honduras, explorando ciudades ancestrales como Joya de Cerén (UNESCO), Tikal y Copán. Combina historia, naturaleza y encuentros con comunidades locales.",
       "itinerary": [
         {
           "day": 1,
-          "title": "Dia 1 Managua",
-          "description": "Bienvenidos!! Traslado a su hotel. Por la tarde realizaremos una visita al centro histórico de Managua exploramos su historia iniciando en Parque Lomas de Tiscapa, luego nos trasladaremos al Palacio Nacional y Plaza de la revolución, antigua Catedral de Managua, Teatro Nacional Rubén Darío y finalizamos la tarde con la puesta del sol admirando el Lago Xolotlán en el puerto Salvador Allende. Alojamiento.",
-          "accommodation": "Managua",
+          "title": "Llegada a San Salvador",
+          "description": "Traslado al hotel. Tarde libre para descansar o explorar la ciudad.",
+          "location": "Aeropuerto Internacional de El Salvador → San Salvador",
+          "accommodation": "Noche en San Salvador",
           "images": []
         },
         {
           "day": 2,
-          "title": "Dia 2 Managua - León",
-          "description": "Iniciamos este día después del desayuno trasladándose hacia la ciudad de León, ubicada en el occidente del país, también es conocida como La Ciudad Universitaria. Iniciamos nuestro recorrido por la Ruinas de León Viejo, uno de los más antiguos asentamientos coloniales españoles de América. Posterior realizaremos tour por la ciudad actual de León, en nuestro recorrido podrás apreciar las iglesias más emblemáticas y famosas de la ciudad, el museo archivo Rubén Darío, Casa de Arte y cultura y al finalizar un tour de la Catedral de León aqui hay mucho por descubrir en esta gran pieza arquitectónica Desde su terraza se disfruta de una preciosa panorámica de la ciudad. Alojamiento.",
-          "location": "Managua → León",
-          "accommodation": "León",
+          "title": "MUNA & Lago de Ilopango",
+          "description": "Visita al Museo Nacional de Antropología (MUNA) y tour geológico en la Caldera de Ilopango con experto.",
+          "location": "San Salvador → Ilopango",
+          "accommodation": "Noche en San Salvador",
           "images": []
         },
         {
           "day": 3,
-          "title": "Dia 3 Volcan Cerro Negro",
-          "description": "Despues del desayuno, tomamos nuestro traslado para iniciar una aventura en el Volcan Cerro Negro, es el volcan más joven de Centro América (167 años) y uno de los más activos del país, despues de una caminata de 1 hora, haremos el descenso practicando sandboarding, antes se le otorgara su traje de proteccion, preparate para la emocion y adrenalina suba sobre una tabla especial y láncese a toda velocidad por la ladera. Por la tarde nos trasladamos a las Playas de Poneloya y las Peñitas, al finalizar el día regresamos a León. Alojamiento.",
-          "accommodation": "León",
+          "title": "Joya de Cerén & San Andrés",
+          "description": "Exploración de Joya de Cerén (Patrimonio UNESCO) y el sitio arqueológico San Andrés.",
+          "location": "San Salvador → La Libertad → Ahuachapán",
+          "accommodation": "Noche en Ahuachapan",
           "images": []
         },
         {
           "day": 4,
-          "title": "Dia 4 León - Managua",
-          "description": "Desayuno. A la hora indicada salimos de León y nos trasladamos hacia el aeropuerto. Fin del Servicio.",
+          "title": "Tazumal & Casa Blanca",
+          "description": "Visita a las pirámides de Tazumal y taller de añil en Casa Blanca.",
+          "location": "Ahuachapán → Chalchuapa",
+          "accommodation": "Noche en Ahuachapan",
+          "images": []
+        },
+        {
+          "day": 5,
+          "title": "Kaminaljuyú (Guatemala)",
+          "description": "Traslado a Guatemala y visita al sitio arqueológico Kaminaljuyú y Museo Miraflores.",
+          "location": "Ahuachapán → Ciudad de Guatemala",
+          "accommodation": "Nohce en Ciudad de Guatemala",
+          "images": []
+        },
+        {
+          "day": 6,
+          "title": " Museo de Arqueológia y Etnologia",
+          "description": "Visita al Museo de Arqueología y Etnología.",
+          "location": "Ciudad de Guatemala → Flores",
+          "accommodation": "Noche en Flores a orillas del Lago Petén Itzá",
+          "images": []
+        },
+        {
+          "day": 7,
+          "title": "Yaxhá",
+          "description": "Tour por la ciudad maya de Yaxhá y su laguna sagrada.",
+          "location": "Flores → Yaxhá",
+          "accommodation": "Noche en Flores",
+          "images": []
+        },
+        {
+          "day": 8,
+          "title": "Tikal (UNESCO)",
+          "description": "Día completo en Tikal: Templo del Gran Jaguar, Plaza de los Siete Templos y avistamiento de fauna.",
+          "location": "Flores → Tikal",
+          "accommodation": "Hotel Lago Petén Itzá (Flores)",
+          "images": []
+        },
+        {
+          "day": 9,
+          "title": "Quiriguá",
+          "description": "Visita a las estelas mayas de Quiriguá (Patrimonio UNESCO) y traslado a Río Motagua.",
+          "location": "Flores → Quiriguá → Río Motagua",
+          "accommodation": "Hotel Nanajuana (Río Motagua)",
+          "images": []
+        },
+        {
+          "day": 10,
+          "title": "Copán (Honduras)",
+          "description": "Trámites migratorios y traslado a Copán. Tarde libre en el pueblo colonial.",
+          "location": "Río Motagua → Copán Ruinas",
+          "accommodation": "Hotel en Ruinas de Copán",
+          "images": []
+        },
+        {
+          "day": 11,
+          "title": "Copán (UNESCO)",
+          "description": "Tour por el sitio arqueológico: Escalinata de los Jeroglíficos, Túneles Rosalila y Parque de Guacamayos.",
+          "location": "Copán Ruinas",
+          "accommodation": "Hotel en Ruinas de Copán",
+          "images": []
+        },
+        {
+          "day": 12,
+          "title": "Regreso a San Pedro Sula",
+          "description": "Traslado a San Pedro Sula ",
+          "location": "Copán Ruinas → San Pedro Sula",
           "images": []
         }
       ],
       "includes": [
-        "Alojamiento: 1 noche en Managua (hotel céntrico), 2 noches en León (hotel colonial)",
-        "Desayunos diarios",
-        "Entradas: León Viejo, Catedral de León, museos",
-        "Equipo básico para sandboarding (traje overol, gafas, tabla)",
-        "Guía especializado en aventura (inglés/español)",
-        "Transporte privado con A/C (Managua-León-Managua)",
-        "Botiquín de primeros auxilios para actividades extremas"
+        "Traslados ",
+        "Transporte con aire acondicionado durante todo el tour",
+      
+        "Alojamiento: 2 noches en San Salvador, 2 noches en Ahuachapán, 1 noche en Ciudad de Guatemala, 3 noches en Flores, 1 noche en Río Motagua, 2 noches en Copán",
+      
+        "Entradas a sitios arqueológicos: Joya de Cerén, Tazumal, Kaminaljuyú, Yaxhá, Tikal, Quiriguá, Copán",
+        "Visitas a museos: MUNA (El Salvador), Museo Miraflores (Guatemala), Museo de Arqueología (Guatemala)",
+        "Guía especializado en cultura maya",
+        "Seguro: Assist Card"
+      
       ],
       "excludes": [
-        "Vuelos internacionales",
-        "Almuerzos y cenas ",
-        "Propinas ",
-        "Seguro de viaje con cobertura para deportes extremos",
-        "Equipo personal (guantes para sandboarding - alquiler $5)"
+     
+        "Almuerzos y cenas no especificados",
+        
+ 
+        "Bebidas alcohólicas o gastos personales",
+        "Actividades opcionales no mencionadas"
       ],
       "toBring": [
-        "Zapatos cerrados con buen agarre (terreno volcánico escarpado)",
-        "Ropa ligera + chaqueta cortavientos (cerro Negro es ventoso)",
-        "Protector solar SPF50+ (la arena volcánica refleja radiación)",
-        "Gorra con cordón (para el descenso en sandboarding)",
-        "Mochila pequeña (1.5L agua mínima para la caminata)",
-        "Cámara resistente con funda anti-arena",
-        "Efectivo en córdobas (para artesanías y playas)"
-      ],
-      "physicalRequirements": {
-        "sandboarding": "Nivel medio (instrucción previa incluida)",
-        "hiking": "1 hora en pendiente de 30° (728 msnm)",
-        "notRecommendedFor": "Personas con problemas cardiacos o vértigo"
-      },
-      "optionalExtras": [
-        {
-          "name": "Tour Nocturno de Leyendas",
-          "price": "$25 USD",
-          "duration": "2 horas",
-          "description": "Recorrido teatralizado por el León colonial"
-        },
-        {
-          "name": "Clase de Surf en Poneloya",
-          "price": "$30 USD",
-          "duration": "2.5 horas",
-          "includes": "Tabla e instructor certificado"
-        }
-      ],
-      "safety": [
-        "Guías certificados en primeros auxilios de montaña",
-        "Equipo de sandboarding con certificación ASTM",
-        "Protocolos de evacuación en volcán (vehículo 4x4 standby)"
+        "Pasaporte vigente (mínimo 6 meses)",
+        "Copias de reservas y seguro de viaje",
+        "Certificado de vacunación contra fiebre amarilla (si aplica)",
+        "Calzado cómodo para caminar (senderos arqueológicos)",
+        "Ropa ligera + chaqueta (noches frescas)",
+        "Traje de baño (lagos y hoteles con piscina)",
+        "Sombrero, protector solar, repelente de mosquitos",
+        "Binoculares (para avistar fauna en Tikal)",
+        "Cámara fotográfica",
+        "Medicamentos personales"
       ]
     }, 
     {
