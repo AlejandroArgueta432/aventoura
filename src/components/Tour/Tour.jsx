@@ -180,14 +180,14 @@ const Tour = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Includes */}
-                <div className="bg-green-50 p-5 rounded-lg">
+           {/*      <div className="bg-green-50 p-5 rounded-lg">
                   <h3 className="font-bold text-lg text-green-800 mb-3 flex items-center">
                     <Check className="text-green-600 mr-2" /> Incluye
                   </h3>
                   <ul className="space-y-2">
                     {tour.includes.map((item, index) => (
                       <motion.li
-                        key={index}
+                       key={index}
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.1 * index + 0.6 }}
@@ -198,10 +198,10 @@ const Tour = () => {
                       </motion.li>
                     ))}
                   </ul>
-                </div>
+                </div>*/} 
 
                 {/* Excludes */}
-                <div className="bg-red-50 p-5 rounded-lg">
+           {/**     <div className="bg-red-50 p-5 rounded-lg">
                   <h3 className="font-bold text-lg text-red-800 mb-3 flex items-center">
                     <XCircle className="text-red-600 mr-2" /> No incluye
                   </h3>
@@ -219,7 +219,7 @@ const Tour = () => {
                       </motion.li>
                     ))}
                   </ul>
-                </div>
+                </div>*/} 
 
                 {/* What to Bring */}
                 <div className="bg-blue-50 p-5 rounded-lg md:col-span-2">
