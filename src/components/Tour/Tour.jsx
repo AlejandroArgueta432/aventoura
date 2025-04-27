@@ -361,15 +361,16 @@ const Tour = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
+              {/**     <div className="flex items-start gap-4">
                   <div className="bg-amber-100 p-2 rounded-full">
                     <CalendarDays className="h-5 w-5 text-amber-600" />
                   </div>
-                  <div>
+               <div>
                     <p className="font-medium text-gray-700">Disponibilidad</p>
                     <p className="text-gray-600">{tour.availability}</p>
                   </div>
-                </div>
+                </div>*/} 
+
               </div>
             </motion.div>
 
