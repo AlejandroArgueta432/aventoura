@@ -284,7 +284,7 @@ const Tour = () => {
                         >
                           <div className="p-6 flex flex-col md:flex-row gap-6">
                             <div className="md:w-2/3">
-                              <p className="text-gray-700 mb-4">{day.description}</p>
+                              <p className="text-gray-700 mb-4 text-justify">{day.description}</p>
                               {day.location && (
                                 <div className="flex items-start text-gray-600 mb-2">
                                   <MapPin className="h-4 w-4 mt-0.5 mr-2 text-amber-500 flex-shrink-0" />
