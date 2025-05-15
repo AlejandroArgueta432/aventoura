@@ -984,13 +984,14 @@
     {
       "id": 11,
       "title": "Secretos del Noreste de México",
-      "image": "/images/tour11/cover.png",
+      "image": "/images/tour11/extra1.jpg",
       "extraPhotos": [
-        "/images/tour11/extra1.jpg",
+       
         "/images/tour11/extra2.jpg",
         "/images/tour11/extra3.jpg",
         "/images/tour11/extra4.jpg",
-        "/images/tour11/extra5.jpg"
+        "/images/tour11/extra5.jpg",
+        "/images/tour11/extra6.jpg"
       ],
       "location": "Noreste de México (Monterrey, Santiago, Saltillo, Parras, Mapimí, Cuatro Ciénegas, Torreón)",
       "duration": "14 días / 13 noches",
