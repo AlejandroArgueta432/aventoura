@@ -3,9 +3,12 @@
     {
       "id": 1,
       "title": "Paraísos Rurales - El Salvador",
-      "image": "/images/extra1.jpg",
+      "image": "/images/extra6.JPG",
       "extraPhotos": [
-        "/images/extra2.jpg"
+        "/images/extra2.jpg",
+        "/images/extra5.jpg",
+        "/images/extra1.jpg"
+       
       ],
       "location": "El Salvador (Ruta de las Flores, Apaneca, Salto de Malacatiupan, Parque Cerro Verde, San Salvador)",
       "duration": "4 días / 3 noches",
@@ -227,11 +230,16 @@
     {
       "id": 4,
       "title": "Colores, Sabores y Olores Frescos del Trifinio de Centro América",
-      "image": "/images/tour4/extra3.jpg",
+      "image": "/images/tour4/extra7.jpeg",
       "extraPhotos": [
         "/images/tour4/extra1.jpg",
         "/images/tour4/extra2.png",
-        "/images/tour4/extra4.jpg"
+        "/images/tour4/extra4.jpg",
+        "/images/tour4/extra5.jpg",
+        "/images/tour4/extra6.JPG",
+        
+        "/images/tour4/extra3.jpg"
+
       ],
       "location": "El Salvador, Guatemala, Honduras",
       "duration": "13 días / 12 noches",
@@ -837,14 +845,11 @@
     {
       "id": 10,
       "title": "Al Sureste del Mundo Maya",
-      "image": "/images/tour10/extra6.png",
+      "image": "/images/tour10/extra7.JPG",
       "extraPhotos": [
-        "/images/tour10/extra1.jpg",
-        "/images/tour10/extra2.png",
-        "/images/tour10/extra3.png",
-        "/images/tour10/extra4.jpg",
-        "/images/tour10/extra5.png",
-        "/images/tour10/1.1Dia.jpg"
+        "/images/tour10/extra8.JPG",
+        "/images/tour10/extra9.jpg"
+      
       ],
       "location": "El Salvador, Guatemala, Honduras",
       "duration": "12 días / 11 noches",
