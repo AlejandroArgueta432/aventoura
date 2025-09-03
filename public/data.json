@@ -10,8 +10,8 @@
         "/images/extra1.jpg"
        
       ],
-      "location": "El Salvador (Ruta de las Flores, Apaneca, Salto de Malacatiupan, Parque Cerro Verde, San Salvador)",
-      "duration": "4 días / 3 noches",
+      "location": "El Salvador (Ruta de las Flores, Apaneca, Ataco, Salto de Malacatiupan, Parque Cerro Verde, San Salvador)",
+      "duration": "5 días / 4 noches",
       "groupSize": "6 personas",
       "availability": "Consultar según temporada",
       "description": "Un recorrido auténtico por la cultura, naturaleza y gastronomía de El Salvador, explorando la encantadora Ruta de las Flores, fincas de café, cascadas termales y el imponente Parque Nacional Cerro Verde. Incluye experiencias rurales, historia colonial y aventura en paisajes volcánicos.",
@@ -35,6 +35,11 @@
           "day": 4,
           "title": "Parque Natural protegido Cerro Verde",
           "description": "Salida temprano hacia el Complejo Los Volcanes donde se encuentra el Parque Natural Cerro Verde. Desde allí, al estirar la mano, se siente casi tocar el Volcán de Izalco. Es impresionante. Este coloso fue llamado El Faro del Pacífico porque por muchos años guió navíos con sus constantes erupciones incandescentes que se veían desde muy adentro del Océano Pacífico. Recorrerán el sendero 'Una Ventana a la Naturaleza' para disfrutar de las vistas espectaculares y tomar hermosas fotografías. Luego continuarán a San Salvador y por la tarde irán a recorrer el centro histórico de la ciudad capital. Noche en San Salvador"
+        },
+           {
+          "day": 5,
+          "title": "Salida",
+          "description": "Traslado al aeropuerto a la hora indicada"
         }
       ],
       "includes": [
@@ -69,20 +74,20 @@
     {
       "id": 2,
       "title": "Vamos a El Salvador",
-      "image": "/images/tour2/extra6.png",
+      "image": "/images/tour2/extra61.png",
       "extraPhotos": [
         "/images/tour2/extra1.jpg",
         "/images/tour2/extra2.png",
-        "/images/tour2/extra3.png",
-        "/images/tour2/extra4.jpg",
+        "/images/tour2/extra31.png",
+        "/images/tour2/extra41.jpg",
         "/images/tour2/extra5.png",
         "/images/tour2/1.1Dia.jpg"
       ],
       "location": "El Salvador (Suchitoto, Ilobasco, Alegría, Puerto Barillas, San Salvador, Panchimalco)",
-      "duration": "5 dias / 4 noches",
+      "duration": "8 dias / 7 noches",
       "groupSize": "10 personas",
       "availability": "Todo el año",
-      "description": "Un viaje cultural y natural por el corazón de El Salvador, explorando pueblos coloniales, arte tradicional, cafetales, lagunas volcánicas y la Reserva de Biósfera de Jiquilisco. Incluye talleres de añil, cerámica, pintura y experiencias con comunidades locales.",
+      "description": "Un viaje cultural y natural por el corazón de El Salvador, explorando pueblos coloniales, arte tradicional, cafetales, lagunas volcánicas y la Reserva de Biósfera de Jiquilisco. Se visitaran tiendas de artesanías y talleres de añil.",
       "itinerary": [
         {
           "day": 1,
@@ -108,6 +113,21 @@
           "day": 5,
           "title": "Reserva de Biósfera Jiquilisco Xirihualtique",
           "description": "Su despertar en Puerto Barillas será en medio de manglares que se encuentran en la Reserva de Biósfera Jiquilisco Xirihualtique"
+        },
+        {
+          "day": 6,
+          "title": "San Salvador y su Centro Histórico",
+          "description": " Salida hacia San Salvador, capital del país para conocer y visitar su Centro Histórico, algo de nuestra cultura"
+        },
+        {
+          "day": 7,
+          "title": "Panchimalco y El Boquerón",
+          "description": "También visitarás lugares cercanos como El Boquerón y Panchimalco. Pueblo que ha sido un estandarte para nuestros antepasados ancestrales"
+        },
+        {
+          "day": 8,
+          "title": "Salida",
+          "description": "a la hora indicada serán trasladados al aeropuerto internacional"
         }
       ],
       "includes": [
@@ -177,7 +197,7 @@
         {
           "day": 4,
           "title": "Panchimalco y San Salvador",
-          "description": "Salida lida hacia Panchimalco de origen precolombino. Su iglesia, nombrada Monumento Nacional es una joya histórica de la época colonial digna de conservación, por su estilo arquitectónico y por las obras de arte que alberga. El recorrido incluye el Parque Escultórico y la visita a la Casa Taller Encuentros del pintor Miguel Angel Ramírez a quien le encanta recibir visitas y siempre tiene actividades preparada para que pasen un momento cultural muy agradable. Por la tarde se tiene programado un City tour por San Salvador visitando los más importante y emblemáticos espacios, edificios y plazas de nuestra ciudad capital, especialmente en el centro histórico. Noche en San Salvador"
+          "description": "Salida hacia Panchimalco de origen precolombino. Su iglesia, nombrada Monumento Nacional es una joya histórica de la época colonial digna de conservación, por su estilo arquitectónico y por las obras de arte que alberga. El recorrido incluye el Parque Escultórico y la visita a la Casa Taller Encuentros del pintor Miguel Angel Ramírez a quien le encanta recibir visitas y siempre tiene actividades preparada para que pasen un momento cultural muy agradable. Por la tarde se tiene programado un City tour por San Salvador visitando los más importante y emblemáticos espacios, edificios y plazas de nuestra ciudad capital, especialmente en el centro histórico. Noche en San Salvador"
         },
         {
           "day": 5,
