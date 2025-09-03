@@ -854,7 +854,7 @@
         {
           "day": 1,
           "title": "Llegada a San Salvador",
-          "description": "Traslado al hotel. Tarde libre para descansar o explorar la ciudad.",
+          "description": "Encuentro en el aeropuesto internacional y traslado a San Salvador. Noche en San Salvador.",
           "location": "Aeropuerto Internacional de El Salvador → San Salvador",
           "accommodation": "Noche en San Salvador",
           "images": []
@@ -862,7 +862,7 @@
         {
           "day": 2,
           "title": "MUNA & Lago de Ilopango",
-          "description": "Visita al Museo Nacional de Antropología (MUNA) y tour geológico en la Caldera de Ilopango con experto.",
+          "description": "Visita al Museo de Antropologia David J. Guzman. Visita al Lago de Ilopango con el experto que les comentara sobre la influencia de este volcan para el Mundo Maya. Noche en San Salvador.",
           "location": "San Salvador → Ilopango",
           "accommodation": "Noche en San Salvador",
           "images": []
@@ -870,7 +870,7 @@
         {
           "day": 3,
           "title": "Joya de Cerén & San Andrés",
-          "description": "Exploración de Joya de Cerén (Patrimonio UNESCO) y el sitio arqueológico San Andrés.",
+          "description": "Joya de Cerén es Patrimonio de la Humanidad por la importante informacion que ofrece y San Andres es uno de los sitios arqueologicos mas grandes de El Salvador con una interesante historia. Noche en Ahuachapan.",
           "location": "San Salvador → La Libertad → Ahuachapán",
           "accommodation": "Noche en Ahuachapan",
           "images": []
@@ -878,7 +878,7 @@
         {
           "day": 4,
           "title": "Tazumal & Casa Blanca",
-          "description": "Visita a las pirámides de Tazumal y taller de añil en Casa Blanca.",
+          "description": "El sitio arqueologico Tazumal fue un asentamiento rector para el Periodo Clasico y Casa Blanca con su vecino El Trapiche, tambien llegaron a ser centro de un importante Señorio Maya a finales  del periodo Preclasico Tardio. Noche en Ahuachapan.",
           "location": "Ahuachapán → Chalchuapa",
           "accommodation": "Noche en Ahuachapan",
           "images": []
@@ -1001,7 +1001,7 @@
         {
           "day": 1,
           "title": "Llegada a Monterrey",
-          "description": "Traslado al hotel y reunión informativa.",
+          "description": "Bienvenida aeropuerto de Monterrey.",
           "location": "Aeropuerto Internacional de Monterrey → Hotel",
           "accommodation": "Monterrey",
           "images": []
@@ -1009,7 +1009,7 @@
         {
           "day": 2,
           "title": "Arte e Historia en Monterrey",
-          "description": "Visita al Museo de Arte Contemporáneo (MARCO), Museo de la Revolución y paseo por el Canal de Santa Lucía. Almuerzo en 'El Gran Pastor' .",
+          "description": "Visita museo arte contemporaneo. Visita museo de la revolucion. Paseo por canal de Santa Lucia. Comida tipica en el Gran Pastor .",
           "location": "Monterrey",
           "accommodation": "Monterrey",
           "images": []
@@ -1017,7 +1017,7 @@
         {
           "day": 3,
           "title": "Pueblo Mágico y Cascada",
-          "description": "Tour por Santiago (Pueblo Mágico) y caminata a la Cascada Cola de Caballo.",
+          "description": "Visita Santiago Nuevo Leon/ Pueblo Magico y Cascada Cola de Caballo.",
           "location": "Monterrey → Santiago",
           "accommodation": "Santiago",
           "images": []
@@ -1025,7 +1025,7 @@
         {
           "day": 4,
           "title": "Desierto y Vinos",
-          "description": "Visita al Museo del Desierto (fósiles de dinosaurios) y viñedos 'Vinos Dinos' en San Juan de la Vaquería.",
+          "description": "Vista Museo del Desierto. Viñedos Vinnos y Dinos/ San Juan de la Vaqueria.",
           "location": "Santiago → Saltillo",
           "accommodation": "Saltillo",
           "images": []
@@ -1033,7 +1033,7 @@
         {
           "day": 5,
           "title": "Paleontología y Petroglifos",
-          "description": "Recorrido con especialistas en Rincón Colorado (zona paleontológica), huellas de dinosaurios y petroglifos de Narigua.",
+          "description": "Visita rincon Colorado. Huellas de Dinosaurio. Petroglifos de Naregua. Pernocta Saltillo",
           "location": "Saltillo → General Cepeda",
           "accommodation": "Saltillo",
           "images": []
@@ -1041,7 +1041,7 @@
         {
           "day": 6,
           "title": "Ruta del Vino en Parras",
-          "description": "Visita a Viñedo Don Leo y Parvada. City tour por Parras.",
+          "description": "Visita Viñedo Don Leo. Visita Restaurante y Viñedo Parvada. City tour. Pernocta Parras.",
           "location": "Saltillo → Parras",
           "accommodation": "Parras",
           "images": []
@@ -1049,7 +1049,7 @@
         {
           "day": 7,
           "title": "Primera Vinícola de América y Dunas",
-          "description": "Tour en Casa Madero (fundada en 1597). Visita a las Dunas de Bilbao en Viesca y atracciones de Torreón (Teleférico, Cristo de las Noas).",
+          "description": "Visita Casa Madero(Primera Vinicola de America). Viesca(Dunas de Bilbao). Vista Torreon(Canal de la Perla, Teleferico, Cristo de las Noas).",
           "location": "Parras → Torreón",
           "accommodation": "Torreón",
           "images": []
@@ -1057,7 +1057,7 @@
         {
           "day": 8,
           "title": "Pueblo Mágico de Mapimí",
-          "description": "Exploración del Puente de Ojuela (mina abandonada) y pueblo fantasma.",
+          "description": "Visita Puente de Ojuela en Pueblo Magico de Mapimi.",
           "location": "Torreón → Mapimí",
           "accommodation": "Mapimí",
           "images": []
@@ -1065,7 +1065,7 @@
         {
           "day": 9,
           "title": "Cuatro Ciénegas",
-          "description": "Recorrido por el área natural protegida: mina de mármol, Dunas de Yeso, Poza Azul y Río Mezquites.",
+          "description": "Visita Cautro Cienegas. Recorrido por area natural protegida: Mina de marmol, dunas, poza azul, rio mesquites. Pernocta en Cuatro Cienegas" ,
           "location": "Mapimí → Cuatro Ciénegas",
           "accommodation": "Cuatro Ciénegas",
           "images": []
@@ -1073,7 +1073,7 @@
         {
           "day": 10,
           "title": "Museo Génesis y Noche Astronómica",
-          "description": "Visita al Museo Génesis, Parque las Playitas y cata de vinos artesanales en Pueblo Viejo con velada astronómica.",
+          "description": "Visita Museo Genesis. Visita Parque las playitas. Visita Cata y Maridaje-Doña Carlota-Vinos artesanales/Pueblo Viejo(Velada astronomica).",
           "location": "Cuatro Ciénegas",
           "accommodation": "Cuatro Ciénegas",
           "images": []
@@ -1081,7 +1081,7 @@
         {
           "day": 11,
           "title": "Cultura y Arquitectura",
-          "description": "Tour por el Museo Carranza, Casa de la Cultura y edificios históricos.",
+          "description": "Visita Museo Carranza. Visita Museo Casa de la cultura. Visita edificios historicos. City tour. Pernocta en Cuatro Cienegas",
           "location": "Cuatro Ciénegas",
           "accommodation": "Cuatro Ciénegas",
           "images": []
@@ -1089,7 +1089,7 @@
         {
           "day": 12,
           "title": "Termas y Estrellas",
-          "description": "Relajación en Termas de San Joaquín y observación astronómica con telescopio profesional.",
+          "description": "Visita termas de San Joaquin(noche o velada astronomica con telescopio atomico. Pernocta.)",
           "location": "Cuatro Ciénegas",
           "accommodation": "Cuatro Ciénegas",
           "images": []
@@ -1097,7 +1097,7 @@
         {
           "day": 13,
           "title": "Grutas y Parque Fundidora",
-          "description": "Visita a las Grutas de Villa García y tarde libre.",
+          "description": "Visita Grutas de Villa Garcia. Parque Fundidora. Noche libre ",
           "location": "Cuatro Ciénegas → Monterrey",
           "accommodation": "Monterrey",
           "images": []
@@ -1105,7 +1105,7 @@
         {
           "day": 14,
           "title": "Salida",
-          "description": "Traslado al aeropuerto.",
+          "description": "Salida al Aeropuerto internacional de Monterrey.",
           "location": "Hotel → Aeropuerto de Monterrey",
           "images": []
         }
@@ -1153,54 +1153,38 @@
       "availability": "Todo el año ",
       "description": "Un viaje que combina historia colonial, aventura volcánica y relax caribeño. Explora Managua, la encantadora Granada, el volcán Mombacho, y las paradisíacas islas Corn Island y Little Corn Island con sus playas de arena blanca y aguas turquesas.",
       "itinerary": [
-        {
-          "day": 1,
-          "title": "Llegada a Managua & City Tour",
-          "description": "Traslado al hotel. Por la tarde, visita al centro histórico: Parque Lomas de Tiscapa, Palacio Nacional, Plaza de la Revolución, antigua Catedral de Managua y Teatro Nacional Rubén Darío. Atardecer en el puerto Salvador Allende con vista al Lago Xolotlán.",
-          "location": "Aeropuerto → Managua",
-          "accommodation": "Managua",
-          "images": []
-        },
-        {
-          "day": 2,
-          "title": "Granada Colonial & Isletas del Lago Cocibolca",
-          "description": "Traslado a Granada (fundada en 1524). Recorrido panorámico en coche de caballo para ver sitios emblemáticos como la Catedral María Auxiliadora. Almuerzo incluido. Paseo en lancha por las isletas volcánicas del Lago Cocibolca. Tarde libre.",
-          "location": "Managua → Granada",
-          "accommodation": "Granada",
-          "images": []
-        },
-        {
-          "day": 3,
-          "title": "Volcán Mombacho & Laguna Apoyo",
-          "description": "Excursión al Volcán Mombacho: senderos, flora y fauna. Canopy en Finca Miravalle. Visita a la Laguna Apoyo (cráter volcánico con aguas termales). Regreso a Granada.",
-          "location": "Granada → Mombacho → Laguna Apoyo",
-          "accommodation": "Granada",
-          "images": []
-        },
-        {
-          "day": 4,
-          "title": "traslado a Corn Island",
-          "description": "Traslado a Corn Island (Caribe Sur). Tarde libre para disfrutar playas de arena blanca y aguas turquesas.",
-          "location": "Granada → Aeropuerto → Corn Island",
-          "accommodation": "Corn Island",
-          "images": []
-        },
-        {
-          "day": 5,
-          "title": "Little Corn Island Adventure",
-          "description": "Traslado en lancha rápida a Little Corn Island. Día libre para explorar la isla, bucear o hacer snorkel en arrecifes de coral. Alojamiento en Little Corn Island.",
-          "location": "Corn Island → Little Corn Island",
-          "accommodation": "Little Corn Island",
-          "images": []
-        },
-        {
-          "day": 6,
-          "title": "Regreso a Managua",
-          "description": "Traslado a Managua. Fin de servicios.",
-          "location": "Little Corn Island → Corn Island → Aeropuerto → Managua",
-          "images": []
-        }
-      ],
+  {
+    "day": 1,
+    "title": "MANAGUA",
+    "description": "Bienvenidos!! Traslado a su hotel. Por la tarde realizaremos una visita al centro histórico de Managua exploramos su historia iniciando en Parque Lomas de Tiscapa, luego nos trasladaremos al Palacio Nacional y Plaza de la revolución, antigua Catedral de Managua, Teatro Nacional Rubén Darío y finalizamos la tarde con la puesta del sol admirando el Lago Xolotlán en el puerto Salvador Allende. Alojamiento."
+  },
+  {
+    "day": 2,
+    "title": "Granada",
+    "description": "Desayuno. A la hora indicada nos trasladaremos a la ciudad de Granada, conocida como la Gran Sultana, ciudad colonial fundada en 1524, iniciaremos nuestra visita con recorrido panorámico por la ciudad en coches de caballos acá tendremos la oportunidad de conocer todos los sitios emblemáticos de la ciudad incluyendo la famosa Catedral María Auxiliadora. Después del almuerzo, nos trasladamos a orillas del gran Lago Cocibolca para realizar un recorrido en lancha de motor sobre el y sus isletas de origen volcánico, resto de la tarde libre. Alojamiento"
+  },
+  {
+    "day": 3,
+    "title": "GRANADA",
+    "description": "Después del desayuno nos trasladaremos al volcán Mombacho, para conocer sus senderos, la belleza de sus paisajes y la riqueza de su flora y fauna. Posteriormente realizaremos el canopy en la finca Miravalle. La siguiente parada es la Laguna Apoyo, es una reserva natural ubicada entre los departamentos de Masaya y Granada de origen volcánico, tiene un color azul oscuro brillante con sus aguas ligeramente saladas por los minerales que se encuentran en el fondo del cráter. Al finalizar el día regresamos a Granada. Alojamiento"
+  },
+  {
+    "day": 4,
+    "title": "Corn island",
+    "description": "Después del desayuno partiremos regreso hacia Managua, al aeropuerto Augusto César Sandino donde tomaremos nuestro vuelo hacia la paradisíaca Isla del Maíz, ubicada en la Costa Caribe Sur del país. Nos estará esperando el traslado para llevarnos a nuestro hotel; resto del día libre para disfrutar de la playa de arena blanca y agua color turquesa y del sol. Tienen la opción de visitar lugares de interés o playas más conocidas de la isla. Alojamiento"
+  },
+  {
+    "day": 5,
+    "title": "little corn island",
+    "description": "Desayuno. A la hora indicada nos trasladaremos al puerto para tomar una lancha rápida que no estará llevando a la isla pequeña que tiene como nombre Little Corn Island. El resto del día es libre para recorrer a pie la isla y disfrutar se sus excelentes playas, tendrás opción de conocer sus arrecifes de coral al practicar buceo y snorkel, sumérgete en sus profundidades y aprecia la colorida vida marina. Alojamiento en Little Corn Island."
+  },
+  {
+    "day": 6,
+    "title": "MANAGUA",
+    "description": "Desayuno. A la hora indicada nos dirigiremos hacia el puerto para regresar a Corn Island donde nos estará esperando el traslado para llevarnos al aeropuerto, donde tomaremos el vuelo de regreso a Managua. Fin de nuestros servicios"
+  }
+]
+,
       "includes": [
         "Traslados aeropuerto-hotel-aeropuerto",
         "Transporte terrestre y acuático durante el tour",
@@ -1244,55 +1228,39 @@
       "groupSize": "6 a 12 personas",
       "availability": "Todo el año (recomendado noviembre-abril)",
       "description": "Un recorrido por las joyas coloniales de Nicaragua: Granada y León, declaradas Patrimonio Cultural. Combina historia, arquitectura, naturaleza volcánica y experiencias únicas como el canopy sobre el Mombacho y la ruta del ron Flor de Caña.",
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Llegada a Managua & City Tour Histórico",
-          "description": "Traslado al hotel. Visita al centro histórico: Parque Lomas de Tiscapa (vistas del cráter), Palacio Nacional, Plaza de la Revolución, antigua Catedral de Managua y Teatro Nacional Rubén Darío. Atardecer en el puerto Salvador Allende (Lago Xolotlán).",
-          "location": "Aeropuerto Internacional → Managua",
-          "accommodation": "Hotel en Managua",
-          "images": []
-        },
-        {
-          "day": 2,
-          "title": "Granada Colonial & Isletas del Cocibolca",
-          "description": "Traslado a Granada ('La Gran Sultana'). Recorrido en coche de caballo por calles empedradas, visitando la Catedral María Auxiliadora (vistas desde el campanario). Paseo en lancha por las isletas volcánicas del Lago Cocibolca.",
-          "location": "Managua → Granada",
-          "accommodation": "Hotel en Granada",
-          "images": []
-        },
-        {
-          "day": 3,
-          "title": "Aventura en Mombacho & Laguna Apoyo",
-          "description": "Excursión al Volcán Mombacho: senderos entre bosque nuboso y canopy de 2km (17 plataformas). Visita a la Laguna Apoyo (cráter volcánico) para nadar en sus aguas termales o kayak.",
-          "location": "Granada → Reserva Natural Mombacho → Laguna Apoyo",
-          "accommodation": "Hotel en Granada",
-          "images": []
-        },
-        {
-          "day": 4,
-          "title": "León Viejo & León Colonial",
-          "description": "Visita a las Ruinas de León Viejo (Patrimonio UNESCO). Tour por León: Catedral (subida a terrazas), Museo Rubén Darío, iglesias barrocas y arte callejero revolucionario.",
-          "location": "Granada → León Viejo → León",
-          "accommodation": "Hotel en León",
-          "images": []
-        },
-        {
-          "day": 5,
-          "title": "Ruta del Ron & Playas de Poneloya",
-          "description": "Tour en Flor de Caña (Chichigalpa): 6 estaciones interactivas sobre el proceso del ron premiado. Tarde en playas vírgenes de Poneloya y Las Peñitas (océano Pacífico).",
-          "location": "León → Chichigalpa → Poneloya",
-          "accommodation": "Hotel en León",
-          "images": []
-        },
-        {
-          "day": 6,
-          "title": "Regreso a Managua",
-          "description": "Traslado al aeropuerto internacional.",
-          "location": "León → Aeropuerto Internacional",
-          "images": []
-        }
-      ],
+    "itinerary": [
+  {
+    "day": 1,
+    "title": "MANAGUA",
+    "description": "Bienvenidos!! Traslado a su hotel. Por la tarde realizaremos una visita al centro histórico de Managua exploramos su historia iniciando en Parque Lomas de Tiscapa, luego nos trasladaremos al Palacio Nacional y Plaza de la revolución, antigua Catedral de Managua, Teatro Nacional Rubén Darío y finalizamos la tarde con la puesta del sol admirando el Lago Xolotlán en el puerto Salvador Allende. Alojamiento."
+  },
+  {
+    "day": 2,
+    "title": "MANAGUA - GRANADA",
+    "description": "Desayuno. A la hora indicada nos trasladaremos a la ciudad de Granada, conocida como la Gran Sultana, ciudad colonial fundada en 1524, iniciaremos nuestra visita con recorrido panorámico por la ciudad en coches de caballos acá tendremos la oportunidad de conocer todos los sitios emblemáticos de la ciudad incluyendo la famosa Catedral María Auxiliadora, tendremos tiempo para subir al campanario y poder observar la ciudad. Después del almuerzo, nos trasladamos a orillas del puerto cabaña amarilla para realizar un recorrido en lancha de motor sobre el gran Lago Cocibolca y sus isletas de origen volcánico, al terminar nos trasladaremos al hotel para realizar check-in, resto de la tarde libre. Alojamiento."
+  },
+  {
+    "day": 3,
+    "title": "GRANADA",
+    "description": "Después del desayuno nos trasladaremos al volcán Mombacho, para conocer sus senderos, la belleza de sus paisajes y la riqueza de su flora y fauna. Posteriormente realizaremos el canopy en la finca Miravalle, este tiene más de 2 kilómetros, 17 plataformas, 11 cables y 3 puentes colgantes. La siguiente parada es la Laguna Apoyo, es una reserva natural ubicada entre los departamentos de Masaya y Granada de origen volcánico, tiene un color azul oscuro brillante con sus aguas ligeramente saladas por los minerales que se encuentran en el fondo del cráter. Es el lugar perfecto para nadar, bucear, andar en kayak, leer un libro o relajarse en la hamaca. Al finalizar el día regresamos a Granada. Alojamiento."
+  },
+  {
+    "day": 4,
+    "title": "GRANADA - LEÓN",
+    "description": "Iniciamos este día después del desayuno trasladándose hacia la ciudad de León, ubicada en el occidente del país, también es conocida como La Ciudad Universitaria. Iniciamos nuestro recorrido por la Ruinas de León Viejo, uno de los más antiguos asentamientos coloniales españoles de América. Posterior realizaremos tour por la ciudad actual de León, en nuestro recorrido podrás apreciar las iglesias más emblemáticas y famosas de la ciudad, el museo archivo Rubén Darío, Casa de Arte y cultura y al finalizar un tour de la Catedral de León aqui hay mucho por descubrir en esta gran pieza arquitectónica: las terrazas, la pinacoteca, la capilla «El Sagrario», el llamado «Patio del Príncipe», los sótanos y la tumba del poeta universal Rubén Darío. Desde su terraza se disfruta de una preciosa panorámica de la ciudad. Alojamiento."
+  },
+  {
+    "day": 5,
+    "title": "LEÓN - CHICHIGALPA",
+    "description": "Desayuno en hotel y tomamos el traslado a la ciudad de Chichigalpa, Prepárate para descubrir el mundo del ron a través de un recorrido de 6 estaciones interactivas donde conocerás todo el proceso de producción e historia de Flor de Caña®, el ron más premiado del mundo. Por la tarde visitaremos las playas de Poneloya y las Peñitas, al finalizar el día regresamos a León. Alojamiento."
+  },
+  {
+    "day": 6,
+    "title": "LEÓN - MANAGUA",
+    "description": "Desayuno. Traslado hacia el aeropuerto. Fin del Servicio."
+  }
+]
+,
       "includes": [
         "Traslados privados con A/C durante todo el recorrido",
         "Alojamiento: 1 noche en Managua, 2 noches en Granada, 2 noches en León",
