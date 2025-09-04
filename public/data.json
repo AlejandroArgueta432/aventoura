@@ -886,7 +886,7 @@
         {
           "day": 5,
           "title": "Kaminaljuyú (Guatemala)",
-          "description": "Traslado a Guatemala y visita al sitio arqueológico Kaminaljuyú y Museo Miraflores.",
+          "description": "Visita al sitio arqueológico de Kaminaljuyú, que fue la capital regional prehispánica más importante del altiplano central guatemalteco. Visita al Museo Miraflores con que cuentan 2,000 años de historia Noche en ciudad de Guatemala. ",
           "location": "Ahuachapán → Ciudad de Guatemala",
           "accommodation": "Nohce en Ciudad de Guatemala",
           "images": []
@@ -894,7 +894,7 @@
         {
           "day": 6,
           "title": " Museo de Arqueológia y Etnologia",
-          "description": "Visita al Museo de Arqueología y Etnología.",
+          "description": "Visita al Museo de Arqueología y Etnología que alberga 20,000 artefactos arqueológicos y unas 5,000 piezas etnológicas. Por la tarde tomar el vuelo hacia Flores Petén Noche en Flores, Petén a orillas del bello Lago Peten Itzá.",
           "location": "Ciudad de Guatemala → Flores",
           "accommodation": "Noche en Flores a orillas del Lago Petén Itzá",
           "images": []
@@ -902,15 +902,15 @@
         {
           "day": 7,
           "title": "Yaxhá",
-          "description": "Tour por la ciudad maya de Yaxhá y su laguna sagrada.",
+          "description": "La ciudad de Yaxha fue importante a nivel político y conforma uno de los mejores ejemplos de urbanismo del Mundo Maya Sus primeros asentamientos fueron en el año 500 a.C. Noche en Flores.",
           "location": "Flores → Yaxhá",
           "accommodation": "Noche en Flores",
           "images": []
         },
         {
           "day": 8,
-          "title": "Tikal (UNESCO)",
-          "description": "Día completo en Tikal: Templo del Gran Jaguar, Plaza de los Siete Templos y avistamiento de fauna.",
+          "title": "Tikal",
+          "description": "El parque arqueológico de Tikal está situado en el corazón de la selva del Petén y fue habitado desde el siglo VI a.C. hasta el siglo X d.C. Su construcción monumental comprende templos, palacios y plazas públicas. Noche en Flores.",
           "location": "Flores → Tikal",
           "accommodation": "Hotel Lago Petén Itzá (Flores)",
           "images": []
@@ -918,23 +918,23 @@
         {
           "day": 9,
           "title": "Quiriguá",
-          "description": "Visita a las estelas mayas de Quiriguá (Patrimonio UNESCO) y traslado a Río Motagua.",
+          "description": "Traslado a Quirigüa durante la mañana y visita Entre todas las estelas se encuentra la estela más larga y una de las plazas más grandes del Mundo Maya Noche en Hotel Nanajuana a orillas del Río Motagua.",
           "location": "Flores → Quiriguá → Río Motagua",
           "accommodation": "Hotel Nanajuana (Río Motagua)",
           "images": []
         },
         {
           "day": 10,
-          "title": "Copán (Honduras)",
-          "description": "Trámites migratorios y traslado a Copán. Tarde libre en el pueblo colonial.",
+          "title": "Traslado a Copán (Honduras)",
+          "description": "A la hora indicada traslado hacia Copán (Honduras). Trámites migratorios. Check in Hotel Camino Maya en Ruinas de Copán Resto del día libre para caminar por el centro del pueblo Noche en Ruinas de Copán.",
           "location": "Río Motagua → Copán Ruinas",
           "accommodation": "Hotel en Ruinas de Copán",
           "images": []
         },
         {
           "day": 11,
-          "title": "Copán (UNESCO)",
-          "description": "Tour por el sitio arqueológico: Escalinata de los Jeroglíficos, Túneles Rosalila y Parque de Guacamayos.",
+          "title": "Copán(Honduras)",
+          "description": "Copán también Patrimonio de la Humanidad es un sitio arqueológico maya del siglo V al Siglo IX y fue una importante capital del reino del período Clásico. Su ocupación histórica se extiende a más de dos mil años desde el Preclásico Temprano hasta el Posclásico. Noche en Ruinas de Copán.",
           "location": "Copán Ruinas",
           "accommodation": "Hotel en Ruinas de Copán",
           "images": []
