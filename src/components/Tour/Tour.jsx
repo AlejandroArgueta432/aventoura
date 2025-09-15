@@ -104,35 +104,24 @@ const Tour = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <div className="relative h-96 md:h-[500px] overflow-hidden">
-       {/*  <img
-          src={mainImage}
-          alt={tour.title}
-          className="w-full h-full object-cover"
-          loading="eager"
-        />*/}
 
-         <img
+  <div className="relative h-96 md:h-[500px] overflow-hidden">
+  {/*  <img
+        src={mainImage}
+        alt={tour.title}
+        className="w-full h-full object-cover"
+        loading="eager"
+      />*/}
+
+  <img
     src={mainImage}
     alt={tour.title}
-    className={
-      `object-cover w-full h-full transition-all
-      ${
-        // Si es el tour 2 y la imagen es extra61, extra31 o extra41, hazla más pequeña
-        tour.id === 2 &&
-        (mainImage.includes('extra61') || mainImage.includes('extra31') || mainImage.includes('extra41'))
-          ? 'md:w-1/3 w-2/3 mx-auto my-12 rounded-xl shadow-lg'
-          : 'w-full h-full'
-      }`
-    }
-    style={
-      tour.id === 2 &&
-      (mainImage.includes('extra61') || mainImage.includes('extra31') || mainImage.includes('extra41'))
-        ? { objectFit: 'contain', background: '#fff' }
-        : {}
-    }
+    className="object-cover md:w-1/3 w-2/3 mx-auto my-12 rounded-xl shadow-lg transition-all"
+    style={{ objectFit: 'contain', background: '#fff' }}
     loading="eager"
   />
+
+
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/20 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
           <motion.h1 

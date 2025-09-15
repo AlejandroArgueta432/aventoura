@@ -111,23 +111,23 @@
         },
         {
           "day": 5,
-          "title": "Reserva de Biósfera Jiquilisco Xirihualtique",
-          "description": "Su despertar en Puerto Barillas será en medio de manglares que se encuentran en la Reserva de Biósfera Jiquilisco Xirihualtique"
+          "title": "Reserva de Biósfera Jiquilisco Xirihualtique ",
+      "description": "Su despertar en Puerto Barillas será en medio de manglares que se encuentran en la Reserva de Biósfera Jiquilisco Xirihualtique. Hoy podrán escoger entre las actividades a realizar:\n• El Santuario del Mono Araña\n• Plantaciones de cacao\n• Renta de bicicletas\n• Renta de kayaks\n• Salidas a la playa en pontón o en lancha\nNoche en Puerto Barillas."
         },
         {
           "day": 6,
-          "title": "San Salvador y su Centro Histórico",
-          "description": " Salida hacia San Salvador, capital del país para conocer y visitar su Centro Histórico, algo de nuestra cultura"
+          "title": "Puerto Barillas - San Salvador ",
+        "description": "Después del desayuno se dirigirán a San Salvador y, luego del check-in, saldrán a almorzar y tendrán un taller de pintura con los dibujos y colores de Fernando Llort, nuestro pintor, escultor, muralista y fundador del movimiento pictórico de La Palma. Él pintó de colores nuestro país y decía: “Amo y siento los colores, porque me muestran la vida dentro de la luz”.\nNoche en San Salvador."
         },
         {
           "day": 7,
-          "title": "Panchimalco y El Boquerón",
-          "description": "También visitarás lugares cercanos como El Boquerón y Panchimalco. Pueblo que ha sido un estandarte para nuestros antepasados ancestrales"
+          "title": "San Salvador y Panchimalco",
+         "description": "Salida hacia el pueblo de Panchimalco o “Lugar de Escudos y Banderas” en lengua nahuat. Su iglesia colonial es una joya arquitectónica que vale la pena visitar, además del Jardín Escultórico y la Casa Taller Encuentros de nuestro Miguel Ángel, el artista de los niños de los ojos que hablan. Por la tarde, el city tour los llevará a conocer el centro histórico de la ciudad capital con sus edificios emblemáticos, plazas e historia.\nNoche en San Salvador."
         },
         {
           "day": 8,
           "title": "Salida",
-          "description": "a la hora indicada serán trasladados al aeropuerto internacional"
+          "description": "A la hora indicada serán trasladados al aeropuerto internacional."
         }
       ],
       "includes": [
@@ -366,8 +366,24 @@
     {
       "id": 5,
       "title": "La Rosa, Las Estrellas y Los Volcanes",
-      "image": "/images/tour5/extra1.png",
-      "extraPhotos": [],
+      "image": "/images/tour5/extra13.jpg",
+      "extraPhotos": [
+        "/images/tour5/extra1.png",
+        "/images/tour5/extra2.jpg",
+        "/images/tour5/extra3.jpg",
+        "/images/tour5/extra4.jpg",
+        "/images/tour5/extra5.jpg",
+        "/images/tour5/extra6.jpg",
+        "/images/tour5/extra7.jpg",
+        "/images/tour5/extra8.jpg",
+        "/images/tour5/extra9.jpg",
+        "/images/tour5/extra10.jpg",
+        "/images/tour5/extra11.jpg",
+        "/images/tour5/extra12.jpg",
+        "/images/tour5/extra14.jpg",
+        "/images/tour5/extra15.jpg"
+
+      ],
       "location": "El Salvador (San Salvador, Volcán de Santa Ana, Izalco, Cerro Verde, Ahuachapán, Lago de Coatepeque)",
       "duration": "7 días / 6 noches",
       "groupSize": "6 personas",
@@ -1049,7 +1065,7 @@
         {
           "day": 7,
           "title": "Primera Vinícola de América y Dunas",
-          "description": "Visita Casa Madero(Primera Vinicola de America). Viesca(Dunas de Bilbao). Vista Torreon(Canal de la Perla, Teleferico, Cristo de las Noas).",
+          "description": "Visita Casa Madero (Primera Vinicola de America). Viesca (Dunas de Bilbao). Vista Torreon (Canal de la Perla, Teleferico, Cristo de las Noas).",
           "location": "Parras → Torreón",
           "accommodation": "Torreón",
           "images": []
@@ -1073,7 +1089,7 @@
         {
           "day": 10,
           "title": "Museo Génesis y Noche Astronómica",
-          "description": "Visita Museo Genesis. Visita Parque las playitas. Visita Cata y Maridaje-Doña Carlota-Vinos artesanales/Pueblo Viejo(Velada astronomica).",
+          "description": "Visita Museo Genesis. Visita Parque las playitas. Visita Cata y Maridaje-Doña Carlota-Vinos artesanales/Pueblo Viejo (Velada astronomica).",
           "location": "Cuatro Ciénegas",
           "accommodation": "Cuatro Ciénegas",
           "images": []
@@ -1089,7 +1105,7 @@
         {
           "day": 12,
           "title": "Termas y Estrellas",
-          "description": "Visita termas de San Joaquin(noche o velada astronomica con telescopio atomico. Pernocta.)",
+          "description": "Visita termas de San Joaquin (noche o velada astronomica con telescopio atomico. Pernocta.)",
           "location": "Cuatro Ciénegas",
           "accommodation": "Cuatro Ciénegas",
           "images": []
